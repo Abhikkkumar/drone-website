@@ -6,12 +6,13 @@
   --dark-blue-sidebar-bg: #1b1525;
   width: 100vw;
   min-height: 130vh;
-  z-index: 5;
+  z-index: 10;
   position: absolute;
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
   transition: all ease-in-out 0.5s;
+  border:none;
 }
 
 .sidebar-hide {
