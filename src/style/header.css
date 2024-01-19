@@ -10,7 +10,6 @@
   padding: 0 0.85rem;
   max-height: 80px;
   background-color: var(--brand-color);
-
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -39,13 +38,14 @@
 .colorBlue > a {
   color: var(--logo-bg-blue);
   font-weight: 500;
+  font-size: 1.1rem;
 }
 .nav-list > a:hover {
   color: var(--logo-bg-blue);
   font-weight: 500;
 }
 .nav-list {
-  padding: 0.8rem 0.4rem;
+  padding: 1rem 0.4rem;
   height: 100%;
   display: flex;
   align-items: center;

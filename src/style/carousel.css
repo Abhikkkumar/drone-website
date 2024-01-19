@@ -1,8 +1,10 @@
 .carousel {
   width: 100vw;
   height: 70vh;
-
-  z-index: -1;
+  z-index: -5;
+}
+.mySwiper{
+  z-index: -4;
 }
 .slides {
   width: 100%;
@@ -10,6 +12,7 @@
   background-position: center 10%;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: -3;
 }
 .s1 {
   background-image: url("https://www.analyticsinsight.net/wp-content/uploads/2023/03/What-is-the-Role-of-Artificial-Intelligence-in-Drone-Technology.jpg");
@@ -32,9 +35,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: -2;
 }
 .slides-inner h2 {
   color: #fff;
   font-size: 4rem;
   font-weight: 500;
+  z-index: -1;
 }
