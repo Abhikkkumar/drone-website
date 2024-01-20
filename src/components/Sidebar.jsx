@@ -80,11 +80,21 @@ export default function Sidebar({ sidebar, showSidebar }) {
           </div>
         </div>
         <div className="sidebar-social">
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-youtube"></i>
-          <i class="fa-brands fa-pinterest"></i>
+          <div className="social-list">
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+          <div className="social-list">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div className="social-list">
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+          <div className="social-list">
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+          <div className="social-list">
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
         </div>
       </div>
     </div>

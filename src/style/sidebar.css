@@ -54,14 +54,22 @@
 }
 .sidebar-social i {
   font-size: 1.5rem;
-  margin-left: 0.5rem;
   color: var(--logo-bg-blue);
 }
-.sidebar-social i:hover {
-  font-size: 1.5rem;
+.social-list {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+.social-list:hover {
   font-weight: 700;
-  margin-left: 0.5rem;
+  background-color: var(--logo-bg-blue);
+}
+.social-list:hover .fa-brands {
   color: #fff;
+  font-weight: 700;
 }
 
 .side-list {
