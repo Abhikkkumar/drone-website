@@ -25,15 +25,18 @@
   background-size: cover;
 }
 .s1 {
-  background-image: url("https://www.analyticsinsight.net/wp-content/uploads/2023/03/What-is-the-Role-of-Artificial-Intelligence-in-Drone-Technology.jpg");
-  background-position: center !important;
-  background-size: 100% 100%;
+  background-image: url("https://images.unsplash.com/photo-1603923407797-2d25dfbbb1a0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center 25% !important;
+  /* background-size: cover; */
 }
 .s2 {
-  background-image: url("https://images.theconversation.com/files/555321/original/file-20231023-17-9b4vgi.jpg?ixlib=rb-1.1.0&rect=8%2C57%2C5447%2C2723&q=45&auto=format&w=1356&h=668&fit=crop");
+  background-image: url("https://images.unsplash.com/photo-1506947411487-a56738267384?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center 15% !important;
 }
 .s3 {
-  background-image: url("https://cepa.org/wp-content/uploads/2023/09/Drone-Cover2-1.jpg");
+  background-image: url("https://images.unsplash.com/photo-1488263590619-bc1fff43b6c1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  /* background-size: 50%; */
+  background-position: center 55% !important;
 }
 .s4 {
   background-image: url("https://www.jouav.com/wp-content/uploads/2022/10/multi-rotor-drone-under-sunset.jpg");
