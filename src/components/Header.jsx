@@ -29,7 +29,10 @@ export default function Header({ sidebar, showSidebar }) {
               showDropdown(!dropdown);
             }}
           >
-            <Link to="/">PRODUCTS</Link>
+            <Link className="side-listContainer" to="/">
+              PRODUCTS{" "}
+              <span class="material-symbols-outlined arrow-down">arrow_drop_down</span>
+            </Link>
             {dropdown && <DropdownProd />}
           </div>
           <div className="nav-list">

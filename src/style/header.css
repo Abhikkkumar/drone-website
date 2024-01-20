@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 0 0.85rem;
+  padding: .5rem 0.85rem;
   max-height: 80px;
   background-color: var(--brand-color);
   position: -webkit-sticky; /* Safari */
@@ -75,8 +75,11 @@
   font-weight: 600;
 }
 
+.arrow-down{
+  font-weight: 600;
+}
 .hamburger {
-  font-variation-settings: "FILL" 0, "wght" 500, "GRAD" 0, "opsz" 24;
+  font-weight: 600;
   display: none;
 }
 
@@ -89,4 +92,9 @@
   .nav-lists {
     display: none;
   }
+  .icon {
+    max-width: 22%;
+    z-index: 3;
+  }
+
 }
