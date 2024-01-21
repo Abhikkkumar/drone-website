@@ -46,7 +46,7 @@
 }
 .nav-list > a:hover {
   color: var(--logo-bg-blue);
-  font-weight: 500;
+  
 }
 .nav-list {
   padding: 1rem 0.4rem;
@@ -95,6 +95,10 @@
   .icon {
     max-width: 22%;
     z-index: 3;
+  }
+  .header{
+    justify-content: space-between;
+    padding: .5rem 1rem;
   }
 
 }

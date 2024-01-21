@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { CSSTransition } from "react-transition-group";
 import "../style/sidebar.css";
 import logo from "../img/navbar/Byteproc-logo-sub-removebg.png";
 
@@ -12,7 +13,7 @@ export default function Sidebar({ sidebar, showSidebar }) {
         showSidebar(!sidebar);
       }}
     >
-      <div className="inner-sidebar">
+      <div className={sidebar ? "inner-sidebar" : "inner-sidebar sidebar-hide"}>
         <div
           className="sidebar-r"
           onClick={(e) => {
@@ -41,11 +42,29 @@ export default function Sidebar({ sidebar, showSidebar }) {
               }}
             >
               PRODUCTS{" "}
-              {prodList ? (
+              {/* {prodList ? (
                 <span class="material-symbols-outlined remove">remove</span>
               ) : (
                 <span class="material-symbols-outlined add">add</span>
-              )}
+              )} */}
+              <span
+                className={
+                  prodList
+                    ? "material-symbols-outlined remove"
+                    : "material-symbols-outlined remove hideClass"
+                }
+              >
+                remove
+              </span>
+              <span
+                className={
+                  prodList
+                    ? "material-symbols-outlined add hideClass"
+                    : "material-symbols-outlined add "
+                }
+              >
+                add
+              </span>
             </Link>
             {prodList ? (
               <>

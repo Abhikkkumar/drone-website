@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Header sidebar={sidebar} showSidebar={showSidebar} />
-        {sidebar && <Sidebar sidebar={sidebar} showSidebar={showSidebar} />}
+        <Sidebar sidebar={sidebar} showSidebar={showSidebar} />
         <Routes>{/* <Route path="/" element={<Home />}></Route> */}</Routes>
         
 <Carousel />
