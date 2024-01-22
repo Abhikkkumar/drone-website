@@ -4,8 +4,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import { useState } from "react";
 import Carousel from "./components/Carousel";
-import Footer from "./components/Footer";
+
 import Footer1 from "./components/Footer1";
+import Section1 from "./components/Section1";
 
 function App() {
   const [sidebar, showSidebar] = useState(false);
@@ -17,7 +18,7 @@ function App() {
         <Routes>{/* <Route path="/" element={<Home />}></Route> */}</Routes>
 
         <Carousel />
-        {/* <Footer /> */}
+        <Section1 />
         <Footer1/>
       </div>
     </BrowserRouter>
