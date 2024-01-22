@@ -6,10 +6,13 @@ import logo from "../img/navbar/Byteproc-logo-sub-removebg.png";
 
 export default function Sidebar({ sidebar, showSidebar }) {
   const [prodList, setProdList] = useState(false);
+  
+  
   return (
     <div
       className={sidebar ? "sidebar" : "sidebar sidebar-hide"}
       onClick={() => {
+        
         showSidebar(!sidebar);
       }}
     >
@@ -42,15 +45,12 @@ export default function Sidebar({ sidebar, showSidebar }) {
               }}
             >
               PRODUCTS{" "}
-              {/* {prodList ? (
-                <span class="material-symbols-outlined remove">remove</span>
-              ) : (
-                <span class="material-symbols-outlined add">add</span>
-              )} */}
+              
               <CSSTransition
                 in={prodList ? true : false}
                 timeout={500}
                 classNames="btn"
+                unmountOnExit={true}
               >
                 <span className={"material-symbols-outlined remove"}>
                   remove
@@ -68,9 +68,11 @@ export default function Sidebar({ sidebar, showSidebar }) {
             <CSSTransition
               in={prodList ? true : false}
               timeout={500}
+              appear={true}
               classNames="fade"
+              unmountOnExit={true}
             >
-              <div className="side-subopt">
+              <div  >
                 <Link className="side-list sl-list" to="/">
                   Agribot
                 </Link>

@@ -161,6 +161,9 @@
 .btn-exit-done {
   display: none !important;
 }
+/* .fade-appear-done {
+  display: none !important;
+} */
 .btn-enter {
   display: none;
 }
@@ -171,7 +174,6 @@
 .btn-enter-done {
   display: block;
 }
-/* .side-subopt {
-  display: flex;
-  flex-direction: column;
-} */
+.hide {
+  display: none;
+}
