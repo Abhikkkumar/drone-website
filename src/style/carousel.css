@@ -1,4 +1,8 @@
 .carousel {
+  --brand-color: #feba12;
+  --logo-bg-blue: #4560af;
+  --dark-blue-bg: #1b1525;
+  --text-color-1: #fff;
   width: 100%;
   height: 70vh;
   z-index: 0;
@@ -46,11 +50,51 @@
   width: 100%;
   height: 70vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .slides-inner h2 {
-  color: #fff;
+  color: var(--text-color-1);
   font-size: 4rem;
   font-weight: 500;
+  animation: anim2 2s ease 0.1s 1;
+}
+.slides-inner {
+  color: var(--text-color-1);
+  font-size: 1.75rem;
+}
+.slides-inner p {
+  animation: anim1 2s ease-in 0.1s 1;
+}
+
+@keyframes anim1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes anim2 {
+  0% {
+    transform: translateY(-50vh);
+    color:#779ac9;
+  }
+  10%,
+  55% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-30vh);
+    color:#537fbb;
+  }
+  85% {
+    transform: translateY(-20vh);
+    color:#375a8a;
+  }
+  100% {
+    transform: translateY(0);
+    color:#4560af
+  }
 }

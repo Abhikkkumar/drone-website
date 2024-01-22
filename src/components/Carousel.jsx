@@ -29,21 +29,25 @@ export default function Carousel() {
             <div className="slides-inner">
               {" "}
               <h2>Slide 1</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </div>
           </SwiperSlide>
           <SwiperSlide className="slides s2">
             <div className="slides-inner">
               <h2>Slide 2</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </div>
           </SwiperSlide>
           <SwiperSlide className="slides s3">
             <div className="slides-inner">
               <h2>Slide 3</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </div>
           </SwiperSlide>
           <SwiperSlide className="slides s4">
             <div className="slides-inner">
               <h2>Slide 4</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </div>
           </SwiperSlide>
         </Swiper>
