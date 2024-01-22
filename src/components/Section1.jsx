@@ -15,7 +15,7 @@ export default function Section1() {
 
         <div className="section-left-side">
           <h6 className="who">
-            <img src="https://devsdesign.net/products/html/konstruk/assets/images/shape-1.png" />{" "}
+            <img src="https://devsdesign.net/products/html/konstruk/assets/images/shape-1.png" alt="square-pic"/>{" "}
             WHO WE ARE
           </h6>
           <h2>Construction Solutions focused future ready</h2>

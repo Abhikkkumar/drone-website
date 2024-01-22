@@ -1,9 +1,9 @@
 .header {
-  --brand-color: #feba12;
-  --brand-color-light: #fad16b;
-  --yellow-shadow: #b1820c;
+  --brand-color: #fff;
   --logo-bg-blue: #4560af;
-  --dark-blue-sidebar-bg: #1b1525;
+  --dark-blue-bg: #1b1525;
+  --text-color-1: #fff;
+  --text-color-2:#000;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -37,12 +37,12 @@
 .nav-lists a {
   text-decoration: none;
   font-size: 1rem;
-  color: #fff;
+  color: var(--text-color-2);
+  font-weight: 500;
 }
 .colorBlue > a {
   color: var(--logo-bg-blue);
-  font-weight: 500;
-  font-size: 1.1rem;
+  
 }
 .nav-list > a:hover {
   color: var(--logo-bg-blue);
@@ -63,7 +63,7 @@
   padding: 0.5rem 0.7rem;
   cursor: pointer;
   background-color: var(--logo-bg-blue);
-  color: #fff;
+  color: var(--text-color-1);
   border: none;
   border-radius: 0.4rem;
   transition: all 0.3s ease-in-out;
