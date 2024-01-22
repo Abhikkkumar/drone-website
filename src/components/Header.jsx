@@ -3,9 +3,13 @@ import "../style/header.css";
 import logo from "../img/navbar/Byteproc-logo-sub-removebg.png";
 import { Link } from "react-router-dom";
 import DropdownProd from "./DropdownProd";
+import { CSSTransition } from "react-transition-group";
 
 export default function Header({ sidebar, showSidebar }) {
-  const [dropdown, showDropdown] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
+  function handleDropdown() {
+    setDropdown((d) => !d);
+  }
   return (
     <>
       <div className="header">
@@ -23,17 +27,22 @@ export default function Header({ sidebar, showSidebar }) {
           <div
             className={dropdown ? "nav-list colorBlue" : "nav-list"}
             onMouseEnter={() => {
-              showDropdown(!dropdown);
+              // setDropdown(dropdown);
+              handleDropdown();
             }}
             onMouseLeave={() => {
-              showDropdown(!dropdown);
+              setDropdown(false);
+              
             }}
           >
             <Link className="side-listContainer" to="/">
               PRODUCTS{" "}
-              <span class="material-symbols-outlined arrow-down">arrow_drop_down</span>
+              <span class="material-symbols-outlined arrow-down">
+                arrow_drop_down
+              </span>
             </Link>
-            {dropdown && <DropdownProd />}
+
+            <DropdownProd dropdown={dropdown} />
           </div>
           <div className="nav-list">
             <Link to="/">NETWORKS</Link>

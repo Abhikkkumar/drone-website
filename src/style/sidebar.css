@@ -106,6 +106,7 @@
   color: #fff;
   font-weight: 500;
 }
+
 @media (max-width: 768px) {
   .inner-sidebar {
     max-width: 50%;
@@ -117,21 +118,60 @@
   }
 }
 
-/* .fade-enter {
-  opacity: 0.01;
+.fade-enter {
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
 }
 
 .fade-enter-active {
+  display: flex;
+  flex-direction: column;
   opacity: 1;
-  transition: opacity 300ms ease-in;
+  transition: all 0.5s ease-in;
+}
+.fade-enter-done {
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .fade-exit {
   opacity: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .fade-exit-active {
   opacity: 0.01;
-  transition: opacity 300ms ease-in;
+  transition: all 0.5s ease-in;
+  display: flex;
+  flex-direction: column;
+}
+.fade-exit-done {
+  display: none;
+}
+.btn-exit {
+  transform: rotate(0);
+}
+.btn-exit-active {
+  transform: rotate(180deg);
+  transition: all 0.5s ease-in-out;
+}
+.btn-exit-done {
+  display: none !important;
+}
+.btn-enter {
+  display: none;
+}
+.btn-enter-active {
+  display: none;
+  transition: all 0.5s ease-in-out;
+}
+.btn-enter-done {
+  display: block;
+}
+/* .side-subopt {
+  display: flex;
+  flex-direction: column;
 } */
-

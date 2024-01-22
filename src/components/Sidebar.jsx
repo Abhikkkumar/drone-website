@@ -47,27 +47,30 @@ export default function Sidebar({ sidebar, showSidebar }) {
               ) : (
                 <span class="material-symbols-outlined add">add</span>
               )} */}
-              <span
-                className={
-                  prodList
-                    ? "material-symbols-outlined remove"
-                    : "material-symbols-outlined remove hideClass"
-                }
+              <CSSTransition
+                in={prodList ? true : false}
+                timeout={500}
+                classNames="btn"
               >
-                remove
-              </span>
-              <span
-                className={
-                  prodList
-                    ? "material-symbols-outlined add hideClass"
-                    : "material-symbols-outlined add "
-                }
+                <span className={"material-symbols-outlined remove"}>
+                  remove
+                </span>
+              </CSSTransition>
+              <CSSTransition
+                in={!prodList ? true : false}
+                timeout={500}
+                classNames="btn"
               >
-                add
-              </span>
+                <span className={"material-symbols-outlined add "}>add</span>
+              </CSSTransition>
             </Link>
-            {prodList ? (
-              <>
+
+            <CSSTransition
+              in={prodList ? true : false}
+              timeout={500}
+              classNames="fade"
+            >
+              <div className="side-subopt">
                 <Link className="side-list sl-list" to="/">
                   Agribot
                 </Link>
@@ -77,10 +80,9 @@ export default function Sidebar({ sidebar, showSidebar }) {
                 <Link className="side-list sl-list" to="/">
                   Agribot MX
                 </Link>
-              </>
-            ) : (
-              ""
-            )}
+              </div>
+            </CSSTransition>
+
             <Link className="side-list" to="/">
               NETWORKS
             </Link>
