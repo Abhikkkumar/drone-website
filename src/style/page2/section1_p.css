@@ -41,7 +41,7 @@
   }
   .prod-sec1-lists {
     width: 100% !important;
-    max-width: 300px;
+    /* max-width: 300px; */
     gap: 0.4rem;
   }
 }
