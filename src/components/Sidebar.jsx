@@ -6,13 +6,11 @@ import logo from "../img/navbar/Byteproc-logo-sub-removebg.png";
 
 export default function Sidebar({ sidebar, showSidebar }) {
   const [prodList, setProdList] = useState(false);
-  
-  
+
   return (
     <div
       className={sidebar ? "sidebar" : "sidebar sidebar-hide"}
       onClick={() => {
-        
         showSidebar(!sidebar);
       }}
     >
@@ -27,10 +25,22 @@ export default function Sidebar({ sidebar, showSidebar }) {
             <img src={logo} alt="main-logo" />
           </div>
           <div className="side-lists">
-            <Link className="side-list" to="/">
+            <Link
+              className="side-list"
+              to="/"
+              onClick={() => {
+                showSidebar(!sidebar);
+              }}
+            >
               HOME
             </Link>
-            <Link className="side-list" to="/">
+            <Link
+              className="side-list"
+              to="/product"
+              onClick={() => {
+                showSidebar(!sidebar);
+              }}
+            >
               ABOUT US
             </Link>
             <Link
@@ -45,7 +55,6 @@ export default function Sidebar({ sidebar, showSidebar }) {
               }}
             >
               PRODUCTS{" "}
-              
               <CSSTransition
                 in={prodList ? true : false}
                 timeout={500}
@@ -72,50 +81,123 @@ export default function Sidebar({ sidebar, showSidebar }) {
               classNames="fade"
               unmountOnExit={true}
             >
-              <div  >
-                <Link className="side-list sl-list" to="/">
+              <div>
+                <Link
+                  className="side-list sl-list"
+                  to="/"
+                  onClick={() => {
+                    showSidebar(!sidebar);
+                  }}
+                >
                   Agribot
                 </Link>
-                <Link className="side-list sl-list" to="/">
+                <Link
+                  className="side-list sl-list"
+                  to="/"
+                  onClick={() => {
+                    showSidebar(!sidebar);
+                  }}
+                >
                   Agribot A6
                 </Link>
-                <Link className="side-list sl-list" to="/">
+                <Link
+                  className="side-list sl-list"
+                  to="/"
+                  onClick={() => {
+                    showSidebar(!sidebar);
+                  }}
+                >
                   Agribot MX
                 </Link>
               </div>
             </CSSTransition>
 
-            <Link className="side-list" to="/">
+            <Link
+              className="side-list"
+              to="/"
+              onClick={() => {
+                showSidebar(!sidebar);
+              }}
+            >
               NETWORKS
             </Link>
-            <Link className="side-list" to="/">
+            <Link
+              className="side-list"
+              to="/"
+              onClick={() => {
+                showSidebar(!sidebar);
+              }}
+            >
               NEWS & EVENTS
             </Link>
-            <Link className="side-list" to="/">
+            <Link
+              className="side-list"
+              to="/"
+              onClick={() => {
+                showSidebar(!sidebar);
+              }}
+            >
               OUR CLIENTS
             </Link>
-            <Link className="side-list" to="/">
+            <Link
+              className="side-list"
+              to="/"
+              onClick={() => {
+                showSidebar(!sidebar);
+              }}
+            >
               CAREER
             </Link>
-            <Link className="side-list" to="/">
+            <Link
+              className="side-list"
+              to="/"
+              onClick={() => {
+                showSidebar(!sidebar);
+              }}
+            >
               CONTACT US
             </Link>
           </div>
         </div>
         <div className="sidebar-social">
-          <div className="social-list">
+          <div
+            className="social-list"
+            onClick={() => {
+              showSidebar(!sidebar);
+            }}
+          >
             <i class="fa-brands fa-facebook"></i>
           </div>
-          <div className="social-list">
+          <div
+            className="social-list"
+            onClick={() => {
+              showSidebar(!sidebar);
+            }}
+          >
             <i class="fa-brands fa-instagram"></i>
           </div>
-          <div className="social-list">
+          <div
+            className="social-list"
+            onClick={() => {
+              showSidebar(!sidebar);
+            }}
+          >
             <i class="fa-brands fa-twitter"></i>
           </div>
-          <div className="social-list">
+          <div
+            className="social-list"
+            onClick={() => {
+              showSidebar(!sidebar);
+            }}
+          >
             <i class="fa-brands fa-youtube"></i>
           </div>
-          <div className="social-list">
+          <div
+            className="social-list"
+            onClick={() => {
+              showSidebar(!sidebar);
+            }}
+          >
             <i class="fa-brands fa-pinterest"></i>
           </div>
         </div>
