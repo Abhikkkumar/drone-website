@@ -7,6 +7,7 @@ import Carousel from "./components/Carousel";
 
 import Footer1 from "./components/Footer1";
 import Section1 from "./components/Section1";
+import Section2 from "./components/Section2";
 
 function App() {
   const [sidebar, showSidebar] = useState(false);
@@ -19,6 +20,7 @@ function App() {
 
         <Carousel />
         <Section1 />
+        <Section2 />
         <Footer1/>
       </div>
     </BrowserRouter>

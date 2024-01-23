@@ -33,14 +33,25 @@
   align-items: contents;
   list-style: none;
 }
-.footer-social a {
-  font-size: 1.2rem;
+.footer-social li {
+  /* font-size: 1.2rem; */
+  height: 2rem;
+  width: 2rem;
   padding: 0.2rem;
-  color: var(--text-color-1);
+
+  text-align: center;
 }
-.footer-social a:hover {
+.footer-social a {
+  color: var(--text-color-1);
+  font-size: 1.3rem;
+}
+.footer-social li:hover {
+  border-radius: 50%;
   color: var(--logo-bg-blue);
   background-color: var(--text-color-1);
+}
+.footer-social > li:hover a {
+  color: var(--logo-bg-blue);
 }
 .f-2,
 .f2-details,

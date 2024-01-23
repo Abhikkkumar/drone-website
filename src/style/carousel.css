@@ -53,6 +53,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  padding: 0 .75rem;
 }
 .slides-inner h2 {
   color: var(--text-color-1);
@@ -68,6 +70,7 @@
   animation: anim1 2s ease-in 0.1s 1;
 }
 
+
 @keyframes anim1 {
   0% {
     opacity: 0;
@@ -79,7 +82,7 @@
 @keyframes anim2 {
   0% {
     transform: translateY(-50vh);
-    color:#779ac9;
+    color: #779ac9;
   }
   10%,
   55% {
@@ -87,14 +90,14 @@
   }
   25% {
     transform: translateY(-30vh);
-    color:#537fbb;
+    color: #537fbb;
   }
   85% {
     transform: translateY(-20vh);
-    color:#375a8a;
+    color: #375a8a;
   }
   100% {
     transform: translateY(0);
-    color:#4560af
+    color: #4560af;
   }
 }
