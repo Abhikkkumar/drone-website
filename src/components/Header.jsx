@@ -22,7 +22,7 @@ export default function Header({ sidebar, showSidebar }) {
             <Link to="/">HOME</Link>
           </div>
           <div className="nav-list">
-            <Link to="/">ABOUT US</Link>
+            <Link to="/product">ABOUT US</Link>
           </div>
           <div
             className={dropdown ? "nav-list colorBlue" : "nav-list"}

@@ -1,0 +1,57 @@
+.breadcrump {
+  --brand-color: #feba12;
+  --logo-bg-blue: #4560af;
+  --dark-blue-bg: #1b1525;
+  --text-color-1: #fff;
+  --text-color-3: #aaa;
+  width: 100%;
+  background-image: url("https://images.pexels.com/photos/2050718/pexels-photo-2050718.jpeg");
+  background-size: cover;
+  background-position: center 65%;
+  background-attachment: fixed;
+}
+.bread-inner {
+  width: 100%;
+  padding: 3rem 0.75rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text-color-3);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.horizontal-line {
+  width: 2rem;
+  border: 2px solid var(--brand-color);
+}
+
+.bread-inner > p {
+  max-width: 40rem;
+  margin: auto;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+.bread-nav {
+  margin-top: 1rem;
+  border: 1px solid var(--text-color-1);
+  padding: 0.25rem 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bread-nav > a {
+  color: var(--text-color-3);
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+.active-bread,
+.bread-nav > a:hover {
+  color: var(--logo-bg-blue) !important;
+  text-decoration: underline !important;
+}
