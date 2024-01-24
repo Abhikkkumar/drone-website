@@ -7,10 +7,12 @@ import Testimonial from "./Testimonial";
 import Section3 from "./Section3";
 import Faqs from "./Faqs";
 
+
 export default function Home() {
   return (
     <div className="home">
       <Carousel />
+      
       <Section1 />
       <Section2 />
       <Testimonial />
