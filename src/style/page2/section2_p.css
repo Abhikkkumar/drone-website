@@ -10,7 +10,6 @@
   align-items: stretch;
   flex-wrap: wrap;
   max-width: 1000px;
-  /* max-height: 60vh; */
 }
 .sec2-prod-left {
   width: 65%;
@@ -99,10 +98,10 @@
     width: 100%;
     max-width: 450px;
     margin: auto;
-    padding-left: .4rem;
+    padding-left: 0.4rem;
     text-align: left;
   }
- 
+
   .sec2-prod-left {
     width: 100%;
     align-self: center;

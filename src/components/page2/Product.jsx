@@ -1,15 +1,16 @@
-import React from 'react'
+import React from "react";
 import Breadcrump from "./Breadcrump";
-import Section1_p from './Section1_p';
-import Section2_p from './Section2_p';
+import Section1_p from "./Section1_p";
+import Section2_p from "./Section2_p";
+import Section3_P from "./Section3_P";
 
 export default function product() {
   return (
-    <div className='product'>
+    <div className="product">
       <Breadcrump />
       <Section1_p />
       <Section2_p />
-
+      <Section3_P />
     </div>
-  )
+  );
 }
