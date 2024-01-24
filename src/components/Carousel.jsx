@@ -4,7 +4,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // import required modules
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 
 import "../style/carousel.css";
@@ -20,10 +20,8 @@ export default function Carousel() {
             delay: 5000,
             disableOnInteraction: false,
           }}
-          pagination={{
-            clickable:true
-          }}
-          modules={[Autoplay, Pagination]}
+          
+          modules={[Autoplay]}
         >
           <SwiperSlide className="slides s1">
             <div className="slides-inner">

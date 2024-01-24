@@ -3,6 +3,7 @@
   --logo-bg-blue: #4560af;
   --dark-blue-bg: #1b1525;
   --text-color-1: #fff;
+ 
   width: 100%;
   height: 70vh;
   z-index: 0;
@@ -101,3 +102,4 @@
     color: #4560af;
   }
 }
+

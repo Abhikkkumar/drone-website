@@ -13,7 +13,6 @@ export default function Home() {
   return (
     <div className="home">
       <Carousel />
-      
       <Section1 />
       <Section2 />
       <Section4 />
