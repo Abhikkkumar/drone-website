@@ -8,6 +8,8 @@ import Footer1 from "./components/Footer1";
 
 import Product from "./components/page2/Product";
 import Home from "./components/Home";
+import Contact from "./components/Contact";
+
 
 function App() {
   const [sidebar, showSidebar] = useState(false);
@@ -21,6 +23,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path="/" element={<Home />}></Route>
+        </Routes>
+        <Routes>
+          <Route path="/contact" element={<Contact />}></Route>
         </Routes>
         <Footer1 />
       </div>

@@ -1,0 +1,49 @@
+.sec3-outer{
+    width: 100%;
+    background-image: url("../img/section3/sec3bg.jpg");
+    min-height: 50vh;
+    display: flex;
+    align-items: stretch;
+    background-size: cover;
+    background-position: center 40%;
+    background-attachment: fixed;
+}
+.sec3-inner{
+   padding: 2.6rem 1rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    text-align: center;
+    color: white;
+}
+.sec3-inner > *{
+max-width: 50%;
+margin: .6rem auto;
+
+}
+
+.sec3-inner h5{
+    color: #feba12;
+}
+.sec3-inner >p{
+    margin: .8rem auto;
+}
+
+.sec3-inner button{
+    background-color: #feba12;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.sec3-inner button:hover{
+    color: white;
+    background-color: #4560af;
+}
+@media (max-width:678px){
+    .sec3-inner>*{
+        max-width: 95%;
+        margin: auto;
+    }
+
+}

@@ -150,7 +150,7 @@ export default function Sidebar({ sidebar, showSidebar }) {
             </Link>
             <Link
               className="side-list"
-              to="/"
+              to="/contact"
               onClick={() => {
                 showSidebar(!sidebar);
               }}

@@ -57,7 +57,7 @@ export default function Header({ sidebar, showSidebar }) {
             <Link to="/">CAREER</Link>
           </div>
 
-          <Link to="/">
+          <Link to="/contact">
             <button className="btn-contactUs">CONTACT US</button>
           </Link>
         </div>
