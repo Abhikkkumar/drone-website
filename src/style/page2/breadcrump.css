@@ -53,5 +53,4 @@
 .active-bread,
 .bread-nav > a:hover {
   color: var(--logo-bg-blue) !important;
-  text-decoration: underline !important;
 }
