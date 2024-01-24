@@ -7,7 +7,7 @@ export default function breadcrump() {
     <div className="breadcrump">
       <div className="bread-inner">
         <div className="horizontal-line"></div>
-        <h1>Project Management</h1>
+        <h1>Services</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
           possimus sapiente non facere maiores deleniti reprehenderit quam
@@ -16,9 +16,9 @@ export default function breadcrump() {
         <div className="bread-nav">
           <Link to="/">Home </Link>
           <i class="fa-solid fa-angle-right"></i>
-          <Link to="/product">Services</Link>
-          <i class="fa-solid fa-angle-right"></i>
-          <Link to="#" className="active-bread">Drone1</Link>
+          <Link to="/product" className="active-bread">
+            Services
+          </Link>
         </div>
       </div>
     </div>

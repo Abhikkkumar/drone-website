@@ -1,4 +1,4 @@
-.section4-p {
+/* .section4-p {
   max-width: 1000px;
   margin: 1.5rem auto;
   padding: 1.5rem;
@@ -13,7 +13,6 @@
 .s4p-img-cnt {
   display: flex;
   justify-content: space-around;
-
   margin-top: 1rem;
 }
 .s4p-img-cnt > img {
@@ -40,4 +39,4 @@
     align-self: center;
     text-align: center;
   }
-}
+} */
