@@ -5,7 +5,7 @@ import "../../style/page2/section2_p.css";
 export default function Section2_p() {
   return (
     <div className="section2-prod">
-      <div className="sec2-prod-left">
+      <div className="sec2-prod-left-about">
         <h1>We Ensure Best Service</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore fuga
@@ -38,8 +38,8 @@ export default function Section2_p() {
           </li>
         </ul>
       </div>
-      <div className="sec2-prod-right">
-        <div className="sec2-prod-right-inner">
+      <div className="sec2-prod-right-about">
+        <div className="sec2-prod-right-inner-about">
           <span className="tele-icon">
             <i class="fa-solid fa-phone"></i>
           </span>

@@ -36,7 +36,16 @@ export default function Sidebar({ sidebar, showSidebar }) {
             </Link>
             <Link
               className="side-list"
-              to="/product"
+              to="/services"
+              onClick={() => {
+                showSidebar(!sidebar);
+              }}
+            >
+              SERVICES
+            </Link>
+            <Link
+              className="side-list"
+              to="/about"
               onClick={() => {
                 showSidebar(!sidebar);
               }}
@@ -130,15 +139,7 @@ export default function Sidebar({ sidebar, showSidebar }) {
             >
               NEWS & EVENTS
             </Link>
-            <Link
-              className="side-list"
-              to="/"
-              onClick={() => {
-                showSidebar(!sidebar);
-              }}
-            >
-              OUR CLIENTS
-            </Link>
+            
             <Link
               className="side-list"
               to="/"
