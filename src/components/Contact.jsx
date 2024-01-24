@@ -1,8 +1,8 @@
 import React from "react";
 import "../style/contact.css";
-import img1 from "../img/contact/img1.png";
-import img2 from "../img/contact/img2.png";
-import img3 from "../img/contact/img3.png";
+import add from "../img/contact/add.png";
+import call from "../img/contact/call.png";
+import mail from "../img/contact/mail.png";
 import Contact_Breadcrump from "./Contact_Breadcrump";
 
 export default function Contact() {
@@ -47,7 +47,7 @@ export default function Contact() {
 
         <div className="Contact-Right-Side">
           <div className="card">
-            <img src={img2}  alt=""/>
+            <img src={add}  alt=""/>
             <div className="card1">
               <h5>USA Office</h5>
               <p>55 Gerad Lane</p>
@@ -56,7 +56,7 @@ export default function Contact() {
           </div>
 
           <div className="card">
-            <img src={img3} alt=""/>
+            <img src={mail} alt=""/>
             <div className="card1">
               <h5>Email Us</h5>
               <p>test@gmail.com</p>
@@ -65,7 +65,7 @@ export default function Contact() {
           </div>
 
           <div className="card">
-            <img src={img1}  alt=""/>
+            <img src={call}  alt=""/>
             <div className="card1">
               <h5>Call Us</h5>
               <p>(+0888) 589-8745</p>
