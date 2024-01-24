@@ -22,7 +22,7 @@ export default function Header({ sidebar, showSidebar }) {
             <Link to="/">HOME</Link>
           </div>
           <div className="nav-list">
-            <Link to="/product">ABOUT US</Link>
+            <Link to="/services">SERVICES</Link>
           </div>
           <div
             className={dropdown ? "nav-list colorBlue" : "nav-list"}
@@ -45,7 +45,7 @@ export default function Header({ sidebar, showSidebar }) {
             <DropdownProd dropdown={dropdown} />
           </div>
           <div className="nav-list">
-            <Link to="/">NETWORKS</Link>
+            <Link to="/about">ABOUT US</Link>
           </div>
           <div className="nav-list">
             <Link to="/">NEWS & EVENTS</Link>
