@@ -34,7 +34,7 @@ export default function Section1() {
           <div className="section-left-left">
             <h5>
               {" "}
-              <i class="fa-regular fa-circle-check"></i>Thea Agriculture Drone
+              <i class="fa-regular fa-circle-check"></i> Thea Agriculture Drone
               16 Litres
             </h5>
             <h5>

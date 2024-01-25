@@ -1,5 +1,5 @@
 .section2 {
-  --brand-color: #feba12;
+  --brand-color: #e97f23;
   --logo-bg-blue: #e97f23;
   --dark-blue-bg: #1b1525;
   --text-color-1: #fff;
@@ -43,7 +43,7 @@
   margin: 0 0.7rem;
 }
 .line {
-  border: 2px solid brown;
+  border: 2px solid var(--brand-color);
   width: 15%;
 }
 .qlt > div {

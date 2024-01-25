@@ -1,5 +1,5 @@
 .dropdownProd {
-  --brand-color: #fff;
+  --brand-color: #e97f23;
   --logo-bg-blue: #4560af;
   --dark-blue-bg: #1b1525;
   --text-color-1: #fff;
@@ -9,10 +9,10 @@
   padding: 0.3rem 0.3rem;
   min-width: 12rem;
   border: 1px solid black;
-  background-color: var(--brand-color);
+  background-color: var(--text-color-1);
   z-index: 7;
   border: none;
-  box-shadow: 2px 2px 5px var(--logo-bg-blue);
+  box-shadow: 1px 1px 5px rgba(233, 127, 35, 0.5);
 }
 
 .dropdown-list a {
@@ -23,11 +23,11 @@
 }
 .dropdown-list {
   padding: 0.4rem 0.5rem;
-  border-bottom: 1px solid var(--logo-bg-blue);
+  border-bottom: 1px solid var(--text-color-2);
   z-index: 8;
 }
 .dropdown-list:hover {
-  background-color: var(--logo-bg-blue);
+  background-color: var(--brand-color);
 }
 .dropdown-list:hover > a {
   color: var(--text-color-1);
