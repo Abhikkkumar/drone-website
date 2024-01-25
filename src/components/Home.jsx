@@ -7,6 +7,7 @@ import Testimonial from "./Testimonial";
 import Section3 from "./Section3";
 import Faqs from "./Faqs";
 import Section4 from "./Section4";
+import Section5 from "./Section5";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Carousel />
       <Section1 />
       <Section2 />
+      <Section5/>
       <Section4 />
       <Testimonial />
       <Faqs />
