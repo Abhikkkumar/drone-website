@@ -1,6 +1,6 @@
 .carousel {
-  --brand-color: #feba12;
-  --logo-bg-blue: #4560af;
+  --brand-color: #e97f23;
+  --logo-bg-blue: #e97f23;
   --dark-blue-bg: #1b1525;
   --text-color-1: #fff;
  
@@ -17,6 +17,14 @@
   }
   .slides-inner {
     height: 50vh !important;
+  }
+  .slides-inner h2{
+    font-size: 1.8rem !important;
+    font-weight: 500 !important;
+  }
+  .slides-inner p{
+    font-size: 1.2rem;
+    margin-top: .3rem !important;
   }
 }
 .mySwiper {
@@ -59,8 +67,8 @@
 }
 .slides-inner h2 {
   color: var(--text-color-1);
-  font-size: 4rem;
-  font-weight: 500;
+  font-size: 3.5rem;
+  font-weight: 400;
   animation: anim2 2s ease 0.1s 1;
 }
 .slides-inner {
@@ -70,6 +78,8 @@
 .slides-inner p {
   animation: anim1 2s ease-in 0.1s 1;
 }
+
+
 
 
 @keyframes anim1 {
@@ -83,7 +93,7 @@
 @keyframes anim2 {
   0% {
     transform: translateY(-50vh);
-    color: #779ac9;
+    color: var(--logo-bg-blue);
   }
   10%,
   55% {
@@ -91,15 +101,15 @@
   }
   25% {
     transform: translateY(-30vh);
-    color: #537fbb;
+    color:var(--logo-bg-blue);
   }
   85% {
     transform: translateY(-20vh);
-    color: #375a8a;
+    color: var(--logo-bg-blue);
   }
   100% {
     transform: translateY(0);
-    color: #4560af;
+    color: var(--logo-bg-blue);
   }
 }
 
