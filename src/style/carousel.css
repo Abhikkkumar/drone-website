@@ -59,8 +59,8 @@
 }
 .slides-inner h2 {
   color: var(--text-color-1);
-  font-size: 4rem;
-  font-weight: 500;
+  font-size: 3.5rem;
+  font-weight: 400;
   animation: anim2 2s ease 0.1s 1;
 }
 .slides-inner {
