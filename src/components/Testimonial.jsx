@@ -1,7 +1,7 @@
 import React from "react";
 import TestimonialCard from "./TestimonialCard";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";  
 // import required modules
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/swiper-bundle.css";

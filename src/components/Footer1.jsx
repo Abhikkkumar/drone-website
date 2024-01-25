@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/footer1.css";
-import logo from "../img/navbar/Byteproc-logo-sub-removebg.png";
+import logo from "../img/footer/vama-footer-logo.png";
 import { Link } from "react-router-dom";
 
 export default function Footer1() {
