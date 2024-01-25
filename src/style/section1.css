@@ -75,6 +75,10 @@
   .sectionImg {
     margin: 5% auto;
   }
+  .section-left-middle h5{
+    font-size: .7rem;
+    font-weight: 400;
+  }
 }
 @media (max-width: 320px) {
   .section1 > div {

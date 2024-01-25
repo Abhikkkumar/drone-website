@@ -1,6 +1,6 @@
 .section2 {
   --brand-color: #feba12;
-  --logo-bg-blue: #4560af;
+  --logo-bg-blue: #e97f23;
   --dark-blue-bg: #1b1525;
   --text-color-1: #fff;
   width: 100%;
@@ -21,19 +21,21 @@
 }
 .qlt {
   width: 85%;
-  max-width: 17.8rem;
+  max-width: 28rem;
   min-height: 25vh;
   margin: auto;
   color: var(--text-color-1);
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   padding: 0.85rem 0;
   position: relative;
 }
-
+.qlt > h2 {
+  font-weight: 500;
+}
 .qlt p {
   text-align: center;
   font-size: 1.7rem;
@@ -78,6 +80,10 @@
   margin: 1%;
 }
 
+.s2-list > h2 {
+  margin-top: -1.2rem;
+}
+
 .s2-list .dual-line {
   width: 100%;
   max-width: 285px;
@@ -87,12 +93,20 @@
 }
 .line1 {
   width: 2rem;
-  border: 1px solid brown;
+  border: 1px solid var(--logo-bg-blue);
 }
 .dual-line > p {
   margin: 0 0.7rem;
-  color: brown;
+  color: var(--logo-bg-blue);
   cursor: pointer;
+}
+.s2-list-icons {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--logo-bg-blue);
 }
 @media (max-width: 620px) {
   .s2-list {
