@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/section1.css";
 import secImg1 from "../img/section1/vama-ab.png";
-import secImg2 from "../img/section1/section1.jpg";
+import secImg2 from "../img/section1/about3.png";
 
 export default function Section1() {
   return (
@@ -18,12 +18,9 @@ export default function Section1() {
           />{" "}
           WHO WE ARE
         </h6>
-        <h2>Construction Solutions focused future ready</h2>
+        <h2>Vama Skylight</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id obcaecati
-          dolores autem quibusdam repellat optio rerum odio aut alias eveniet?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-          consectetur!
+        Vama Skylight is a leading manufacturer of drones, providing innovative solutions to the drone industry. Our company is dedicated to leveraging the latest technology to help improve operations , reduce costs etc. With a team of experts in the field of unmanned aerial systems, we are committed to developing.
         </p>
 
         <div className="section-left-middle">
@@ -31,22 +28,19 @@ export default function Section1() {
           <div className="section-left-left">
             <h5>
               {" "}
-              <i class="fa-regular fa-circle-check"></i> Pre-construction
-              services
+              <i class="fa-regular fa-circle-check"></i>Thea Agriculture Drone 16 Litres 
             </h5>
             <h5>
               {" "}
-              <i class="fa-regular fa-circle-check"></i> Industrial
-              manufacturing
+              <i class="fa-regular fa-circle-check"></i> Thea Agricultural Drone 10 Litres 
             </h5>
             <h5>
               {" "}
-              <i class="fa-regular fa-circle-check"></i> Building and
-              construction
+              <i class="fa-regular fa-circle-check"></i> Naina Disaster Management Drone
             </h5>
             <h5>
               {" "}
-              <i class="fa-regular fa-circle-check"></i> After Service
+              <i class="fa-regular fa-circle-check"></i>    Surveillance Drone
             </h5>
           </div>
         </div>
