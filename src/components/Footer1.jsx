@@ -12,8 +12,7 @@ export default function Footer1() {
         </div>
         <div className="f1-details">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-            reiciendis nam voluptates adipisci natus voluptatibus!
+          Vama Skylight is a leading manufacturer of drones, providing innovative solutions to the drone industry. 
           </p>
           <p>
             <strong>Opening Hours</strong> : Monday – Sat: 9am to 6pm
@@ -60,22 +59,22 @@ export default function Footer1() {
         <h2>OUR SERVICES</h2>
         <div className="f3-details">
           <Link to="/">
-            <i class="fa-solid fa-angle-right"></i> General Construction
+            <i class="fa-solid fa-angle-right"></i> HOME
+          </Link>
+          <Link to="/about">
+            <i class="fa-solid fa-angle-right"></i> ABOUT US
+          </Link>
+          <Link to="/support">
+            <i class="fa-solid fa-angle-right"></i> SUPPORT & SERVICES
           </Link>
           <Link to="/">
-            <i class="fa-solid fa-angle-right"></i> Property Maintenance
+            <i class="fa-solid fa-angle-right"></i>  PRODUCTS
           </Link>
           <Link to="/">
-            <i class="fa-solid fa-angle-right"></i> Project Managment
+            <i class="fa-solid fa-angle-right"></i> GALLERY
           </Link>
-          <Link to="/">
-            <i class="fa-solid fa-angle-right"></i> Virtual Design & Build
-          </Link>
-          <Link to="/">
-            <i class="fa-solid fa-angle-right"></i> Preconstruction
-          </Link>
-          <Link to="/">
-            <i class="fa-solid fa-angle-right"></i> Design Build
+          <Link to="/contact">
+            <i class="fa-solid fa-angle-right"></i> CONTACT US
           </Link>
         </div>
       </div>
@@ -88,14 +87,14 @@ export default function Footer1() {
           </p>
           <div>
             <p>
-              <a href="tel:(+880)15569569365">(+880)155 69569 365</a>
-              <a href="tel:(+880)15569569366">(+880)155 69569 366</a>
+              {/* <a href="tel:(+880)15569569365">+91-9876543210</a> */}
+              <a href="tel:+91-8320844583">+91-8320844583</a>
             </p>
           </div>
           <div>
             <p>
-              <a href="mailto:support@rstheme.com">support@rstheme.com</a>
-              <a href="mailto:infoname@gmail.com">infoname@gmail.com</a>
+              <a href="info@vamadronestores.com">info@vamadronestores.com</a>
+              {/* <a href="mailto:infoname@gmail.com">infoname@gmail.com</a> */}
             </p>
           </div>
         </div>

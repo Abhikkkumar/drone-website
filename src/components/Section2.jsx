@@ -26,10 +26,10 @@ export default function Section2() {
             <img src={Agriculture} alt="lock-img" />
           </div>
 
-          <h2>How to Use Battery</h2>
+          <h2>Agriculture Spraying</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis
-            facilis minus, veniam cumque magni ut?
+            Elevate Crop Health with Precision Spraying for Optimal Yields and
+            Sustainable Agriculture Practices. Your Growth, Our Priority.
           </p>
 
           <div className="dual-line">
@@ -42,10 +42,11 @@ export default function Section2() {
           <div className="s2-list-icons">
             <img src={Land} alt="medal" />
           </div>
-          <h2>How to Use Controller</h2>
+          <h2>Land Mapping</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis
-            facilis minus, veniam cumque magni ut?
+            Land surveillance drones play a crucial role in various fields,
+            offering a cost-effective and efficient way to gather information,
+            monitor, and analyze vast land areas.
           </p>
           <div className="dual-line">
             <div className="line1 "></div>
@@ -58,10 +59,10 @@ export default function Section2() {
             <img src={Pilot} alt="diamond-img" />
           </div>
 
-          <h2>How to Fly Drone</h2>
+          <h2>Pilot Training</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis
-            facilis minus, veniam cumque magni ut?
+            Vama Skylight Pilot Training elevate Your Skills, Soar with Confidence. Premier Pilot Training
+            for a Sky-high Future in Aviation Excellence.
           </p>
           <div className="dual-line">
             <div className="line1 "></div>
