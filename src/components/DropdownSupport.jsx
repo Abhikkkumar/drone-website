@@ -3,26 +3,26 @@ import { Link } from "react-router-dom";
 import "../style/dropdownProd.css";
 import { CSSTransition } from "react-transition-group";
 
-export default function DropdownProd({ dropdown }) {
+export default function DropdownSupport({ dropdownSpt }) {
   return (
     <CSSTransition
-      in={dropdown ? true : false}
+      in={dropdownSpt ? true : false}
       timeout={500}
       classNames="fade"
       unmountOnExit={true}
     >
       <div className="dropdownProd">
         <div className="dropdown-list">
-          <Link to="/">Thea Agriculture Drone 16 Litres</Link>
+          <Link to="/">Agriculture Spraying</Link>
         </div>
         <div className="dropdown-list">
-          <Link to="/">Thea Agriculture Drone 10 Litres</Link>
+          <Link to="/">Land Mapping</Link>
         </div>
         <div className="dropdown-list">
-          <Link to="/">Naina Disaster Management Drone</Link>
+          <Link to="/">Disaster Management</Link>
         </div>
         <div className="dropdown-list">
-          <Link to="/">Surveillance Drone</Link>
+          <Link to="/">Pilot Training</Link>
         </div>
       </div>
     </CSSTransition>

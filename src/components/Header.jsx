@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import "../style/header.css";
-import logo from "../img/navbar/Byteproc-logo-sub-removebg.png";
+import logo from "../img/navbar/vama.png";
 import { Link } from "react-router-dom";
 import DropdownProd from "./DropdownProd";
 import { CSSTransition } from "react-transition-group";
+import DropdownSupport from "./DropdownSupport";
 
 export default function Header({ sidebar, showSidebar }) {
   const [dropdown, setDropdown] = useState(false);
+  const [dropdownSpt, setDropdownSpt] = useState(false);
   function handleDropdown() {
     setDropdown((d) => !d);
   }
@@ -22,7 +24,24 @@ export default function Header({ sidebar, showSidebar }) {
             <Link to="/">HOME</Link>
           </div>
           <div className="nav-list">
-            <Link to="/services">SERVICES</Link>
+            <Link to="/about">ABOUT US</Link>
+          </div>
+          <div
+            className={dropdownSpt ? "nav-list colorBlue" : "nav-list"}
+            onMouseEnter={() => {
+              setDropdownSpt(true);
+            }}
+            onMouseLeave={() => {
+              setDropdownSpt(false);
+            }}
+          >
+            <Link to="/services" className="side-listContainer">
+              SUPPORT & SERVICES{" "}
+              <span class="material-symbols-outlined arrow-down">
+                arrow_drop_down
+              </span>
+            </Link>
+            <DropdownSupport dropdownSpt={dropdownSpt} />
           </div>
           <div
             className={dropdown ? "nav-list colorBlue" : "nav-list"}
@@ -32,29 +51,20 @@ export default function Header({ sidebar, showSidebar }) {
             }}
             onMouseLeave={() => {
               setDropdown(false);
-              
             }}
           >
             <Link className="side-listContainer" to="/">
               PRODUCTS{" "}
-              <span class="material-symbols-outlined arrow-down">
+              <span className="material-symbols-outlined arrow-down">
                 arrow_drop_down
               </span>
             </Link>
 
             <DropdownProd dropdown={dropdown} />
           </div>
+
           <div className="nav-list">
-            <Link to="/about">ABOUT US</Link>
-          </div>
-          <div className="nav-list">
-            <Link to="/">NEWS & EVENTS</Link>
-          </div>
-          <div className="nav-list">
-            <Link to="/">OUR CLIENTS</Link>
-          </div>
-          <div className="nav-list">
-            <Link to="/">CAREER</Link>
+            <Link to="/">GALLERY</Link>
           </div>
 
           <Link to="/contact">

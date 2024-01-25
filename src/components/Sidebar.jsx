@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { CSSTransition } from "react-transition-group";
 import "../style/sidebar.css";
-import logo from "../img/navbar/Byteproc-logo-sub-removebg.png";
+import logo from "../img/navbar/vama.png";
 
 export default function Sidebar({ sidebar, showSidebar }) {
   const [prodList, setProdList] = useState(false);
+  const [sideSpt, setSideSpt] = useState(false);
 
   return (
     <div
@@ -36,15 +37,6 @@ export default function Sidebar({ sidebar, showSidebar }) {
             </Link>
             <Link
               className="side-list"
-              to="/services"
-              onClick={() => {
-                showSidebar(!sidebar);
-              }}
-            >
-              SERVICES
-            </Link>
-            <Link
-              className="side-list"
               to="/about"
               onClick={() => {
                 showSidebar(!sidebar);
@@ -52,6 +44,33 @@ export default function Sidebar({ sidebar, showSidebar }) {
             >
               ABOUT US
             </Link>
+            <Link
+              className="side-list"
+              to="/services"
+              onClick={() => {
+                showSidebar(!sidebar);
+              }}
+            >
+              SUPPORT & SERVICES
+              <CSSTransition
+                in={sideSpt ? true : false}
+                timeout={500}
+                classNames="btn"
+                unmountOnExit={true}
+              >
+                <span className={"material-symbols-outlined remove"}>
+                  remove
+                </span>
+              </CSSTransition>
+              <CSSTransition
+                in={!sideSpt ? true : false}
+                timeout={500}
+                classNames="btn"
+              >
+                <span className={"material-symbols-outlined add "}>add</span>
+              </CSSTransition>
+            </Link>
+
             <Link
               className={
                 prodList
@@ -139,7 +158,7 @@ export default function Sidebar({ sidebar, showSidebar }) {
             >
               NEWS & EVENTS
             </Link>
-            
+
             <Link
               className="side-list"
               to="/"

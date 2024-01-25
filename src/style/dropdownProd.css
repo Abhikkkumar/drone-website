@@ -3,10 +3,10 @@
   --logo-bg-blue: #4560af;
   --dark-blue-bg: #1b1525;
   --text-color-1: #fff;
-  --text-color-2:#000;
+  --text-color-2: #000;
   position: absolute;
   top: 3.8rem;
-  padding: 0.3rem 0.2rem;
+  padding: 0.3rem 0.3rem;
   min-width: 12rem;
   border: 1px solid black;
   background-color: var(--brand-color);
@@ -22,14 +22,13 @@
   z-index: 9;
 }
 .dropdown-list {
-  padding: 0.4rem 0rem 0.4rem 0.5rem;
+  padding: 0.4rem 0.5rem;
   border-bottom: 1px solid var(--logo-bg-blue);
   z-index: 8;
 }
 .dropdown-list:hover {
   background-color: var(--logo-bg-blue);
 }
-.dropdown-list:hover>a {
+.dropdown-list:hover > a {
   color: var(--text-color-1);
 }
-
