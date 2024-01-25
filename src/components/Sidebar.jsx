@@ -45,10 +45,15 @@ export default function Sidebar({ sidebar, showSidebar }) {
               ABOUT US
             </Link>
             <Link
-              className="side-list"
+              className={
+                sideSpt
+                  ? "side-list side-listContainer selectedText"
+                  : "side-list side-listContainer"
+              }
               to="/services"
-              onClick={() => {
-                showSidebar(!sidebar);
+              onClick={(e) => {
+                e.stopPropagation();
+                setSideSpt(!sideSpt);
               }}
             >
               SUPPORT & SERVICES
@@ -70,6 +75,61 @@ export default function Sidebar({ sidebar, showSidebar }) {
                 <span className={"material-symbols-outlined add "}>add</span>
               </CSSTransition>
             </Link>
+            <CSSTransition
+              in={sideSpt ? true : false}
+              timeout={500}
+              appear={true}
+              classNames="fade"
+              unmountOnExit={true}
+            >
+              <div>
+                <Link
+                  className="side-list sl-list"
+                  to="/"
+                  onClick={() => {
+                    showSidebar(!sidebar);
+                  }}
+                >
+                  Agriculture Spraying
+                </Link>
+                <Link
+                  className="side-list sl-list"
+                  to="/"
+                  onClick={() => {
+                    showSidebar(!sidebar);
+                  }}
+                >
+                  Land Mapping
+                </Link>
+                <Link
+                  className="side-list sl-list"
+                  to="/"
+                  onClick={() => {
+                    showSidebar(!sidebar);
+                  }}
+                >
+                  Land Surveillance
+                </Link>
+                <Link
+                  className="side-list sl-list"
+                  to="/"
+                  onClick={() => {
+                    showSidebar(!sidebar);
+                  }}
+                >
+                  Disaster Management
+                </Link>
+                <Link
+                  className="side-list sl-list"
+                  to="/"
+                  onClick={() => {
+                    showSidebar(!sidebar);
+                  }}
+                >
+                  Pilot Training
+                </Link>
+              </div>
+            </CSSTransition>
 
             <Link
               className={
@@ -78,7 +138,8 @@ export default function Sidebar({ sidebar, showSidebar }) {
                   : "side-list side-listContainer"
               }
               to="/"
-              onClick={() => {
+              onClick={(e) => {
+                e.stopPropagation();
                 setProdList(!prodList);
               }}
             >
@@ -117,7 +178,7 @@ export default function Sidebar({ sidebar, showSidebar }) {
                     showSidebar(!sidebar);
                   }}
                 >
-                  Agribot
+                  Thea Agriculture Drone 16 Litres
                 </Link>
                 <Link
                   className="side-list sl-list"
@@ -126,7 +187,7 @@ export default function Sidebar({ sidebar, showSidebar }) {
                     showSidebar(!sidebar);
                   }}
                 >
-                  Agribot A6
+                  Thea Agriculture Drone 10 Litres
                 </Link>
                 <Link
                   className="side-list sl-list"
@@ -135,7 +196,16 @@ export default function Sidebar({ sidebar, showSidebar }) {
                     showSidebar(!sidebar);
                   }}
                 >
-                  Agribot MX
+                  Naina Disaster Management Drone
+                </Link>
+                <Link
+                  className="side-list sl-list"
+                  to="/"
+                  onClick={() => {
+                    showSidebar(!sidebar);
+                  }}
+                >
+                  Surveillance Drone
                 </Link>
               </div>
             </CSSTransition>

@@ -3,7 +3,7 @@ import "../style/header.css";
 import logo from "../img/navbar/vama.png";
 import { Link } from "react-router-dom";
 import DropdownProd from "./DropdownProd";
-import { CSSTransition } from "react-transition-group";
+
 import DropdownSupport from "./DropdownSupport";
 
 export default function Header({ sidebar, showSidebar }) {
@@ -16,7 +16,7 @@ export default function Header({ sidebar, showSidebar }) {
     <>
       <div className="header">
         <div className="icon">
-          <img src={logo} alt="logo" />
+          <Link to="/"><img src={logo} alt="logo" /></Link>
         </div>
 
         <div className="nav-lists">
