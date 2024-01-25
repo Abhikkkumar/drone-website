@@ -47,7 +47,7 @@
   background-image: url("https://www.jouav.com/wp-content/uploads/2022/10/multi-rotor-drone-under-sunset.jpg");
 }
 .slides-inner {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0);
   width: 100%;
   height: 70vh;
   display: flex;
