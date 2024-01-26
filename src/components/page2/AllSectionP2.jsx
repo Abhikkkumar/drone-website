@@ -98,10 +98,6 @@ export default function AllSectionP2() {
       <div className="asp-right">
         <div className="prod-sec1-lists">
           <div className="ps-list">
-            <p>General Construction</p>
-            <i class="fa-solid fa-angle-right"></i>
-          </div>
-          <div className="ps-list">
             <p>Drone Management</p>
             <i class="fa-solid fa-angle-right"></i>
           </div>
@@ -135,7 +131,9 @@ export default function AllSectionP2() {
                 </p>
               </div>
               <div className="dotted-line"></div>
-              <p>(123) 222-8888</p>
+              <p className="call-num">
+                <a href="tel:+91-8320844583">+91-8320844583</a>
+              </p>
             </div>
           </div>
           <div className="sec3-p-right">

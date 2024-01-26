@@ -1,8 +1,5 @@
 .section2 {
-  --brand-color: #e97f23;
-  --logo-bg-blue: #e97f23;
-  --dark-blue-bg: #1b1525;
-  --text-color-1: #fff;
+  
   width: 100%;
   min-height: 70vh;
 }
@@ -84,7 +81,7 @@
   margin-top: -1.2rem;
 }
 
-.s2-list .dual-line {
+.dual-line {
   width: 100%;
   max-width: 285px;
   display: flex;
@@ -93,11 +90,11 @@
 }
 .line1 {
   width: 2rem;
-  border: 1px solid var(--logo-bg-blue);
+  border: 1px solid var(--brand-color);
 }
 .dual-line > p {
   margin: 0 0.7rem;
-  color: var(--logo-bg-blue);
+  color: var(--brand-color);
   cursor: pointer;
 }
 .s2-list-icons {
@@ -106,7 +103,7 @@
   border-radius: 50%;
   display: grid;
   place-items: center;
-  border: 1px solid var(--logo-bg-blue);
+  border: 1px solid var(--brand-color);
 }
 @media (max-width: 620px) {
   .s2-list {

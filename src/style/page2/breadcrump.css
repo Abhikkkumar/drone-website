@@ -1,13 +1,8 @@
 .breadcrump {
-  --brand-color: #feba12;
-  --logo-bg-blue: #4560af;
-  --dark-blue-bg: #1b1525;
-  --text-color-1: #fff;
-  --text-color-3: #aaa;
   width: 100%;
   background-image: url("https://images.pexels.com/photos/2050718/pexels-photo-2050718.jpeg");
   background-size: cover;
-  background-position: center ;
+  background-position: center;
 }
 .bread-inner {
   width: 100%;
@@ -16,8 +11,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: var(--text-color-3);
-  background-color: rgba(0, 0, 0, 0.6);
+  color: var(--text-color-1);
+  background-color: rgba(202, 133, 72, 0.3);
 }
 
 .horizontal-line {
@@ -30,6 +25,7 @@
   margin: auto;
   line-height: 1.5;
   font-size: 1.2rem;
+  color: var(--text-color-1);
 }
 
 .bread-nav {
@@ -43,7 +39,7 @@
 }
 
 .bread-nav > a {
-  color: var(--text-color-3);
+  color: var(--text-color-1);
   margin: 0 0.5rem;
   font-size: 1.2rem;
   text-decoration: none;
@@ -51,5 +47,5 @@
 }
 .active-bread,
 .bread-nav > a:hover {
-  color: var(--logo-bg-blue) !important;
+  color: var(--brand-color) !important;
 }

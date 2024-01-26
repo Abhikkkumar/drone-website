@@ -1,12 +1,11 @@
-import React from "react";
-import Breadcrump from "./Breadcrump";
-import AllSectionP2 from "./AllSectionP2";
+// import React from "react";
+// import { agricultureSprayingProp } from "../Template/Data";
+// import ServiceTemplate from "../Template/ServiceTemplate";
 
-export default function Services() {
-  return (
-    <div className="services">
-      <Breadcrump />
-      <AllSectionP2 />
-    </div>
-  );
-}
+// export default function Services() {
+//   return (
+//     <div className="services">
+//       <ServiceTemplate props={agricultureSprayingProp} />
+//     </div>
+//   );
+// }

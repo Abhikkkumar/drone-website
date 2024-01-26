@@ -1,9 +1,4 @@
 .all-section-p {
-  --brand-color: #feba12;
-  --logo-bg-blue: #4560af;
-  --dark-blue-bg: #1b1525;
-  --text-color-1: #fff;
-  --text-color-3: #aaa;
   padding: 1.5rem 1.5%;
   display: flex;
   justify-content: space-between;
@@ -23,19 +18,7 @@
   }
   .asp-right {
     width: 98%;
-    /* display: flex;
-    align-items: flex-start;
-    justify-content: space-between; */
   }
-  /* .prod-sec1-lists {
-    width: 49% !important;
-  }
-  .asp-right-2 {
-    width: 49%;
-  }
-  .asp-right-2 > * {
-    width: 50%;
-  } */
 }
 .all-section-p > * > * {
   margin: 1rem auto;
@@ -68,13 +51,14 @@
 
 .ps-list {
   font-weight: 500;
+  transition: all 0.3s ease-in-out;
 }
 .ps-list:hover {
-  background-color: var(--dark-blue-bg);
+  background-color: var(--brand-color);
   color: #fff;
 }
 .active-bg {
-  background-color: var(--dark-blue-bg);
+  background-color: var(--brand-color);
 }
 .active-text {
   color: #fff;
@@ -121,11 +105,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.2s ease-in-out;
 }
 
 .tele-icon:hover {
   background-color: var(--text-color-1);
-  color: var(--logo-bg-blue);
+  color: var(--brand-color) !important;
 }
 .dotted-line {
   width: 3rem;
@@ -135,6 +120,14 @@
 .sec2-prod-right img {
   width: 100%;
   max-height: 50vh;
+}
+.call-num > a {
+  text-decoration: none;
+  color: var(--text-color-1);
+  transition: all 0.3s ease-in-out;
+}
+.call-num > a:hover {
+  color: var(--brand-color);
 }
 .sec2-prod-left li {
   list-style: none;

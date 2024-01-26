@@ -13,16 +13,19 @@ export default function DropdownSupport({ dropdownSpt }) {
     >
       <div className="dropdownProd">
         <div className="dropdown-list">
-          <Link to="/">Agriculture Spraying</Link>
+          <Link to="/agriculture-spraying">Agriculture Spraying</Link>
         </div>
         <div className="dropdown-list">
-          <Link to="/">Land Mapping</Link>
+          <Link to="/land-mapping">Land Mapping</Link>
         </div>
         <div className="dropdown-list">
-          <Link to="/">Disaster Management</Link>
+          <Link to="/land-surveillance">Land Surveillance</Link>
         </div>
         <div className="dropdown-list">
-          <Link to="/">Pilot Training</Link>
+          <Link to="/disaster-management">Disaster Management</Link>
+        </div>
+        <div className="dropdown-list">
+          <Link to="/pilot-training">Pilot Training</Link>
         </div>
       </div>
     </CSSTransition>

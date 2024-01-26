@@ -16,7 +16,9 @@ export default function Header({ sidebar, showSidebar }) {
     <>
       <div className="header">
         <div className="icon">
-          <Link to="/"><img src={logo} alt="logo" /></Link>
+          <Link to="/">
+            <img src={logo} alt="logo" />
+          </Link>
         </div>
 
         <div className="nav-lists">
@@ -53,7 +55,7 @@ export default function Header({ sidebar, showSidebar }) {
               setDropdown(false);
             }}
           >
-            <Link className="side-listContainer" to="/">
+            <Link className="side-listContainer">
               PRODUCTS{" "}
               <span className="material-symbols-outlined arrow-down">
                 arrow_drop_down

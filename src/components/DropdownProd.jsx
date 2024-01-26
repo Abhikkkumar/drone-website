@@ -13,16 +13,22 @@ export default function DropdownProd({ dropdown }) {
     >
       <div className="dropdownProd">
         <div className="dropdown-list">
-          <Link to="/">Thea Agriculture Drone 16 Litres</Link>
+          <Link to="/thea-agriculture-drone-16-litres">
+            Thea Agriculture Drone 16 Litres
+          </Link>
         </div>
         <div className="dropdown-list">
-          <Link to="/">Thea Agriculture Drone 10 Litres</Link>
+          <Link to="/thea-agriculture-drone-10-litres">
+            Thea Agriculture Drone 10 Litres
+          </Link>
         </div>
         <div className="dropdown-list">
-          <Link to="/">Naina Disaster Management Drone</Link>
+          <Link to="/naina-disaster-management-drone">
+            Naina Disaster Management Drone
+          </Link>
         </div>
         <div className="dropdown-list">
-          <Link to="/">Surveillance Drone</Link>
+          <Link to="/surveillance-drone">Surveillance Drone</Link>
         </div>
       </div>
     </CSSTransition>
