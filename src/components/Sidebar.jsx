@@ -85,7 +85,7 @@ export default function Sidebar({ sidebar, showSidebar }) {
               <div>
                 <Link
                   className="side-list sl-list"
-                  to="/"
+                  to="/agriculture-spraying"
                   onClick={() => {
                     showSidebar(!sidebar);
                   }}
@@ -94,7 +94,7 @@ export default function Sidebar({ sidebar, showSidebar }) {
                 </Link>
                 <Link
                   className="side-list sl-list"
-                  to="/"
+                  to="/land-mapping"
                   onClick={() => {
                     showSidebar(!sidebar);
                   }}
@@ -103,7 +103,7 @@ export default function Sidebar({ sidebar, showSidebar }) {
                 </Link>
                 <Link
                   className="side-list sl-list"
-                  to="/"
+                  to="/land-surveillance"
                   onClick={() => {
                     showSidebar(!sidebar);
                   }}
@@ -112,7 +112,7 @@ export default function Sidebar({ sidebar, showSidebar }) {
                 </Link>
                 <Link
                   className="side-list sl-list"
-                  to="/"
+                  to="/disaster-management"
                   onClick={() => {
                     showSidebar(!sidebar);
                   }}
@@ -121,7 +121,7 @@ export default function Sidebar({ sidebar, showSidebar }) {
                 </Link>
                 <Link
                   className="side-list sl-list"
-                  to="/"
+                  to="/pilot-training"
                   onClick={() => {
                     showSidebar(!sidebar);
                   }}
@@ -173,7 +173,7 @@ export default function Sidebar({ sidebar, showSidebar }) {
               <div>
                 <Link
                   className="side-list sl-list"
-                  to="/"
+                  to="/thea-agriculture-drone-16-litres"
                   onClick={() => {
                     showSidebar(!sidebar);
                   }}
@@ -182,7 +182,7 @@ export default function Sidebar({ sidebar, showSidebar }) {
                 </Link>
                 <Link
                   className="side-list sl-list"
-                  to="/"
+                  to="/thea-agriculture-drone-10-litres"
                   onClick={() => {
                     showSidebar(!sidebar);
                   }}
@@ -191,7 +191,7 @@ export default function Sidebar({ sidebar, showSidebar }) {
                 </Link>
                 <Link
                   className="side-list sl-list"
-                  to="/"
+                  to="/naina-disaster-management-drone"
                   onClick={() => {
                     showSidebar(!sidebar);
                   }}
@@ -200,7 +200,7 @@ export default function Sidebar({ sidebar, showSidebar }) {
                 </Link>
                 <Link
                   className="side-list sl-list"
-                  to="/"
+                  to="/surveillance-drone"
                   onClick={() => {
                     showSidebar(!sidebar);
                   }}
@@ -217,26 +217,7 @@ export default function Sidebar({ sidebar, showSidebar }) {
                 showSidebar(!sidebar);
               }}
             >
-              NETWORKS
-            </Link>
-            <Link
-              className="side-list"
-              to="/"
-              onClick={() => {
-                showSidebar(!sidebar);
-              }}
-            >
-              NEWS & EVENTS
-            </Link>
-
-            <Link
-              className="side-list"
-              to="/"
-              onClick={() => {
-                showSidebar(!sidebar);
-              }}
-            >
-              CAREER
+              Gallery
             </Link>
             <Link
               className="side-list"
