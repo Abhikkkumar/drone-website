@@ -212,7 +212,7 @@ export default function Sidebar({ sidebar, showSidebar }) {
 
             <Link
               className="side-list"
-              to="/"
+              to="/gallery"
               onClick={() => {
                 showSidebar(!sidebar);
               }}

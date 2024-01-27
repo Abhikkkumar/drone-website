@@ -66,7 +66,7 @@ export default function Header({ sidebar, showSidebar }) {
           </div>
 
           <div className="nav-list">
-            <Link to="/">GALLERY</Link>
+            <Link to="/gallery">GALLERY</Link>
           </div>
 
           <Link to="/contact">

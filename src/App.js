@@ -9,6 +9,7 @@ import ServiceTemplate from "./components/Template/ServiceTemplate";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
 import About from "./components/About";
+import Gallery from "./components/Gallery";
 
 import {
   agricultureSprayingProp,
@@ -70,6 +71,10 @@ function App() {
           <Route
             path="/surveillance-drone"
             element={<ServiceTemplate props={Surveillance} />}
+          ></Route>
+          <Route
+            path="/gallery"
+            element={<Gallery  />}
           ></Route>
         </Routes>
 

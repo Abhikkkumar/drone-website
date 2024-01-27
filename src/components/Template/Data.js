@@ -243,3 +243,40 @@ export const Surveillance = {
   img3: "https://images.unsplash.com/photo-1533487924410-8792b4f3a661?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   isService: false,
 };
+
+export const galleryImages = [
+  {
+    img: 'https://png.pngtree.com/background/20230611/original/pngtree-black-drone-picture-image_3170938.jpg'
+  },
+  {
+    img: "https://image.slidesdocs.com/responsive-images/background/blue-print-drawing-of-a-drone-with-propellers-powerpoint-background_d6bfac0ba5__960_540.jpg"
+  },
+  {
+    img: "https://wallpaperbat.com/img/774825-drones-wallpaper.jpg"
+  },
+  {
+    img: "https://image.slidesdocs.com/responsive-images/background/technology-poster-drone-powerpoint-background_08ea1fb138__960_540.jpg"
+  },
+  {
+    img: "https://png.pngtree.com/thumb_back/fh260/background/20230712/pngtree-3d-rendering-of-delivery-drone-carrying-transport-package-image_3853382.jpg"
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnqIk-tZy8siFw2e_bKuZl_SfsyAU2OLXqyg&usqp=CAU"
+  },
+
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnqIk-tZy8siFw2e_bKuZl_SfsyAU2OLXqyg&usqp=CAU"
+  },
+
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnqIk-tZy8siFw2e_bKuZl_SfsyAU2OLXqyg&usqp=CAU"
+  },
+
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnqIk-tZy8siFw2e_bKuZl_SfsyAU2OLXqyg&usqp=CAU"
+  }
+
+  
+
+  
+]
