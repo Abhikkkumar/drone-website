@@ -12,7 +12,8 @@ export default function Footer1() {
         </div>
         <div className="f1-details">
           <p>
-          Vama Skylight is a leading manufacturer of drones, providing innovative solutions to the drone industry. 
+            Vama Skylight is a leading manufacturer of drones, providing
+            innovative solutions to the drone industry.
           </p>
           <p>
             <strong>Opening Hours</strong> : Monday – Sat: 9am to 6pm
@@ -68,7 +69,7 @@ export default function Footer1() {
             <i class="fa-solid fa-angle-right"></i> SUPPORT & SERVICES
           </Link>
           <Link to="/">
-            <i class="fa-solid fa-angle-right"></i>  PRODUCTS
+            <i class="fa-solid fa-angle-right"></i> PRODUCTS
           </Link>
           <Link to="/">
             <i class="fa-solid fa-angle-right"></i> GALLERY
@@ -82,18 +83,17 @@ export default function Footer1() {
         <h2>CONTACT INFO</h2>
         <div className="f2-details">
           <p>
-            <i class="fi fi-rr-map-marker-home"></i>Daman Industrial Estate, Daman - 396210
+            <i class="fi fi-rr-map-marker-home"></i>Daman Industrial Estate,
+            Daman - 396210
           </p>
           <div>
             <p>
-              {/* <a href="tel:(+880)15569569365">+91-9876543210</a> */}
               <a href="tel:+91-8320844583">+91-8320844583</a>
             </p>
           </div>
           <div>
             <p>
               <a href="info@vamadronestores.com">info@vamadronestores.com</a>
-              {/* <a href="mailto:infoname@gmail.com">infoname@gmail.com</a> */}
             </p>
           </div>
         </div>
@@ -102,9 +102,7 @@ export default function Footer1() {
       <div className="sub-footer f-4">
         <h2>NEWSLETTER</h2>
         <div className="f4-details">
-          <p>
-          Subscribe us for upcoming updates on time
-          </p>
+          <p>Subscribe us for upcoming updates on time</p>
           <input
             type="email"
             name="EMAIL"
