@@ -82,8 +82,7 @@ export default function Footer1() {
         <h2>CONTACT INFO</h2>
         <div className="f2-details">
           <p>
-            <i class="fi fi-rr-map-marker-home"></i>Ta-134/A, Gulshan Badda Link
-            Rd, Dhaka
+            <i class="fi fi-rr-map-marker-home"></i>Daman Industrial Estate, Daman - 396210
           </p>
           <div>
             <p>
@@ -104,7 +103,7 @@ export default function Footer1() {
         <h2>NEWSLETTER</h2>
         <div className="f4-details">
           <p>
-            Tetur adipiscing elit, sed do eiusmod tempor in cididunt ut labore.
+          Subscribe us for upcoming updates on time
           </p>
           <input
             type="email"
