@@ -14,21 +14,42 @@ import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 import "../style/testimonial.css";
 
-import abhay from "../img/testimonial/AbhayPic-1.jpg";
-import abhi from "../img/testimonial/abhi-img.jpeg";
-
 export default function About() {
   const breadProp = {
     title: "About Us",
     text: "Join us in building a resilient future with the help of cutting-edge drone technology",
     arr: ["Home", "About Us"],
   };
-  const testimonialProp = {
-    photo:
-      "https://images.unsplash.com/photo-1506863530036-1efeddceb993?q=80&w=1944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    name: "Name Here",
-    designation: "Designation Here",
-    para: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, eligendi non voluptatibus hic animi officiis sapiente distinctio magnam possimus nisi dolorum iure.",
+
+  const NiteshMundra = {
+    photo: "https://www.dronekrishi.com/assets/images/profile/nitesh_p.png",
+    name: "Nitesh Mundhra",
+    designation: "Director and Drone Pilot",
+    para: "Nitesh Mundhra's educational background in BBA with a specialization in analytics provides a strong foundation in business administration and data analysis. ",
+  };
+  const nikunjBajoria = {
+    photo: "https://www.dronekrishi.com/assets/images/profile/nikunj_p.png",
+    name: "Nikunj Bajoria",
+    designation: "Director & co-founder",
+    para: "Nikunj Bajoria is a dynamic individual who, at the age of 30, has gained extensive experience in the business world, ranging from trading to manufacturing.",
+  };
+  const ankurSomani = {
+    photo: "https://www.dronekrishi.com/assets/images/profile/Ankur_p.png",
+    name: "Ankur Somani",
+    designation: "Director and Drone pilot Instructor",
+    para: "Ankur Somani is a highly skilled professional with a diverse range of qualifications and experience. Holding a bachelor's degree in commerce (Bcom) and a master's degree in business administration (MBA).",
+  };
+  const dhruvPanchal = {
+    photo: "https://www.dronekrishi.com/assets/images/profile/dhruv_p.png",
+    name: "Dhruv Panchal",
+    designation: "System Engineer",
+    para: "As a mechanical engineer with a growing passion for the aerospace industry and UAV design, I am excited to bring my skills and expertise to the field of system engineering.",
+  };
+  const sujitPalande = {
+    photo: "https://www.dronekrishi.com/assets/images/profile/sujit_p.png",
+    name: "Sujit Palande",
+    designation: "Legal operations & Drone Pilot",
+    para: "Sujit Palande, a highly experienced legal and compliance professional, brings a wealth of expertise to our company. With a degree in LLB, Sujit has a strong educational foundation in law and business.",
   };
   return (
     <div className="about">
@@ -72,37 +93,28 @@ export default function About() {
             >
               <SwiperSlide>
                 <div className="image">
-                  <TestimonialCard details={testimonialProp} />
+                  <TestimonialCard details={NiteshMundra} />
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
                 <div className="image">
-                  <TestimonialCard details={testimonialProp} />
+                  <TestimonialCard details={nikunjBajoria} />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="image">
-                  <TestimonialCard
-                    details={{
-                      photo: abhay,
-                      name: "Abhay Gupta",
-                      designation: "Sr. Developer",
-                      para: "I love the tech world sooo much...Drones are one of the most exciting thing I have come across in my life and this company provides excellent quality drones.",
-                    }}
-                  />
+                  <TestimonialCard details={ankurSomani} />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="image">
-                  <TestimonialCard
-                    details={{
-                      photo: abhi,
-                      name: "Abhishek",
-                      designation: "Sr. Developer",
-                      para: "I love the tech world sooo much...Drones are one of the most exciting thing I have come across in my life and this company provides excellent quality drones.",
-                    }}
-                  />
+                  <TestimonialCard details={dhruvPanchal} />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="image">
+                  <TestimonialCard details={sujitPalande} />
                 </div>
               </SwiperSlide>
             </Swiper>

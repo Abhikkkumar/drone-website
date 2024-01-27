@@ -4,11 +4,11 @@
   min-height: 70vh;
 }
 .s2-top {
-  background-image: url("https://images.unsplash.com/photo-1698414392317-2697b2e276e4?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg/1280px-MQ-9_Reaper_UAV_%28cropped%29.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 45vh;
+  min-height: 57vh;
   display: flex;
   align-items: stretch;
 }
