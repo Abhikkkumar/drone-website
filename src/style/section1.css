@@ -45,6 +45,10 @@
   display: flex;
   padding-top: 30px;
 }
+.section-left-side > p {
+  text-align: justify;
+  text-justify: inter-word;
+}
 .section-left-middle img {
   width: 25%;
   border-radius: 3px;
@@ -64,7 +68,6 @@
 
 .know-more:hover {
   color: var(--text-color-1) !important;
- 
 }
 @media (max-width: 678px) {
   .section1 {
@@ -78,8 +81,8 @@
   .sectionImg {
     margin: 5% auto;
   }
-  .section-left-middle h5{
-    font-size: .7rem;
+  .section-left-middle h5 {
+    font-size: 0.7rem;
     font-weight: 400;
   }
 }
