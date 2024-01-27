@@ -57,9 +57,9 @@ export default function Contact() {
           <div className="card">
             <img src={add} alt="" />
             <div className="card1">
-              <h5>USA Office</h5>
-              <p>55 Gerad Lane</p>
-              <p>NY 11201, USA</p>
+              <h5>Address</h5>
+              <p>Daman Industrial Estate</p>
+              <p>Daman - 396210</p>
             </div>
           </div>
 
