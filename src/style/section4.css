@@ -1,5 +1,4 @@
 .section4 {
-  --brand-color: #e97f23;
   background-image: url("https://images.pexels.com/photos/442589/pexels-photo-442589.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,13 +31,14 @@
 
 .section_inner button {
   background-color: var(--brand-color);
-  border: none;
+  border: 1px solid var(--brand-color);
   cursor: pointer;
   padding: 1rem;
 }
 
 .section_inner button:hover {
-  color: white;
+  color: var(--brand-color);
+  background-color: var(--text-color-1);
 }
 
 .sec4_right {

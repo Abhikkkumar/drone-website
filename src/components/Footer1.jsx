@@ -20,33 +20,27 @@ export default function Footer1() {
           </p>
           <ul class="footer-social">
             <li>
-              <a href="#" target="_blank">
+              <a
+                href="https://www.facebook.com/people/Vama-Skylight/100095474376379/"
+                target="_blank"
+              >
                 <span>
                   {" "}
                   <i class="fab fa-facebook-f"></i>{" "}
                 </span>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="# " target="_blank">
                 <span>
                   {" "}
                   <i class="fab fa-twitter"></i>{" "}
                 </span>
               </a>
-            </li>
+            </li> */}
 
             <li>
-              <a href="# " target="_blank">
-                <span>
-                  {" "}
-                  <i class="fab fa-pinterest-p"></i>{" "}
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a href="# " target="_blank">
+              <a href="https://www.instagram.com/vamaskylight" target="_blank">
                 <span>
                   {" "}
                   <i class="fab fa-instagram"></i>{" "}
@@ -62,10 +56,10 @@ export default function Footer1() {
           <Link to="/" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> HOME
           </Link>
-          <Link to="/about" className="f-hover">
+          <Link to="/about-us" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> ABOUT US
           </Link>
-          <Link to="/support" className="f-hover">
+          <Link to="/" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> SUPPORT & SERVICES
           </Link>
           <Link to="/" className="f-hover">

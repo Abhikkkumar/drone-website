@@ -24,7 +24,7 @@ import {
 } from "./components/Template/Data";
 const ScrollToTop = () => {
   const { pathname } = useLocation();
-
+  console.log(pathname);
   useEffect(() => {
     // Scroll to the top of the page whenever the pathname changes
     window.scrollTo(0, 0);
@@ -46,6 +46,8 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/about-us" element={<About />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/service" element={<Home />}></Route>
+          <Route path="/product" element={<Home />}></Route>
           <Route
             path="/agriculture-spraying"
             element={<ServiceTemplate props={agricultureSprayingProp} />}

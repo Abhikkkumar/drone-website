@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../style/dropdownProd.css";
 import { CSSTransition } from "react-transition-group";
 
-export default function DropdownSupport({ dropdownSpt }) {
+export default function DropdownSupport({ dropdownSpt, setThree, setFour }) {
   return (
     <CSSTransition
       in={dropdownSpt ? true : false}
@@ -13,19 +13,59 @@ export default function DropdownSupport({ dropdownSpt }) {
     >
       <div className="dropdownProd">
         <div className="dropdown-list">
-          <Link to="/agriculture-spraying">Agriculture Spraying</Link>
+          <Link
+            to="/agriculture-spraying"
+            onClick={() => {
+              setFour(false);
+              setThree(true);
+            }}
+          >
+            Agriculture Spraying
+          </Link>
         </div>
         <div className="dropdown-list">
-          <Link to="/land-mapping">Land Mapping</Link>
+          <Link
+            to="/land-mapping"
+            onClick={() => {
+              setFour(false);
+              setThree(true);
+            }}
+          >
+            Land Mapping
+          </Link>
         </div>
         <div className="dropdown-list">
-          <Link to="/land-surveillance">Land Surveillance</Link>
+          <Link
+            to="/land-surveillance"
+            onClick={() => {
+              setFour(false);
+              setThree(true);
+            }}
+          >
+            Land Surveillance
+          </Link>
         </div>
         <div className="dropdown-list">
-          <Link to="/disaster-management">Disaster Management</Link>
+          <Link
+            to="/disaster-management"
+            onClick={() => {
+              setFour(false);
+              setThree(true);
+            }}
+          >
+            Disaster Management
+          </Link>
         </div>
         <div className="dropdown-list">
-          <Link to="/pilot-training">Pilot Training</Link>
+          <Link
+            to="/pilot-training"
+            onClick={() => {
+              setFour(false);
+              setThree(true);
+            }}
+          >
+            Pilot Training
+          </Link>
         </div>
       </div>
     </CSSTransition>
