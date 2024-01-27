@@ -17,6 +17,10 @@
 .Contact-Right-Side {
   width: 45%;
 }
+a{
+  text-decoration: none;
+  color:#000;
+}
 .contact-who {
   display: flex;
   align-items: center;
@@ -51,7 +55,7 @@
 }
 
 .contact1 .form button {
-  background-color: #feba12;
+  background-color: var(--brand-color);
   border: none;
   padding: 15px 20px 15px 20px;
   margin-top: 1.25rem;
@@ -59,8 +63,9 @@
 }
 
 .contact1 .form button:hover {
-  color: white;
-  background-color: #4560af;
+  color: var(--brand-color);
+  background-color: #fff;
+  border:1px solid var(--brand-color);
 }
 
 .Contact-Right-Side {

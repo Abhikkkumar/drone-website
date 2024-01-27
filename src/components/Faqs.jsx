@@ -36,18 +36,11 @@ export default function Faqs() {
               showAns0();
             }}
           >
-            Q: How do you do online bus reservation on Web?
+            Q: What does your company specialize in?
           </h3>
           {ans0 && (
             <p>
-              Although a definitive answer would of course require further
-              measurements, published species-wide averages of wing length and
-              body mass, initial Strouhal estimates based on those averages and
-              cross-species comparisons, the Lund wind tunnel study of birds
-              flying at a range of speeds, and revised Strouhal numbers based on
-              that study all lead me to estimate that the average cruising
-              airspeed velocity of an unladen European Swallow is roughly 11
-              meters per second, or 24 miles an hour.
+              We specialize in the development and deployment of drones tailored for architecture, disaster management, and land surveillance purposes.
             </p>
           )}
         </div>
@@ -58,18 +51,11 @@ export default function Faqs() {
               showAns1();
             }}
           >
-            Q: How do you do online bus reservation on Web?
+            Q: What sets your drones apart from others in the market?
           </h3>
           {ans1 && (
             <p>
-              Although a definitive answer would of course require further
-              measurements, published species-wide averages of wing length and
-              body mass, initial Strouhal estimates based on those averages and
-              cross-species comparisons, the Lund wind tunnel study of birds
-              flying at a range of speeds, and revised Strouhal numbers based on
-              that study all lead me to estimate that the average cruising
-              airspeed velocity of an unladen European Swallow is roughly 11
-              meters per second, or 24 miles an hour.
+              Our drones are designed with cutting-edge technology, providing unique features and capabilities specific to architecture, disaster management, and land surveillance applications.
             </p>
           )}
         </div>
@@ -80,18 +66,11 @@ export default function Faqs() {
               showAns2();
             }}
           >
-            Q: How do you do online bus reservation on Web?
+            Q: How do your land surveillance drones contribute to security and monitoring?
           </h3>
           {ans2 && (
             <p>
-              Although a definitive answer would of course require further
-              measurements, published species-wide averages of wing length and
-              body mass, initial Strouhal estimates based on those averages and
-              cross-species comparisons, the Lund wind tunnel study of birds
-              flying at a range of speeds, and revised Strouhal numbers based on
-              that study all lead me to estimate that the average cruising
-              airspeed velocity of an unladen European Swallow is roughly 11
-              meters per second, or 24 miles an hour.
+              Our land surveillance drones offer real-time monitoring, perimeter surveillance, and data collection for security purposes, making them valuable tools for land surveillance.
             </p>
           )}
         </div>

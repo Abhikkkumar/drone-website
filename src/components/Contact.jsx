@@ -67,8 +67,8 @@ export default function Contact() {
             <img src={mail} alt="" />
             <div className="card1">
               <h5>Email Us</h5>
-              <p>test@gmail.com</p>
-              <p>test2@gmail.com</p>
+              <p><a href="info@vamadronestores.com">info@vamadronestores.com</a></p>
+              {/* <p>test2@gmail.com</p> */}
             </div>
           </div>
 
@@ -76,8 +76,8 @@ export default function Contact() {
             <img src={call} alt="" />
             <div className="card1">
               <h5>Call Us</h5>
-              <p>(+0888) 589-8745</p>
-              <p>(+0888) 222-9999</p>
+              <p><a href="tel:+91-8320844583">+91-8320844583</a></p>
+              {/* <p>(+0888) 222-9999</p> */}
             </div>
           </div>
         </div>
