@@ -37,7 +37,7 @@ export default function Sidebar({ sidebar, showSidebar }) {
             </Link>
             <Link
               className="side-list"
-              to="/about"
+              to="/about-us"
               onClick={() => {
                 showSidebar(!sidebar);
               }}
