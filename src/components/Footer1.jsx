@@ -59,22 +59,22 @@ export default function Footer1() {
       <div className="sub-footer f-3">
         <h2>OUR SERVICES</h2>
         <div className="f3-details">
-          <Link to="/">
+          <Link to="/" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> HOME
           </Link>
-          <Link to="/about">
+          <Link to="/about" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> ABOUT US
           </Link>
-          <Link to="/support">
+          <Link to="/support" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> SUPPORT & SERVICES
           </Link>
-          <Link to="/">
+          <Link to="/" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> PRODUCTS
           </Link>
-          <Link to="/">
+          <Link to="/gallery" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> GALLERY
           </Link>
-          <Link to="/contact">
+          <Link to="/contact" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> CONTACT US
           </Link>
         </div>
@@ -86,12 +86,12 @@ export default function Footer1() {
             <i class="fi fi-rr-map-marker-home"></i>Daman Industrial Estate,
             Daman - 396210
           </p>
-          <div>
+          <div className="f-hover">
             <p>
               <a href="tel:+91-8320844583">+91-8320844583</a>
             </p>
           </div>
-          <div>
+          <div className="f-hover">
             <p>
               <a href="info@vamadronestores.com">info@vamadronestores.com</a>
             </p>
@@ -108,7 +108,7 @@ export default function Footer1() {
             name="EMAIL"
             placeholder="Your email address"
           ></input>
-          <button>SUBSCRIBE NOW</button>
+          <button className="f-hover bg-hover-btn">SUBSCRIBE NOW</button>
         </div>
       </div>
     </div>

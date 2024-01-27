@@ -1,7 +1,7 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import Header from "./components/Header";
 import Footer1 from "./components/Footer1";
@@ -22,6 +22,16 @@ import {
   Naina,
   Surveillance,
 } from "./components/Template/Data";
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    // Scroll to the top of the page whenever the pathname changes
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
 
 function App() {
   const [sidebar, showSidebar] = useState(false);
@@ -31,7 +41,7 @@ function App() {
       <div className="App">
         <Header sidebar={sidebar} showSidebar={showSidebar} />
         <Sidebar sidebar={sidebar} showSidebar={showSidebar} />
-
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/about-us" element={<About />}></Route>
@@ -72,10 +82,7 @@ function App() {
             path="/surveillance-drone"
             element={<ServiceTemplate props={Surveillance} />}
           ></Route>
-          <Route
-            path="/gallery"
-            element={<Gallery  />}
-          ></Route>
+          <Route path="/gallery" element={<Gallery />}></Route>
         </Routes>
 
         <Footer1 />
