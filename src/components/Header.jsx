@@ -26,7 +26,7 @@ export default function Header({ sidebar, showSidebar }) {
             <Link to="/">HOME</Link>
           </div>
           <div className="nav-list">
-            <Link to="/about">ABOUT US</Link>
+            <Link to="/about-us">ABOUT US</Link>
           </div>
           <div
             className={dropdownSpt ? "nav-list colorBlue" : "nav-list"}

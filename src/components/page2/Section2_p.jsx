@@ -1,19 +1,15 @@
 import React from "react";
 import "../../style/page2/section2_p.css";
 
-
 export default function Section2_p() {
   return (
     <div className="section2-prod">
       <div className="sec2-prod-left-about">
         <h1>We Ensure Best Service</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore fuga
-          optio, quia hic qui delectus repellat repudiandae unde deleniti
-          tenetur exercitationem, accusantium iure laborum ducimus quam
-          perferendis a provident in! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Tenetur aspernatur nobis repellendus porro accusamus
-          perferendis sequi, veniam saepe?
+          VAMA Skylight Solutions integrates the latest in drone technology to
+          offer unmatched solutions releated to agriculture, land mapping and
+          surveillance, disaster management and pilot training.
         </p>
         <ul>
           <li>
@@ -50,7 +46,9 @@ export default function Section2_p() {
             </p>
           </div>
           <div className="dotted-line"></div>
-          <p>(123) 222-8888</p>
+          <p className="call-num">
+            <a href="tel:+91-8320844583">+91-8320844583</a>
+          </p>
         </div>
       </div>
     </div>

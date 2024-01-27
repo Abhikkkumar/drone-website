@@ -1,8 +1,13 @@
 import React from "react";
 import "../style/section5.css";
-import img from "../img/section5/AbhayPic-1.jpg";
+import img16L from "../img/services-logo-sml/16L.png";
+import img10L from "../img/services-logo-sml/10L.png";
+import Disaster from "../img/services-logo-sml/Disaster.png";
+import surveillance from "../img/services-logo-sml/surveillance.png";
+import { useNavigate } from "react-router-dom";
 
 export default function Section5() {
+  const navigate = useNavigate();
   return (
     <div className="section5-container">
       <div className="s5-top">
@@ -16,7 +21,7 @@ export default function Section5() {
         <div className="Section5-card">
           <div className="Sec1-inner">
             <div className="Sec5-img">
-              <img src={img} alt="" />
+              <img src={img16L} alt="" />
             </div>
             <h4>Thea Agriculture Drone 16 Litres</h4>
             <p>
@@ -25,7 +30,9 @@ export default function Section5() {
               time. It has advanced radars for{" "}
               <strong>collision avoidance</strong>.
             </p>
-            <div className="dual-line">
+            <div className="dual-line" onClick={()=>{
+              navigate("/thea-agriculture-drone-16-litres")
+            }}>
               <div className="line1 "></div>
               <p>Read More</p>
               <div className="line1 "></div>
@@ -36,7 +43,7 @@ export default function Section5() {
         <div className="Section5-card">
           <div className="Sec1-inner">
             <div className="Sec5-img">
-              <img src={img} alt="" />
+              <img src={img10L} alt="" />
             </div>
             <h4>Thea Agricultural Drone 10 Litres</h4>
             <p>
@@ -44,7 +51,9 @@ export default function Section5() {
               25 minutes. It has 2.5 acre spraying capacity in single charge.
               Comes with collision avoidance facility.
             </p>
-            <div className="dual-line">
+            <div className="dual-line" onClick={()=>{
+              navigate("/thea-agriculture-drone-10-litres")
+            }}>
               <div className="line1 "></div>
               <p>Read More</p>
               <div className="line1 "></div>
@@ -55,7 +64,7 @@ export default function Section5() {
         <div className="Section5-card">
           <div className="Sec1-inner">
             <div className="Sec5-img">
-              <img src={img} alt="" />
+              <img src={Disaster} alt="" />
             </div>
             <h4>Disaster Management Drone</h4>
             <p>
@@ -63,7 +72,9 @@ export default function Section5() {
               Target Locking and Tracking Mechanism with Four Deploying Drop
               Mechanism.
             </p>
-            <div className="dual-line">
+            <div className="dual-line" onClick={()=>{
+              navigate("/naina-disaster-management-drone")
+            }}>
               <div className="line1 "></div>
               <p>Read More</p>
               <div className="line1 "></div>
@@ -74,7 +85,7 @@ export default function Section5() {
         <div className="Section5-card">
           <div className="Sec1-inner">
             <div className="Sec5-img">
-              <img src={img} alt="" />
+              <img src={surveillance} alt="" />
             </div>
             <h4>Surveillance Drone</h4>
             <p>
@@ -82,7 +93,9 @@ export default function Section5() {
               and other technologies to gather information and monitor specific
               areas.
             </p>
-            <div className="dual-line">
+            <div className="dual-line" onClick={()=>{
+              navigate("/surveillance-drone")
+            }}>
               <div className="line1 "></div>
               <p>Read More</p>
               <div className="line1 "></div>

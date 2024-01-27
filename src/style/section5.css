@@ -1,3 +1,8 @@
+
+.section5-container{
+  box-shadow: 3px 3px 10px #aaa;
+  padding-top: 1rem;
+}
 .section5 {
   display: flex;
   justify-content: space-around;
@@ -12,15 +17,14 @@
   display: flex;
   align-items: stretch;
 }
-.Sec1-inner {
-  
-}
+
 .s5-top {
   max-width: 500px;
   margin: auto;
   margin-bottom: 1.5rem;
   text-align: center;
   padding: 0 2%;
+  
 }
 
 .Sec1-inner > p {
