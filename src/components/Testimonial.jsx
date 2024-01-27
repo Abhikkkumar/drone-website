@@ -7,16 +7,32 @@ import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 import "../style/testimonial.css";
 
-import abhay from "../img/testimonial/AbhayPic-1.jpg";
-import abhi from "../img/testimonial/abhi-img.jpeg";
-
 export default function Testimonial() {
-  const testimonialProp = {
-    photo:
-      "https://images.unsplash.com/photo-1506863530036-1efeddceb993?q=80&w=1944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    name: "Name Here",
-    designation: "Designation Here",
-    para: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, eligendi non voluptatibus hic animi officiis sapiente distinctio magnam possimus nisi dolorum iure.",
+  const photo = "https://iili.io/JcaR6Ip.jpg";
+
+  const c1 = {
+    photo,
+    name: "Mr. Manpreet Singh",
+    designation: "Customer",
+    para: "I am very happy with the drone and the support staff from Vama Skylight. The build quality is exceptional, and the durability of their drones is unmatched. ",
+  };
+  const c2 = {
+    photo,
+    name: "Mr. Pradeep Rajesh",
+    designation: "Customer",
+    para: "I am very happy with the surveillance drone performance and the support staff from Vama Skylight.",
+  };
+  const c3 = {
+    photo,
+    name: "Mrs. Sikha ",
+    designation: "Customer",
+    para: "I recently purchased a drone from Vama Skylight, and I am absolutely thrilled with the quality and performance",
+  };
+  const c4 = {
+    photo,
+    name: "Mr Amit ",
+    designation: "Customer",
+    para: "Vama Skylight has exceeded my expectations, and I'm a proud customer who will continue to choose their products for my aerial endeavors.",
   };
   return (
     <div className="test-container">
@@ -53,46 +69,22 @@ export default function Testimonial() {
         >
           <SwiperSlide>
             <div className="image">
-              <TestimonialCard details={testimonialProp} />
+              <TestimonialCard details={c1} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="image">
-              <TestimonialCard details={testimonialProp} />
+              <TestimonialCard details={c2} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="image">
-              <TestimonialCard details={testimonialProp} />
+              <TestimonialCard details={c3} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="image">
-              <TestimonialCard details={testimonialProp} />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="image">
-              <TestimonialCard
-                details={{
-                  photo: abhay,
-                  name: "Abhay Gupta",
-                  designation: "Sr. Developer",
-                  para: "I love the tech world sooo much...Drones are one of the most exciting thing I have come across in my life and this company provides excellent quality drones.",
-                }}
-              />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="image">
-              <TestimonialCard
-                details={{
-                  photo: abhi,
-                  name: "Abhishek",
-                  designation: "Sr. Developer",
-                  para: "I love the tech world sooo much...Drones are one of the most exciting thing I have come across in my life and this company provides excellent quality drones.",
-                }}
-              />
+              <TestimonialCard details={c4} />
             </div>
           </SwiperSlide>
         </Swiper>

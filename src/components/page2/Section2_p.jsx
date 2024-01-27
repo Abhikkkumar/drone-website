@@ -7,30 +7,29 @@ export default function Section2_p() {
       <div className="sec2-prod-left-about">
         <h1>We Ensure Best Service</h1>
         <p>
-          VAMA Skylight Solutions integrates the latest in drone technology to
-          offer unmatched solutions releated to agriculture, land mapping and
-          surveillance, disaster management and pilot training.
+          Vama Skylight LLP is a technology-driven organization focused on
+          utilizing the opportunity that the limitless sky offers by creating
+          reliable solutions to the challenges of the present and future.
         </p>
         <ul>
           <li>
-            <i class="fa-solid fa-check"></i>Lorem ipsum dolor sit amet
-            consectetur adipisicing elit.
+            <i class="fa-solid fa-check"></i>Our primary products include UAVs
+            for agriculture, photography, mapping, and Remote Pilot Training
+            Organization (RPTO).
           </li>
           <li>
-            <i class="fa-solid fa-check"></i>Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Lorem, ipsum dolor.
+            <i class="fa-solid fa-check"></i>Our agricultural drones are
+            equipped with sensors and cameras that can be used to monitor crop
+            health, optimize fertilizer and water use, and improve yields.
           </li>
           <li>
-            <i class="fa-solid fa-check"></i>Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Lorem ipsum dolor sit.
+            <i class="fa-solid fa-check"></i>Our photography drones are designed
+            for professional aerial photography and videography.
           </li>
           <li>
-            <i class="fa-solid fa-check"></i>Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Lorem, ipsum.
-          </li>
-          <li>
-            <i class="fa-solid fa-check"></i>Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Lorem.
+            <i class="fa-solid fa-check"></i>We also provide training,
+            maintenance, and consulting services to help our clients get the
+            most out of their investment.
           </li>
         </ul>
       </div>
