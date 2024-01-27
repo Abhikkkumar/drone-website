@@ -1,6 +1,6 @@
 .section4 {
   --brand-color: #e97f23;
-  background-image: url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.pexels.com/photos/442589/pexels-photo-442589.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -39,7 +39,6 @@
 
 .section_inner button:hover {
   color: white;
-  
 }
 
 .sec4_right {
