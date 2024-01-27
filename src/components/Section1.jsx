@@ -2,9 +2,10 @@ import React from "react";
 import "../style/section1.css";
 import secImg1 from "../img/section1/vama-ab.png";
 import secImg2 from "../img/section1/about3.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Section1() {
+  const navigate = useNavigate();
   return (
     <div className="section1">
       <div className="sectionImg">
@@ -53,9 +54,10 @@ export default function Section1() {
             </h5>
           </div>
         </div>
-        <Link to="/about">
+        <Link to="/contact">
           {" "}
-          <button className="know-more">KNOW MORE</button>
+          <button className="know-more" 
+          >KNOW MORE</button>
         </Link>
       </div>
     </div>
