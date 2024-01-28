@@ -10,6 +10,7 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import Gallery from "./components/Gallery";
+import Footer2 from "./components/Footer2";
 
 import {
   agricultureSprayingProp,
@@ -88,6 +89,8 @@ function App() {
         </Routes>
 
         <Footer1 />
+        <Footer2 />
+
       </div>
     </BrowserRouter>
   );
