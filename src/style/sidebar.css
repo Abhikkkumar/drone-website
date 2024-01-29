@@ -47,7 +47,7 @@
 .sidebar-social {
   display: flex;
   align-items: center;
-  padding: 1rem 0.5rem 1rem 0;
+  padding: 1rem 0.5rem 1rem ;
   border: none;
   border-top: 1px solid var(--text-color-2);
 }

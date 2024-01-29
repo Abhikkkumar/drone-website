@@ -27,14 +27,6 @@ export default function Footer1() {
                 </span>
               </a>
             </li>
-            {/* <li>
-              <a href="# " target="_blank">
-                <span>
-                  {" "}
-                  <i class="fab fa-twitter"></i>{" "}
-                </span>
-              </a>
-            </li> */}
 
             <li>
               <a href="https://www.instagram.com/vamaskylight" target="_blank">
