@@ -15,9 +15,6 @@ export default function Footer1() {
             Vama Skylight is a leading manufacturer of drones, providing
             innovative solutions to the drone industry.
           </p>
-          <p>
-            <strong>Opening Hours</strong> : Monday – Sat: 9am to 6pm
-          </p>
           <ul class="footer-social">
             <li>
               <a
