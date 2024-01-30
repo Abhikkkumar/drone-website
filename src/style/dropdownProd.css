@@ -15,11 +15,12 @@
   box-shadow: 1px 1px 5px rgba(233, 127, 35, 0.5);
 }
 
-.dropdown-list a {
+.dropdown-list p {
   text-decoration: none;
   font-size: 1rem;
   color: var(--text-color-2);
   z-index: 9;
+  /* padding: 0.4rem 0.5rem; */
 }
 .dropdown-list {
   padding: 0.4rem 0.5rem;
@@ -28,7 +29,8 @@
 }
 .dropdown-list:hover {
   background-color: var(--brand-color);
+  cursor: pointer;
 }
-.dropdown-list:hover > a {
+.dropdown-list:hover > p {
   color: var(--text-color-1);
 }

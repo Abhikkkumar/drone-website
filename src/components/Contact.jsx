@@ -25,7 +25,7 @@ export default function Contact() {
           </h6>
           <h2>Have an Upcoming Project ?</h2>
 
-          <form className="form">
+          <form className="form" action="mailto:abhaykr15102000@gmail.com">
             <input type="text" id="name" name="name" placeholder="Name" />
             <input type="Email" id="Email" name="Email" placeholder="Email" />
             <br />
@@ -49,7 +49,7 @@ export default function Contact() {
               placeholder="Your Massege Here"
             />
             <br />
-            <button>Submit Now</button>
+            <button type="submit">Submit Now</button>
           </form>
         </div>
 
@@ -67,7 +67,9 @@ export default function Contact() {
             <img src={mail} alt="" />
             <div className="card1">
               <h5>Email Us</h5>
-              <p><a href="info@vamadronestores.com">info@vamadronestores.com</a></p>
+              <p>
+                <a href="info@vamadronestores.com">info@vamadronestores.com</a>
+              </p>
               {/* <p>test2@gmail.com</p> */}
             </div>
           </div>
@@ -76,7 +78,9 @@ export default function Contact() {
             <img src={call} alt="" />
             <div className="card1">
               <h5>Call Us</h5>
-              <p><a href="tel:+91-8320844583">+91-8320844583</a></p>
+              <p>
+                <a href="tel:+91-8320844583">+91-8320844583</a>
+              </p>
               {/* <p>(+0888) 222-9999</p> */}
             </div>
           </div>
