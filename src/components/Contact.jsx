@@ -15,8 +15,16 @@ export default function Contact() {
   //   Password: "1B7607CD2DBE951938972969C2C19FD35EF3",
   //   Host: "smtp.elasticemail.com",
   //   Port: 2525,
+
+  //---------------
+  // Username: "munnabhishek4@gmail.com",
+  //   Password: "E0E2DD6F751D2DF208EC67DEBEDF2AA82436",
+  //   Host: "smtp.elasticemail.com",
+  //   Port: 2525,
+  // SecurityToken: "172386fd-6168-4592-94c8-f58442bded51"
+
   let config = {
-    SecureToken: "faf95f1e-a928-45ce-b9d3-7de36e2d833f",
+    SecureToken: "172386fd-6168-4592-94c8-f58442bded51",
     To: "them@website.com",
     From: "you@isp.com",
     Subject: "This is the subject",
@@ -31,17 +39,20 @@ export default function Contact() {
     //   UserMessage: formState.message,
     // };
     config = {
-      SecureToken: "faf95f1e-a928-45ce-b9d3-7de36e2d833f",
-      To: "hi.abhi@yopmail.com",
+      SecureToken: "172386fd-6168-4592-94c8-f58442bded51",
+      To: "anuraggreat77@gmail.com",
       From: formState.email,
       Subject: "Vama Skylight Submission",
       Body: `Details of submission is :- \n name:${formState.name},\n phone-number:${formState["phone-number"]},\n website:${formState["website"]},\n user-message:"${formState.message}"`,
     };
-    console.log(config.Body);
+    // console.log(config.Body);
     if (window.Email) {
-      window.Email.send(config).then(() =>
-        alert("Your message has been submitted successfully!")
-      );
+      window.Email.send(config).then((message) => {
+        if (message === "OK")
+          alert("Your message has been submitted successfully!");
+        else alert(message);
+        // console.log(message);
+      });
     }
   };
   const breadProp = {
