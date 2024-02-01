@@ -90,7 +90,6 @@ function App() {
 
         <Footer1 />
         <Footer2 />
-
       </div>
     </BrowserRouter>
   );
