@@ -57,6 +57,22 @@ export default function About() {
       <div className="about-inner">
         <Section1 />
         <Section2_p />
+        <div className="vision-container">
+          <div className="vision-1">
+            <h3>Our Vision</h3>
+            <p>Our vision is to redefine the sky and make it accessible to businesses and organizations of all sizes. We believe that UAV technology has the potential to transform the way we work and live, and we are committed to developing innovative solutions that help our clients achieve their goals.</p>
+          </div>
+
+          <div className="vision-1">
+            <h3>Our Mission</h3>
+            <p>Our mission is to utilize the opportunity that the limitless sky offers by creating a technology-driven organization that gives reliable solutions to the challenges of the present and future. We aim to do this by delivering high-quality UAVs that are equipped with advanced sensors and cameras, as well as powerful software that enables autonomous flight and data processing.</p>
+          </div>
+
+          <div className="vision-1">
+            <h3>Purpose</h3>
+            <p>The purpose of Vama Skylight is to leverage the potential of UAV (Unmanned Aerial Vehicle) technology to provide reliable, innovative, and accessible solutions to businesses and organizations.</p>
+          </div>
+        </div>
         <div className="our-team">
           <div className="test-top">
             <div className="dual-line">

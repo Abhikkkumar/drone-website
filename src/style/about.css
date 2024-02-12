@@ -10,3 +10,28 @@
 .dual-line > h2 {
   margin: 0 0.7rem;
 }
+.vision-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.vision-container .vision-1{
+  max-width: 40%;
+  background-color: var(--dark-blue-bg);
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 3px;
+  color: var(--text-color-1);
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.vision-1 h3{
+  margin-bottom: 1rem;
+}
+
+@media (max-width:640px){
+  .vision-1{
+    max-width: 350px !important;
+  }
+}
