@@ -11,14 +11,14 @@ function Gallery() {
   };
 
   return (
-    <div className="Gallery">
+    <div >
       <BreadcrumpTemp bprops={breadProp} />
       
       <div className="gallery-top">
         <h1>Our Photo Gallery</h1>
       </div>
 
-      <WSPGallery galleryImages={galleryImages} />
+      <WSPGallery className="Gallery" galleryImages={galleryImages} />
     </div>
   );
 }

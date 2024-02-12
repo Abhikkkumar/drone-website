@@ -1,7 +1,7 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import Header from "./components/Header";
 import Footer1 from "./components/Footer1";
@@ -10,6 +10,7 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import Gallery from "./components/Gallery";
+import Footer2 from "./components/Footer2";
 
 import {
   agricultureSprayingProp,
@@ -22,6 +23,16 @@ import {
   Naina,
   Surveillance,
 } from "./components/Template/Data";
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+  console.log(pathname);
+  useEffect(() => {
+    // Scroll to the top of the page whenever the pathname changes
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
 
 function App() {
   const [sidebar, showSidebar] = useState(false);
@@ -31,11 +42,13 @@ function App() {
       <div className="App">
         <Header sidebar={sidebar} showSidebar={showSidebar} />
         <Sidebar sidebar={sidebar} showSidebar={showSidebar} />
-
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/about-us" element={<About />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/service" element={<Home />}></Route>
+          <Route path="/product" element={<Home />}></Route>
           <Route
             path="/agriculture-spraying"
             element={<ServiceTemplate props={agricultureSprayingProp} />}
@@ -72,13 +85,11 @@ function App() {
             path="/surveillance-drone"
             element={<ServiceTemplate props={Surveillance} />}
           ></Route>
-          <Route
-            path="/gallery"
-            element={<Gallery  />}
-          ></Route>
+          <Route path="/gallery" element={<Gallery />}></Route>
         </Routes>
 
         <Footer1 />
+        <Footer2 />
       </div>
     </BrowserRouter>
   );

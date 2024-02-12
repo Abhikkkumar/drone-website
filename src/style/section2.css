@@ -1,14 +1,13 @@
 .section2 {
-  
   width: 100%;
   min-height: 70vh;
 }
 .s2-top {
-  background-image: url("https://images.unsplash.com/photo-1698414392317-2697b2e276e4?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-  background-position: center;
+  background-image: url("../img/drone-skyline.jpg");
+  background-position: center 15%;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 45vh;
+  min-height: 42vh;
   display: flex;
   align-items: stretch;
 }

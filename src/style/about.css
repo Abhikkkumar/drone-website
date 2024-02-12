@@ -1,0 +1,12 @@
+.our-team{
+    box-shadow: 0px 0px 4px #aaa;
+    padding-top: 1rem;
+    border-top: 1px solid #c4c4ce;
+}
+.test-top > .dual-line{
+    margin: auto;
+}
+
+.dual-line > h2 {
+  margin: 0 0.7rem;
+}

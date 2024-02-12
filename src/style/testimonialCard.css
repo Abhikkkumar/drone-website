@@ -3,16 +3,16 @@
   --logo-bg-blue: #4560af;
   --dark-blue-bg: #1b1525;
   --text-color-1: #fff;
-  max-width: 15rem;
+  max-width: 17rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 0.75rem 1rem;
+  padding: 0 1rem 1rem;
   box-shadow: 0 0 5px #aaa;
   margin: 2rem auto;
   border-radius: 12% 7% 12% 7%;
-  min-height: 18rem;
+  min-height: 15rem;
 }
 
 .profile-pic {

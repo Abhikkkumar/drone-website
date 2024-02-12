@@ -12,40 +12,24 @@ export default function Footer1() {
         </div>
         <div className="f1-details">
           <p>
-          Vama Skylight is a leading manufacturer of drones, providing innovative solutions to the drone industry. 
-          </p>
-          <p>
-            <strong>Opening Hours</strong> : Monday – Sat: 9am to 6pm
+            Vama Skylight is a leading manufacturer of drones, providing
+            innovative solutions to the drone industry.
           </p>
           <ul class="footer-social">
             <li>
-              <a href="#" target="_blank">
+              <a
+                href="https://www.facebook.com/people/Vama-Skylight/100095474376379/"
+                target="_blank"
+              >
                 <span>
                   {" "}
                   <i class="fab fa-facebook-f"></i>{" "}
                 </span>
               </a>
             </li>
-            <li>
-              <a href="# " target="_blank">
-                <span>
-                  {" "}
-                  <i class="fab fa-twitter"></i>{" "}
-                </span>
-              </a>
-            </li>
 
             <li>
-              <a href="# " target="_blank">
-                <span>
-                  {" "}
-                  <i class="fab fa-pinterest-p"></i>{" "}
-                </span>
-              </a>
-            </li>
-
-            <li>
-              <a href="# " target="_blank">
+              <a href="https://www.instagram.com/vamaskylight" target="_blank">
                 <span>
                   {" "}
                   <i class="fab fa-instagram"></i>{" "}
@@ -58,22 +42,22 @@ export default function Footer1() {
       <div className="sub-footer f-3">
         <h2>OUR SERVICES</h2>
         <div className="f3-details">
-          <Link to="/">
+          <Link to="/" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> HOME
           </Link>
-          <Link to="/about">
+          <Link to="/about-us" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> ABOUT US
           </Link>
-          <Link to="/support">
+          <Link to="/" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> SUPPORT & SERVICES
           </Link>
-          <Link to="/">
-            <i class="fa-solid fa-angle-right"></i>  PRODUCTS
+          <Link to="/" className="f-hover">
+            <i class="fa-solid fa-angle-right"></i> PRODUCTS
           </Link>
-          <Link to="/">
+          <Link to="/gallery" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> GALLERY
           </Link>
-          <Link to="/contact">
+          <Link to="/contact" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> CONTACT US
           </Link>
         </div>
@@ -82,18 +66,17 @@ export default function Footer1() {
         <h2>CONTACT INFO</h2>
         <div className="f2-details">
           <p>
-            <i class="fi fi-rr-map-marker-home"></i>Daman Industrial Estate, Daman - 396210
+            <i class="fi fi-rr-map-marker-home"></i>Daman Industrial Estate,
+            Daman - 396210
           </p>
-          <div>
+          <div className="f-hover">
             <p>
-              {/* <a href="tel:(+880)15569569365">+91-9876543210</a> */}
               <a href="tel:+91-8320844583">+91-8320844583</a>
             </p>
           </div>
-          <div>
+          <div className="f-hover">
             <p>
               <a href="info@vamadronestores.com">info@vamadronestores.com</a>
-              {/* <a href="mailto:infoname@gmail.com">infoname@gmail.com</a> */}
             </p>
           </div>
         </div>

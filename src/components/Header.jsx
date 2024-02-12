@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../style/header.css";
 import logo from "../img/navbar/vama.png";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import DropdownProd from "./DropdownProd";
 
 import DropdownSupport from "./DropdownSupport";
@@ -9,24 +9,59 @@ import DropdownSupport from "./DropdownSupport";
 export default function Header({ sidebar, showSidebar }) {
   const [dropdown, setDropdown] = useState(false);
   const [dropdownSpt, setDropdownSpt] = useState(false);
-  function handleDropdown() {
-    setDropdown((d) => !d);
+  const [three, setThree] = useState(false);
+  const [four, setFour] = useState(false);
+
+  function one() {
+    document.getElementById("service").classList.remove("active");
+    document.getElementById("product").classList.remove("active");
   }
+  useEffect(() => {
+    if (four) {
+      document.getElementById("product").classList.add("active");
+      document.getElementById("service").classList.remove("active");
+    } else if (three) {
+      document.getElementById("service").classList.add("active");
+      document.getElementById("product").classList.remove("active");
+    } else {
+      one();
+    }
+  }, [three, four]);
+
   return (
     <>
       <div className="header">
         <div className="icon">
-          <Link to="/">
+          <NavLink to="/">
             <img src={logo} alt="logo" />
-          </Link>
+          </NavLink>
         </div>
 
         <div className="nav-lists">
           <div className="nav-list">
-            <Link to="/">HOME</Link>
+            <NavLink
+              id="home"
+              to="/"
+              activeClassName="colorBlue"
+              exact
+              onClick={() => {
+                one();
+              }}
+            >
+              HOME
+            </NavLink>
           </div>
           <div className="nav-list">
-            <Link to="/about-us">ABOUT US</Link>
+            <NavLink
+              id="about-us"
+              to="/about-us"
+              activeClassName="colorBlue"
+              onClick={() => {
+                one();
+              }}
+            >
+              ABOUT US
+            </NavLink>
           </div>
           <div
             className={dropdownSpt ? "nav-list colorBlue" : "nav-list"}
@@ -37,41 +72,67 @@ export default function Header({ sidebar, showSidebar }) {
               setDropdownSpt(false);
             }}
           >
-            <Link to="/services" className="side-listContainer">
+            <NavLink
+              id="service"
+              className={
+                three ? "side-listContainer active" : "side-listContainer"
+              }
+            >
               SUPPORT & SERVICES{" "}
               <span class="material-symbols-outlined arrow-down">
                 arrow_drop_down
               </span>
-            </Link>
-            <DropdownSupport dropdownSpt={dropdownSpt} />
+            </NavLink>
+            <DropdownSupport
+              dropdownSpt={dropdownSpt}
+              setThree={setThree}
+              setFour={setFour}
+            />
           </div>
           <div
             className={dropdown ? "nav-list colorBlue" : "nav-list"}
             onMouseEnter={() => {
-              // setDropdown(dropdown);
-              handleDropdown();
+              setDropdown(true);
             }}
             onMouseLeave={() => {
               setDropdown(false);
             }}
           >
-            <Link className="side-listContainer">
+            <NavLink
+              id="product"
+              className={
+                four ? "side-listContainer active" : "side-listContainer"
+              }
+            >
               PRODUCTS{" "}
               <span className="material-symbols-outlined arrow-down">
                 arrow_drop_down
               </span>
-            </Link>
+            </NavLink>
 
-            <DropdownProd dropdown={dropdown} />
+            <DropdownProd
+              dropdown={dropdown}
+              setThree={setThree}
+              setFour={setFour}
+            />
           </div>
 
           <div className="nav-list">
-            <Link to="/gallery">GALLERY</Link>
+            <NavLink
+              id="gallery"
+              to="/gallery"
+              activeClassName="colorBlue"
+              onClick={() => {
+                one();
+              }}
+            >
+              GALLERY
+            </NavLink>
           </div>
 
-          <Link to="/contact">
+          <NavLink to="/contact">
             <button className="btn-contactUs">CONTACT US</button>
-          </Link>
+          </NavLink>
         </div>
         <span
           className="material-symbols-outlined hamburger"

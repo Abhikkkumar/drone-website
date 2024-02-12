@@ -237,7 +237,15 @@ export default function Sidebar({ sidebar, showSidebar }) {
               showSidebar(!sidebar);
             }}
           >
-            <i class="fa-brands fa-facebook"></i>
+            <a
+              href="https://www.facebook.com/people/Vama-Skylight/100095474376379/"
+              target="_blank"
+            >
+              <span>
+                {" "}
+                <i class="fab fa-facebook-f"></i>{" "}
+              </span>
+            </a>
           </div>
           <div
             className="social-list"
@@ -245,32 +253,37 @@ export default function Sidebar({ sidebar, showSidebar }) {
               showSidebar(!sidebar);
             }}
           >
-            <i class="fa-brands fa-instagram"></i>
+            <a href="https://www.instagram.com/vamaskylight" target="_blank">
+              <span>
+                {" "}
+                <i class="fab fa-instagram"></i>{" "}
+              </span>
+            </a>
           </div>
-          <div
+          {/* <div
             className="social-list"
             onClick={() => {
               showSidebar(!sidebar);
             }}
           >
             <i class="fa-brands fa-twitter"></i>
-          </div>
-          <div
+          </div> */}
+          {/* <div
             className="social-list"
             onClick={() => {
               showSidebar(!sidebar);
             }}
           >
             <i class="fa-brands fa-youtube"></i>
-          </div>
-          <div
+          </div> */}
+          {/* <div
             className="social-list"
             onClick={() => {
               showSidebar(!sidebar);
             }}
           >
             <i class="fa-brands fa-pinterest"></i>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

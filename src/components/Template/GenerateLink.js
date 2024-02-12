@@ -4,7 +4,7 @@ function generateLink(string) {
   }
   let result = string.replace(/ /g, "-");
   result = result.toLowerCase();
-  console.log(result);
+
   return result;
 }
 export default generateLink;

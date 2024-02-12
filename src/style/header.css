@@ -41,8 +41,9 @@
   color: var(--text-color-2);
   font-weight: 500;
 }
+.active,
 .colorBlue > a {
-  color: var(--brand-color);
+  color: var(--brand-color) !important;
 }
 .nav-list > a:hover {
   color: var(--brand-color);

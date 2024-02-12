@@ -1,9 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../style/dropdownProd.css";
 import { CSSTransition } from "react-transition-group";
 
-export default function DropdownProd({ dropdown }) {
+export default function DropdownProd({ dropdown, setFour, setThree }) {
+  const navigate = useNavigate();
   return (
     <CSSTransition
       in={dropdown ? true : false}
@@ -12,23 +13,45 @@ export default function DropdownProd({ dropdown }) {
       unmountOnExit={true}
     >
       <div className="dropdownProd">
-        <div className="dropdown-list">
-          <Link to="/thea-agriculture-drone-16-litres">
-            Thea Agriculture Drone 16 Litres
-          </Link>
+        <div
+          className="dropdown-list"
+          onClick={() => {
+            navigate("/thea-agriculture-drone-16-litres");
+            setFour(true);
+            setThree(false);
+          }}
+        >
+          <p>Thea Agriculture Drone 16 Litres</p>
         </div>
-        <div className="dropdown-list">
-          <Link to="/thea-agriculture-drone-10-litres">
-            Thea Agriculture Drone 10 Litres
-          </Link>
+        <div
+          className="dropdown-list"
+          onClick={() => {
+            navigate("/thea-agriculture-drone-10-litres");
+            setFour(true);
+            setThree(false);
+          }}
+        >
+          <p>Thea Agriculture Drone 10 Litres</p>
         </div>
-        <div className="dropdown-list">
-          <Link to="/naina-disaster-management-drone">
-            Naina Disaster Management Drone
-          </Link>
+        <div
+          className="dropdown-list"
+          onClick={() => {
+            navigate("/naina-disaster-management-drone");
+            setFour(true);
+            setThree(false);
+          }}
+        >
+          <p>Naina Disaster Management Drone</p>
         </div>
-        <div className="dropdown-list">
-          <Link to="/surveillance-drone">Surveillance Drone</Link>
+        <div
+          className="dropdown-list"
+          onClick={() => {
+            navigate("/surveillance-drone");
+            setFour(true);
+            setThree(false);
+          }}
+        >
+          <p>Surveillance Drone</p>
         </div>
       </div>
     </CSSTransition>
