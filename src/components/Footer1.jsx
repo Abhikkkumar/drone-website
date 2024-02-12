@@ -100,17 +100,18 @@ export default function Footer1() {
       </div>
 
       <div className="sub-footer f-4">
-        <h2>NEWSLETTER</h2>
+        <h2>OUR LOCATION</h2>
         <div className="f4-details">
-          <p>
+          {/* <p>
           Subscribe us for upcoming updates on time
           </p>
           <input
             type="email"
             name="EMAIL"
             placeholder="Your email address"
-          ></input>
-          <button>SUBSCRIBE NOW</button>
+          ></input> */}
+          {/* <button>SUBSCRIBE NOW</button> */}
+          <div style={{width: "100%"}}><iframe width="100%"  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=Daman%20Industrial%20Estate,%20Daman%20-%20396210+(VAMA%20SKYLIGHT)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe></div>
         </div>
       </div>
     </div>
