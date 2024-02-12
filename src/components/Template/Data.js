@@ -13,6 +13,12 @@ export const products = [
   "Naina Disaster Management Drone",
   "Surveillance Drone",
 ];
+export const events = [
+  "event 1",
+  "event 2",
+  "Articles & Events",
+  "event 4",
+];
 const AgriBreadProp = {
   title: "Agriculture Spraying",
   text: "Welcome to Vama Skylight, where cutting-edge technology meets agriculture to revolutionize crop management.",
