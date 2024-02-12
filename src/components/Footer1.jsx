@@ -94,7 +94,8 @@ export default function Footer1() {
             placeholder="Your email address"
           ></input> */}
           {/* <button>SUBSCRIBE NOW</button> */}
-          <div style={{width: "100%"}}><iframe width="100%"  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=Daman%20Industrial%20Estate,%20Daman%20-%20396210+(VAMA%20SKYLIGHT)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe></div>
+          {/* <div style={{width: "100%"}}><iframe width="100%"  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=Daman%20Industrial%20Estate,%20Daman%20-%20396210+(VAMA%20SKYLIGHT)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe></div> */}
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119631.16820783437!2d72.78092501778825!3d20.445715705246023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0db12a625575b%3A0xf25ca5d34a352572!2sVama%20Skylight%20LLP.!5e0!3m2!1sen!2sin!4v1707742323867!5m2!1sen!2sin" width="100%"  style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
