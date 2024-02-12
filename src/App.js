@@ -11,6 +11,7 @@ import Contact from "./components/Contact";
 import About from "./components/About";
 import Gallery from "./components/Gallery";
 import Footer2 from "./components/Footer2";
+import ArticleEvent from "./components/ArticleEvent";
 
 import {
   agricultureSprayingProp,
@@ -45,6 +46,7 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/articles-and-events" element={<ArticleEvent />}></Route>
           <Route path="/about-us" element={<About />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/service" element={<Home />}></Route>

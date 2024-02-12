@@ -40,19 +40,6 @@ export default function Header({ sidebar, showSidebar }) {
         <div className="nav-lists">
           <div className="nav-list">
             <NavLink
-              id="home"
-              to="/"
-              activeClassName="colorBlue"
-              exact
-              onClick={() => {
-                one();
-              }}
-            >
-              HOME
-            </NavLink>
-          </div>
-          <div className="nav-list">
-            <NavLink
               id="about-us"
               to="/about-us"
               activeClassName="colorBlue"
@@ -115,6 +102,19 @@ export default function Header({ sidebar, showSidebar }) {
               setThree={setThree}
               setFour={setFour}
             />
+          </div>
+          <div className="nav-list">
+            <NavLink
+              id="home"
+              to="/articles-and-events"
+              activeClassName="colorBlue"
+              exact
+              onClick={() => {
+                one();
+              }}
+            >
+              ARTICLES & EVENTS
+            </NavLink>
           </div>
 
           <div className="nav-list">
