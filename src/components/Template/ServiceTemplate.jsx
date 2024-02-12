@@ -51,23 +51,35 @@ export default function ServiceTemplate({ props }) {
               <i class="fa-brands fa-phoenix-squadron"></i>
               <p className="bold">
                 {" "}
-                <NumberAnimation n={354} inView={inView} /> +
+                <NumberAnimation n={500} inView={inView} /> +
               </p>
-              <p>Satisfied clients</p>
+              <p>Drones Flying</p>
             </div>
             <div className="s3pl-two" ref={ref}>
               <i class="fa-brands fa-phoenix-squadron"></i>
               <p className="bold">
-                <NumberAnimation n={411} inView={inView} />+
+                <NumberAnimation n={700} inView={inView} />+
               </p>
-              <p>Success of works</p>
+              <p>Happy Customers</p>
             </div>
           </div>
           <div className="s4p-inner">
             <p>{props.text2}</p>
             <div className="s4p-img-cnt">
-              <img src={props.img2} alt="" />
-              <img src={props.img3} alt="" />
+              {props.img3 === "" ? (
+                <>
+                  <img
+                    src={require(`../../img/Service-Product/${props.img2}`)}
+                    alt=""
+                  />
+                  
+                </>
+              ) : (
+                <>
+                  <img src={props.img2} alt="" />
+                  <img src={props.img2} alt="" />
+                </>
+              )}
             </div>
           </div>
         </div>

@@ -153,23 +153,33 @@ const th16BreadProp = {
   arr: ["Home", "Products", "Thea Agriculture Drone 16 Litres"],
 };
 const th16Pts = [
-  "The TH16L boasts a generous 16-liter tank capacity, ensuring extended spraying operations with fewer refills.",
-  "Experience a prolonged flight time of up to 20 minutes, allowing for comprehensive coverage of your agricultural land.",
-  "The drone's efficient design enables it to cover an impressive 3 acres on a single charge, optimizing your spraying operations.",
-  "Equipped with a 6-teeject carbon fiber high-precision sprayer, the TH16L ensures accurate and effective chemical application",
+  "16-liter tank capacity",
+  " Up to 20 minutes of flight time.",
+  "3-acre spraying capacity on a single charge.",
+  "6 minutes per acre spraying capability.",
+  "6-teeject carbon fibre high-precision sprayer.",
+  "Spraying level adjustment facility.",
+  "Fast charging support with a full charging time of 45 minutes.",
+  "Terrain following capability",
+  "Anti-collision object avoidance with built-in radar.",
+  "Collision safety and auto height adjustment facility with terrain radar.",
+  "Autonomous flying mission and spraying capability.",
+  "Voice alarm-enabled Ground Control System (GCS).",
+  "Real-time FPV camera with 720p video feed.",
+  "High-precision take-off and landing facility."
 ];
 export const th_agri_16 = {
   breadProp: th16BreadProp,
   // img: "https://i.ibb.co/9Z1WcdB/16L.png",
-  img: `16L.png`,
+  img: `10lit.jpeg`,
   title:
     "Thea Agriculture Drone 16L: Precision Spraying for Sustainable Farming",
   text1:
     "Unleash the power of cutting-edge technology to transform your farming practices and maximize crop yield. The TH16L is a medium-category hexacopter drone designed specifically for efficient and precise plant protection chemical spraying.",
   pointArr: th16Pts,
   text2: "",
-  img2: "https://images.unsplash.com/photo-1523678631214-6532a89c96cc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE0fHxkcm9uZXxlbnwwfHwwfHx8MA%3D%3D",
-  img3: "https://images.unsplash.com/photo-1533487924410-8792b4f3a661?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  img2: "16L.png",
+  img3: "",
   isService: false,
 };
 const th10BreadProp = {
@@ -178,23 +188,32 @@ const th10BreadProp = {
   arr: ["Home", "Products", "Thea Agriculture Drone 10 Litres"],
 };
 const th10Pts = [
-  "The TH10L comes with a 10-liter tank capacity, striking the perfect balance between payload and efficiency for optimal spraying operations.",
-  "Experience extended flight time of up to 25 minutes, allowing for thorough coverage of your agricultural land",
-  "With the capability to cover up to 2.5 acres on a single charge, the TH10L ensures efficient and effective spraying operations.",
-  "Stay connected with a real-time FPV camera providing a 720p video feed, allowing you to monitor operations with clarity.",
+  "10-liter tank capacity",
+  "Up to 25 minutes of flight time.",
+  "Up to 2.5-acre spraying capacity on a single charge.",
+  "6-teeject carbon fibre high-precision sprayer with swath 3-5m.",
+  "Spraying level adjustment facility.",
+  "Terrain following capability.",
+  "Anti-collision object avoidance with built-in radar",
+  "Collision safety and auto height adjustment facility with terrain radar.",
+  "Autonomous flying mission and spraying capability.",
+  "Voice alarm-enabled Ground Control System (GCS).",
+  "Real-time FPV camera with 720p video feed.",
+  "High-precision take-off and landing facility.",
+  "Return to land facility in case of any failure."
 ];
 export const th_agri_10 = {
   breadProp: th10BreadProp,
   // img: "https://i.ibb.co/WpRg48K/10L.png",
-  img: `10L.png`,
+  img: `10lit.jpeg`,
   title:
     "Thea Agriculture Drone 10L: Precision Spraying for Sustainable Farming",
   text1:
     "Transform your farming practices with Thea Agriculture Drone TH10L, a symbol of precision, reliability, and innovation in the field of agricultural drones. Experience the future of farming today.",
   pointArr: th10Pts,
   text2: "",
-  img2: "https://images.unsplash.com/photo-1523678631214-6532a89c96cc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE0fHxkcm9uZXxlbnwwfHwwfHx8MA%3D%3D",
-  img3: "https://images.unsplash.com/photo-1533487924410-8792b4f3a661?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  img2: "10L.png",
+  img3: "",
   isService: false,
 };
 const nainaBreadProp = {
@@ -213,14 +232,14 @@ const nainaPts = [
 export const Naina = {
   breadProp: nainaBreadProp,
   // img: "https://i.ibb.co/0c5xPz9/Disaster-Management.png",
-  img: `Disaster-Management.png`,
+  img: `naina.jpeg`,
   title: "Naina Disaster Management Drone",
   text1:
     "Welcome to the forefront of disaster management technology with the 'NAINA' Disaster Management Search and Rescue Drone. Engineered to respond with precision and efficiency in times of crisis, the Naina drone is your ultimate ally in disaster management scenarios.",
   pointArr: nainaPts,
   text2: "",
-  img2: "https://images.unsplash.com/photo-1523678631214-6532a89c96cc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE0fHxkcm9uZXxlbnwwfHwwfHx8MA%3D%3D",
-  img3: "https://images.unsplash.com/photo-1533487924410-8792b4f3a661?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  img2: "naina2.jpeg",
+  img3: "",
   isService: false,
 };
 const surveillanceBreadProp = {
