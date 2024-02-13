@@ -171,7 +171,7 @@ const th16Pts = [
 export const th_agri_16 = {
   breadProp: th16BreadProp,
   // img: "https://i.ibb.co/9Z1WcdB/16L.png",
-  img: `10lit.jpeg`,
+  img: `10L.jpeg`,
   title:
     "Thea Agriculture Drone 16L: Precision Spraying for Sustainable Farming",
   text1:
@@ -205,7 +205,7 @@ const th10Pts = [
 export const th_agri_10 = {
   breadProp: th10BreadProp,
   // img: "https://i.ibb.co/WpRg48K/10L.png",
-  img: `10lit.jpeg`,
+  img: `10L.jpeg`,
   title:
     "Thea Agriculture Drone 10L: Precision Spraying for Sustainable Farming",
   text1:
