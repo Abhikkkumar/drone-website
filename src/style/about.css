@@ -30,6 +30,36 @@
   margin-bottom: 1rem;
 }
 
+
+.history{
+  text-align: center;
+  padding: 2rem;
+  margin: 1rem auto;
+  width: 70%;
+  background-color: var(--dark-blue-bg);
+  color: var(--brand-color);
+  border-radius: 3px;
+  text-align: center;
+  /* text-justify: inter-word; */
+}
+
+.history p{
+  text-align: center;
+}
+
+.history h2{
+  margin-bottom: 1.5rem;
+}
+
+.history h3{
+  margin-bottom: 1.5rem;
+  color: var(--brand-color);
+}
+
+.history p{
+  margin-top: 1.5rem;
+}
+
 @media (max-width:640px){
   .vision-1{
     max-width: 350px !important;

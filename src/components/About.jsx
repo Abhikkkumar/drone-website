@@ -136,6 +136,25 @@ export default function About() {
             </Swiper>
           </div>
         </div>
+
+
+        <div className="history">
+          <h2>Our History</h2>
+          <h3>2022</h3><hr></hr>
+          <p>Vama Skylight LLP was founded in 2022 by a team of engineers and drone enthusiasts who saw the potential for UAVs to transform industries. Since then, we have grown into a leading UAV company in India, with a purpose of delivering reliable, high-quality products and services to our clients.</p>
+
+        </div>
+
+
+        <div className="history">
+          <h2>Our Values</h2>
+          <hr></hr>
+          <p>At Vama Skylight LLP, we value innovation, reliability, and customer satisfaction. We are committed to delivering high-quality products and services that meet the needs of our clients.</p>
+          <p>At Vama Skylight, we are committed to providing our clients with high-quality UAV solutions and outstanding customer service. we are constantly pushing the boundaries of what is possible with UAV technology. Contact us today to learn more about our products and services!</p>
+        </div>
+
+
+
         <Section3 />
       </div>
     </div>
