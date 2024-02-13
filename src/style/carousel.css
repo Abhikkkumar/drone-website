@@ -52,6 +52,7 @@
 }
 .s4 {
   background-image: url("../img/Carousel/s4.jpg");
+  background-size: cover 100%;
 }
 .slides-inner {
   background-color: rgba(0, 0, 0, 0.3);
