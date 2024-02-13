@@ -14,6 +14,7 @@ import Footer2 from "./components/Footer2";
 import ArticleEvent from "./components/ArticleEvent";
 import GiftCityT from "./components/GiftCityT";
 
+
 import {
   agricultureSprayingProp,
   landMappingProp,
@@ -24,6 +25,11 @@ import {
   th_agri_10,
   Naina,
   Surveillance,
+  vaghaiProps,
+  noidaProps,
+  saktiProps,
+  bagpatProps,
+  giftProps
 } from "./components/Template/Data";
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -89,7 +95,11 @@ function App() {
             element={<ServiceTemplate props={Surveillance} />}
           ></Route>
           <Route path="/gallery" element={<Gallery />}></Route>
-          <Route path="/giftcityt" element={<GiftCityT />}></Route>
+          <Route path="/vaghai-navsari-agricultural-university,-gujarat" element={<GiftCityT props={vaghaiProps}/>}></Route>
+          <Route path="/up-international-trade-show,-noida" element={<GiftCityT props={noidaProps}/>}></Route>
+          <Route path="/bharat-drone-shakti,-ghaziabad" element={<GiftCityT props={saktiProps}/>}></Route>
+          <Route path="/baghpath-kisan-mela" element={<GiftCityT props={bagpatProps}/>}></Route>
+          <Route path="/vibrant-gujarat,-gift-city" element={<GiftCityT props={giftProps}/>}></Route>
         </Routes>
 
         <Footer1 />

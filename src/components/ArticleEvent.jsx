@@ -27,7 +27,7 @@ export default function ArticleEvent() {
             <div
               className="event-card"
               onClick={() => {
-                navigate("/giftcityt");
+                navigate("/vaghai-navsari-agricultural-university,-gujarat");
               }}
             >
               <img src={vaghai} alt="" />
@@ -43,7 +43,7 @@ export default function ArticleEvent() {
             <div
               className="event-card"
               onClick={() => {
-                navigate("/giftcityt");
+                navigate("/up-international-trade-show,-noida");
               }}
             >
               <img src={noida} alt="" />
@@ -59,7 +59,7 @@ export default function ArticleEvent() {
             <div
               className="event-card"
               onClick={() => {
-                navigate("/giftcityt");
+                navigate("/bharat-drone-shakti,-ghaziabad");
               }}
             >
               <img
@@ -78,7 +78,7 @@ export default function ArticleEvent() {
             <div
               className="event-card"
               onClick={() => {
-                navigate("/giftcityt");
+                navigate("/baghpath-kisan-mela");
               }}
             >
               <img src={bag} alt="" />
@@ -94,7 +94,7 @@ export default function ArticleEvent() {
             <div
               className="event-card"
               onClick={() => {
-                navigate("/giftcityt");
+                navigate("/vibrant-gujarat,-gift-city");
               }}
             >
               <img src={gift} alt="" />
