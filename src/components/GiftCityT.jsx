@@ -6,8 +6,6 @@ import ServiceList from "./Template/ServiceList";
 import BreadcrumpTemp from "./Template/BreadcrumpTemp";
 
 export default function GiftCityT({ props }) {
-  console.log(props);
-
   return (
     <div>
       <BreadcrumpTemp bprops={props.breadProp} />
@@ -15,6 +13,7 @@ export default function GiftCityT({ props }) {
         <div className="asp-left">
           <div className="prod-img">
             <img
+              className="firstimg"
               src={require(`../img/events/${props.img}`)}
               alt="drone-footage"
             />
