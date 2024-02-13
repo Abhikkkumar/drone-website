@@ -14,10 +14,11 @@ export const products = [
   "Surveillance Drone",
 ];
 export const events = [
-  "event 1",
-  "event 2",
-  "Articles & Events",
-  "event 4",
+  "VAGHAI  NAVSARI AGRICULTURAL UNIVERSITY, GURJRAT",
+  "UP INTERNATIONAL TRADE SHOW, NOIDA",
+  "BHARAT DRONE SHAKTI, GHAZIABAD",
+  "BAGHPATH KISAN MELA",
+  "VIBRANT GUJARAT, GIFT CITY"
 ];
 const AgriBreadProp = {
   title: "Agriculture Spraying",

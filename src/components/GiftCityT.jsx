@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/page2/allSectionP2.css";
-import { services, products } from "./Template/Data";
+import { events } from "./Template/Data";
 import ServiceList from "./Template/ServiceList";
 import BreadcrumpTemp from "./Template/BreadcrumpTemp";
 
@@ -33,71 +33,10 @@ export default function GiftCityT() {
           <div className="sec2-prod-left">
             <h1>{props.title}</h1>
             <p>{props.text1}</p>
-            {/* <ul>
-              {props.pointArr.map((curr) => {
-                return (
-                  <li>
-                    <i class="fa-solid fa-check"></i>
-                    {curr}
-                  </li>
-                );
-              })}
-            </ul> */}
           </div>
-
-          {/* <div className="s4p-inner">
-            <p>{props.text2}</p>
-            <div className="s4p-img-cnt">
-              {props.img3 === "" ? (
-                <>
-                  <img
-                    src={require(`../../img/Service-Product/${props.img2}`)}
-                    alt=""
-                  />
-                </>
-              ) : (
-                <>
-                  <img src={props.img2} alt="" />
-                  <img src={props.img2} alt="" />
-                </>
-              )}
-            </div>
-          </div> */}
         </div>
         <div className="asp-right">
-          <ServiceList services={services} active={props.breadProp.title} />
-
-          {/* <div className="asp-right-2">
-            <div className="sec2-prod-right">
-              <div className="sec2-prod-right-inner">
-                <span className="tele-icon">
-                  <i class="fa-solid fa-phone"></i>
-                </span>
-                <div>
-                  <p>Have you any Questions?</p>
-                  <p>
-                    Call us <span className="ylo">Today!</span>
-                  </p>
-                </div>
-                <div className="dotted-line"></div>
-                <p className="call-num">
-                  <a href="tel:+91-8320844583">+91-8320844583</a>
-                </p>
-              </div>
-            </div>
-            <div className="sec3-p-right">
-              <h2>Brochure</h2>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Exercitationem sit ipsa qui commodi numquam.
-              </p>
-              <div className="s3p-btn-cnt">
-                <button>Download</button>
-                <span>Or</span>
-                <button>Discover</button>
-              </div>
-            </div>
-          </div> */}
+          <ServiceList services={events} active={props.breadProp.title} />
         </div>
       </div>
     </div>
