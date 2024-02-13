@@ -5,7 +5,7 @@ import { events } from "./Template/Data";
 import ServiceList from "./Template/ServiceList";
 import BreadcrumpTemp from "./Template/BreadcrumpTemp";
 
-export default function GiftCityT({props}) {
+export default function GiftCityT({ props }) {
   console.log(props);
 
   return (
@@ -26,6 +26,37 @@ export default function GiftCityT({props}) {
         </div>
         <div className="asp-right">
           <ServiceList services={events} active={props.breadProp.title} />
+          <div className="asp-right-2">
+            <div className="sec2-prod-right">
+              <div className="sec2-prod-right-inner">
+                <span className="tele-icon">
+                  <i class="fa-solid fa-phone"></i>
+                </span>
+                <div>
+                  <p>Have you any Questions?</p>
+                  <p>
+                    Call us <span className="ylo">Today!</span>
+                  </p>
+                </div>
+                <div className="dotted-line"></div>
+                <p className="call-num">
+                  <a href="tel:+91-8320844583">+91-8320844583</a>
+                </p>
+              </div>
+            </div>
+            <div className="sec3-p-right">
+              <h2>Brochure</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Exercitationem sit ipsa qui commodi numquam.
+              </p>
+              <div className="s3p-btn-cnt">
+                <button>Download</button>
+                <span>Or</span>
+                <button>Discover</button>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="otherImages">
           {props.otherImages.map((imgName) => {

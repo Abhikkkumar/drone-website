@@ -4,12 +4,14 @@
 }
 .otherImages > img {
   width: 45%;
+  border-radius: 0.75rem;
+  box-shadow: 2px 2px 5px #aaa;
 }
 @media (max-width: 768px) {
   .otherImages > img {
     width: 85%;
   }
-  .sec2-prod-left.giftcity{
+  .sec2-prod-left.giftcity {
     text-align: center;
   }
 }
