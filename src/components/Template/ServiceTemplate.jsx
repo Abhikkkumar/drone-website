@@ -64,15 +64,19 @@ export default function ServiceTemplate({ props }) {
             </div>
           </div>
           <div className="s4p-inner">
-            <p>{props.text2}</p>
-            <div className="s4p-img-cnt">
+            {props.text2 ? <p>{props.text2}</p> : ""}
+
+            <div
+              className={
+                props.img3 === "" ? "s4p-img-cnt single" : "s4p-img-cnt"
+              }
+            >
               {props.img3 === "" ? (
                 <>
                   <img
                     src={require(`../../img/Service-Product/${props.img2}`)}
                     alt=""
                   />
-                  
                 </>
               ) : (
                 <>
