@@ -19,7 +19,7 @@ export default function GiftCityT({props}) {
               alt="drone-footage"
             />
           </div>
-          <div className="sec2-prod-left">
+          <div className="sec2-prod-left giftcity">
             <h1>{props.title}</h1>
             <p>{props.text1}</p>
           </div>

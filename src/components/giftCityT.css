@@ -1,8 +1,15 @@
 .otherImages {
-    display: flex;
-    flex-wrap: wrap;
-    
+  display: flex;
+  flex-wrap: wrap;
 }
 .otherImages > img {
-  width: 48%;
+  width: 45%;
+}
+@media (max-width: 768px) {
+  .otherImages > img {
+    width: 85%;
+  }
+  .sec2-prod-left.giftcity{
+    text-align: center;
+  }
 }
