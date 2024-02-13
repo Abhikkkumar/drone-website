@@ -301,7 +301,7 @@ export const galleryImages = [
 
 const vaghaiBreadProp = {
   title: "VAGHAI NAVSARI AGRICULTURAL UNIVERSITY, GUJARAT",
-  text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, odit similique? Nulla, enim exercitationem?",
+  text: "Our presentation details at Vaghai University",
   arr: [
     "Home",
     "Articles And Events",
@@ -320,7 +320,7 @@ export const vaghaiProps = {
 
 const noidaBreadProp = {
   title: "UP INTERNATIONAL TRADE SHOW, NOIDA",
-  text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, odit similique? Nulla, enim exercitationem?",
+  text: "We are at UP International Trade Show",
   arr: ["Home", "Articles And Events", "UP INTERNATIONAL TRADE SHOW, NOIDA"],
 };
 export const noidaProps = {
@@ -333,7 +333,7 @@ export const noidaProps = {
 };
 const saktiBreadProp = {
   title: "BHARAT DRONE SHAKTI, GHAZIABAD",
-  text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, odit similique? Nulla, enim exercitationem?",
+  text: "Our presentation at Bhatat Drone Shakti at Ghaziabad",
   arr: ["Home", "Articles And Events", "BHARAT DRONE SHAKTI, GHAZIABAD"],
 };
 export const saktiProps = {
@@ -346,7 +346,7 @@ export const saktiProps = {
 };
 const bagpatBreadProp = {
   title: "BAGHPATH KISAN MELA",
-  text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, odit similique? Nulla, enim exercitationem?",
+  text: "We are at Baghpat Kisan Mela showcasing our products",
   arr: ["Home", "Articles And Events", "BAGHPATH KISAN MELA"],
 };
 export const bagpatProps = {
@@ -361,7 +361,7 @@ export const bagpatProps = {
 
 const giftBreadProp = {
   title: "VIBRANT GUJARAT, GIFT CITY",
-  text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, odit similique? Nulla, enim exercitationem?",
+  text: "Vibrant Gujrat Event Details",
   arr: ["Home", "Articles And Events", "VIBRANT GUJARAT, GIFT CITY"],
 };
 export const giftProps = {

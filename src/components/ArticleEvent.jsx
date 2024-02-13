@@ -12,7 +12,7 @@ export default function ArticleEvent() {
   const navigate = useNavigate();
   const breadProp = {
     title: "Articles & Events",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, odit similique? Nulla, enim exercitationem?",
+    text: "Articles and Event details page",
     arr: ["Home", "Articles And Events"],
   };
 
@@ -62,10 +62,7 @@ export default function ArticleEvent() {
                 navigate("/bharat-drone-shakti,-ghaziabad");
               }}
             >
-              <img
-                src={sakti}
-                alt=""
-              />
+              <img src={sakti} alt="" />
               <p>AT BHARAT DRONE SHAKTI, GHAZIABAD</p>
               <div className="dual-line">
                 <div className="line1 "></div>
