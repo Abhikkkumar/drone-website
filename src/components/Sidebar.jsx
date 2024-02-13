@@ -28,15 +28,6 @@ export default function Sidebar({ sidebar, showSidebar }) {
           <div className="side-lists">
             <Link
               className="side-list"
-              to="/"
-              onClick={() => {
-                showSidebar(!sidebar);
-              }}
-            >
-              HOME
-            </Link>
-            <Link
-              className="side-list"
               to="/about-us"
               onClick={() => {
                 showSidebar(!sidebar);
@@ -50,7 +41,7 @@ export default function Sidebar({ sidebar, showSidebar }) {
                   ? "side-list side-listContainer selectedText"
                   : "side-list side-listContainer"
               }
-              to="/services"
+              to="/"
               onClick={(e) => {
                 e.stopPropagation();
                 setSideSpt(!sideSpt);
@@ -209,6 +200,15 @@ export default function Sidebar({ sidebar, showSidebar }) {
                 </Link>
               </div>
             </CSSTransition>
+            <Link
+              className="side-list"
+              to="/articles-and-events"
+              onClick={() => {
+                showSidebar(!sidebar);
+              }}
+            >
+              ARTICLES & EVENTS
+            </Link>
 
             <Link
               className="side-list"
@@ -217,7 +217,7 @@ export default function Sidebar({ sidebar, showSidebar }) {
                 showSidebar(!sidebar);
               }}
             >
-              Gallery
+              GALLERY
             </Link>
             <Link
               className="side-list"

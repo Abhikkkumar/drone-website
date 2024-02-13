@@ -12,6 +12,7 @@ import About from "./components/About";
 import Gallery from "./components/Gallery";
 import Footer2 from "./components/Footer2";
 import ArticleEvent from "./components/ArticleEvent";
+import GiftCityT from "./components/GiftCityT";
 
 import {
   agricultureSprayingProp,
@@ -88,6 +89,7 @@ function App() {
             element={<ServiceTemplate props={Surveillance} />}
           ></Route>
           <Route path="/gallery" element={<Gallery />}></Route>
+          <Route path="/giftcityt" element={<GiftCityT />}></Route>
         </Routes>
 
         <Footer1 />
