@@ -1,0 +1,8 @@
+.otherImages {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.otherImages > img {
+  width: 48%;
+}

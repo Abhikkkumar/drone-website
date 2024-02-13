@@ -14,10 +14,11 @@ export const products = [
   "Surveillance Drone",
 ];
 export const events = [
-  "event 1",
-  "event 2",
-  "Articles & Events",
-  "event 4",
+  "VAGHAI NAVSARI AGRICULTURAL UNIVERSITY, GUJARAT",
+  "UP INTERNATIONAL TRADE SHOW, NOIDA",
+  "BHARAT DRONE SHAKTI, GHAZIABAD",
+  "BAGHPATH KISAN MELA",
+  "VIBRANT GUJARAT, GIFT CITY",
 ];
 const AgriBreadProp = {
   title: "Agriculture Spraying",
@@ -166,7 +167,7 @@ const th16Pts = [
   "Autonomous flying mission and spraying capability.",
   "Voice alarm-enabled Ground Control System (GCS).",
   "Real-time FPV camera with 720p video feed.",
-  "High-precision take-off and landing facility."
+  "High-precision take-off and landing facility.",
 ];
 export const th_agri_16 = {
   breadProp: th16BreadProp,
@@ -200,7 +201,7 @@ const th10Pts = [
   "Voice alarm-enabled Ground Control System (GCS).",
   "Real-time FPV camera with 720p video feed.",
   "High-precision take-off and landing facility.",
-  "Return to land facility in case of any failure."
+  "Return to land facility in case of any failure.",
 ];
 export const th_agri_10 = {
   breadProp: th10BreadProp,
@@ -271,35 +272,103 @@ export const Surveillance = {
 
 export const galleryImages = [
   {
-    img: "1.jpg"
+    img: "1.jpg",
   },
   {
-    img: "2.jpg"
+    img: "2.jpg",
   },
   {
-    img: "3.jpg"
+    img: "3.jpg",
   },
   {
-    img: "4.jpg"
+    img: "4.jpg",
   },
   {
-    img: "5.jpg"
+    img: "5.jpg",
   },
   {
-    img: "6.jpg"
+    img: "6.jpg",
   },
 
   {
-    img: "7.jpg"
+    img: "7.jpg",
   },
 
   {
-    img: "8.jpg"
+    img: "8.jpg",
   },
+];
 
-  
+const vaghaiBreadProp = {
+  title: "VAGHAI NAVSARI AGRICULTURAL UNIVERSITY, GUJARAT",
+  text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, odit similique? Nulla, enim exercitationem?",
+  arr: [
+    "Home",
+    "Articles And Events",
+    "VAGHAI NAVSARI AGRICULTURAL UNIVERSITY, GUJARAT",
+  ],
+};
+export const vaghaiProps = {
+  breadProp: vaghaiBreadProp,
+  title: "VAGHAI NAVSARI AGRICULTURAL UNIVERSITY, GUJARAT",
+  text1:
+    "Vibrant Gujarat is known for being a significant platform for business networking, investment opportunities, and showcasing innovations in various sectors. Having the event inaugurated by the Prime Minister of India adds a considerable level of importance and visibility to the exhibition. VAMA SKYLIGHT found the event to be interactive, knowledgeable, and successful.",
 
-  
+  img: "gr-3.jpeg",
+  otherImages: ["guj-1.jpeg", "guj-2.jpeg", "gr-4.jpeg"],
+};
 
-  
-]
+const noidaBreadProp = {
+  title: "UP INTERNATIONAL TRADE SHOW, NOIDA",
+  text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, odit similique? Nulla, enim exercitationem?",
+  arr: ["Home", "Articles And Events", "UP INTERNATIONAL TRADE SHOW, NOIDA"],
+};
+export const noidaProps = {
+  breadProp: noidaBreadProp,
+  title: "UP INTERNATIONAL TRADE SHOW, NOIDA",
+  text1:
+    "UP International Trade Show held at the India Expo Centre & Mart in Noida was inaugurated by both the President of India and the Chief Minister of Uttar Pradesh. The presence of such esteemed dignitaries underscores the importance of the event not only within the state but also at a national level, highlighting its significance in promoting trade, commerce, and economic development.   VAMA SKYLIGHT participation in this event provided valuable exposure and opportunities for growth within the industry and beyond.",
+  img: "noida-1.jpeg",
+  otherImages: ["noida-2.jpeg"],
+};
+const saktiBreadProp = {
+  title: "BHARAT DRONE SHAKTI, GHAZIABAD",
+  text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, odit similique? Nulla, enim exercitationem?",
+  arr: ["Home", "Articles And Events", "BHARAT DRONE SHAKTI, GHAZIABAD"],
+};
+export const saktiProps = {
+  breadProp: saktiBreadProp,
+  title: "BHARAT DRONE SHAKTI, GHAZIABAD",
+  text1:
+    "Bharat Drone Shakti 2023 at Hindon Air Force Station, Ghaziabad was a significant opportunity for VAMA SKYLIGHT, especially considering the presence of the Defence Minister of India and other Indian Army personnel. Demonstrating the Naina Drone, which was the highlight of the event,  showcased VAMA SKYLIGHT innovation and expertise in drone technology. Being associated with such a high-profile exhibition  have raised VAMA SKYLIGHT's profile within the defence and technology sectors.Bharat Drone Shakti 2023 was a grand success for VAMA SKYLIGHT. These kinds of events not only provide a platform for showcasing products but also offer invaluable opportunities for networking, collaboration, and future business prospects within the defence industry.",
+  img: "sakti-1.jpeg",
+  otherImages: ["sakti-2.jpeg", "sakti-3.jpeg", "sakti-4.jpeg"],
+};
+const bagpatBreadProp = {
+  title: "BAGHPATH KISAN MELA",
+  text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, odit similique? Nulla, enim exercitationem?",
+  arr: ["Home", "Articles And Events", "BAGHPATH KISAN MELA"],
+};
+export const bagpatProps = {
+  breadProp: bagpatBreadProp,
+  title: "BAGHPATH KISAN MELA",
+  text1:
+    "Bharat Drone Shakti 2023 at Hindon Air Force Station, Ghaziabad was a significant opportunity for VAMA SKYLIGHT, especially considering the presence of the Defence Minister of India and other Indian Army personnel. Demonstrating the Naina Drone, which was the highlight of the event,  showcased VAMA SKYLIGHT innovation and expertise in drone technology. Being associated with such a high-profile exhibition  have raised VAMA SKYLIGHT's profile within the defence and technology sectors.Bharat Drone Shakti 2023 was a grand success for VAMA SKYLIGHT. These kinds of events not only provide a platform for showcasing products but also offer invaluable opportunities for networking, collaboration, and future business prospects within the defence industry.",
+
+  img: "bag-2.jpeg",
+  otherImages: ["bag-1.jpeg", "bag-3.jpeg", "bag-4.jpeg", "bag-5.jpeg"],
+};
+
+const giftBreadProp = {
+  title: "VIBRANT GUJARAT, GIFT CITY",
+  text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, odit similique? Nulla, enim exercitationem?",
+  arr: ["Home", "Articles And Events", "VIBRANT GUJARAT, GIFT CITY"],
+};
+export const giftProps = {
+  breadProp: giftBreadProp,
+  title: "VIBRANT GUJARAT, GIFT CITY",
+  text1:
+    "Vibrant Gujarat is known for being a significant platform for business networking, investment opportunities, and showcasing innovations in various sectors. Having the event inaugurated by the Prime Minister of India adds a considerable level of importance and visibility to the exhibition. VAMA SKYLIGHT found the event to be interactive, knowledgeable, and successful.",
+  img: "gft-3.jpeg",
+  otherImages: ["gft-1.jpeg", "gft-2.jpeg", "gft-4.jpeg", "gft-5.jpeg"],
+};

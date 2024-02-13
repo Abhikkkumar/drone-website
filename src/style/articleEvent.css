@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0.4rem auto;
+  margin: 2% auto;
   padding: 0 0.75rem;
 }
 @media (max-width: 992px) {
@@ -25,11 +25,27 @@
   border: 2px solid white;
   border-radius: 1rem;
   box-shadow: 1px 1px 3px #888888;
+  transition: all ease-in-out 0.25s;
+}
+.event-card:hover {
+  box-shadow: 2px 2px 14px #888888;
+  transform: translateY(-0.8rem);
+  cursor: pointer;
+}
+.art-div-cnt {
+  text-align: center;
+}
+.art-div-cnt > h3 {
+  margin: 0.7rem auto;
+  margin-bottom: -0.3rem;
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
 }
 .event-card > img {
   width: 100%;
-  border-radius: 1rem;
+  border-radius: 1rem 1rem 0 0;
 }
 .event-card > p {
   font-weight: 600;
+  margin: 0.45rem auto;
 }
