@@ -138,6 +138,7 @@ export default function About() {
         </div>
 
 
+        <div className="history-container">
         <div className="history">
           <h2>Our History</h2>
           <h3>2022</h3><hr></hr>
@@ -151,6 +152,7 @@ export default function About() {
           <hr></hr>
           <p>At Vama Skylight LLP, we value innovation, reliability, and customer satisfaction. We are committed to delivering high-quality products and services that meet the needs of our clients.</p>
           <p>At Vama Skylight, we are committed to providing our clients with high-quality UAV solutions and outstanding customer service. we are constantly pushing the boundaries of what is possible with UAV technology. Contact us today to learn more about our products and services!</p>
+        </div>
         </div>
 
 
