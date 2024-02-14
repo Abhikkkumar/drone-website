@@ -12,14 +12,14 @@ export default function RTPO() {
 
   const breadProp = {
     title: "Remote Pilot Training Organisation",
-    text: "",
+    text: "Learn the art of flying drones and turn your passion into a profession.",
     arr: ["Home", "RTPO"],
   };
   const props = {
     img: "s4.jpg",
     title: "Remote Pilot Training Organisation",
     text1:
-      "Learn the art of flying drones and turn your passion into a profession.",
+      "Welcome to [Your Drone Company Name], where innovation takes flight! As a premier Remote Pilot Training organization, we are dedicated to shaping the future of unmanned aerial systems. Explore the skies with confidence and expertise through our comprehensive training programs designed to elevate your skills and meet the demands of the rapidly evolving drone industry.",
   };
 
   return (

@@ -26,23 +26,14 @@ export default function DropdownSupport({ dropdownSpt, setThree, setFour }) {
         <div
           className="dropdown-list"
           onClick={() => {
-            navigate("/land-mapping");
+            navigate("/land-survey");
             setFour(false);
             setThree(true);
           }}
         >
-          <p>Land Mapping</p>
+          <p>Land Survey</p>
         </div>
-        <div
-          className="dropdown-list"
-          onClick={() => {
-            navigate("/land-surveillance");
-            setFour(false);
-            setThree(true);
-          }}
-        >
-          <p>Land Surveillance</p>
-        </div>
+
         <div
           className="dropdown-list"
           onClick={() => {
@@ -62,6 +53,26 @@ export default function DropdownSupport({ dropdownSpt, setThree, setFour }) {
           }}
         >
           <p>Pilot Training</p>
+        </div>
+        <div
+          className="dropdown-list"
+          onClick={() => {
+            navigate("/drone-repair-and-maintenance");
+            setFour(false);
+            setThree(true);
+          }}
+        >
+          <p>Drone Repair And Maintenance</p>
+        </div>
+        <div
+          className="dropdown-list"
+          onClick={() => {
+            navigate("/uav-consultancy");
+            setFour(false);
+            setThree(true);
+          }}
+        >
+          <p>UAV Consultancy</p>
         </div>
       </div>
     </CSSTransition>

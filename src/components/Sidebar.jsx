@@ -85,22 +85,14 @@ export default function Sidebar({ sidebar, showSidebar }) {
                 </Link>
                 <Link
                   className="side-list sl-list"
-                  to="/land-mapping"
+                  to="/land-survey"
                   onClick={() => {
                     showSidebar(!sidebar);
                   }}
                 >
-                  Land Mapping
+                  Land Survey
                 </Link>
-                <Link
-                  className="side-list sl-list"
-                  to="/land-surveillance"
-                  onClick={() => {
-                    showSidebar(!sidebar);
-                  }}
-                >
-                  Land Surveillance
-                </Link>
+
                 <Link
                   className="side-list sl-list"
                   to="/disaster-management"
@@ -118,6 +110,24 @@ export default function Sidebar({ sidebar, showSidebar }) {
                   }}
                 >
                   Pilot Training
+                </Link>
+                <Link
+                  className="side-list sl-list"
+                  to="/drone-repair-and-maintenance"
+                  onClick={() => {
+                    showSidebar(!sidebar);
+                  }}
+                >
+                  Drone Repair And Maintenance
+                </Link>
+                <Link
+                  className="side-list sl-list"
+                  to="/uav-consultancy"
+                  onClick={() => {
+                    showSidebar(!sidebar);
+                  }}
+                >
+                  UAV Consultancy
                 </Link>
               </div>
             </CSSTransition>
@@ -191,12 +201,12 @@ export default function Sidebar({ sidebar, showSidebar }) {
                 </Link>
                 <Link
                   className="side-list sl-list"
-                  to="/surveillance-drone"
+                  to="/survey-drone"
                   onClick={() => {
                     showSidebar(!sidebar);
                   }}
                 >
-                  Surveillance Drone
+                  Survey Drone
                 </Link>
               </div>
             </CSSTransition>
