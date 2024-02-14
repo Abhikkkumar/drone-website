@@ -51,7 +51,7 @@ export default function DropdownProd({ dropdown, setFour, setThree }) {
             setThree(false);
           }}
         >
-          <p>Surveillance Drone</p>
+          <p>Survey Drone</p>
         </div>
       </div>
     </CSSTransition>

@@ -171,15 +171,15 @@ const th16Pts = [
 ];
 export const th_agri_16 = {
   breadProp: th16BreadProp,
-  // img: "https://i.ibb.co/9Z1WcdB/16L.png",
-  img: `10L.jpeg`,
+
+  img: `16L-top.png`,
   title:
     "Thea Agriculture Drone 16L: Precision Spraying for Sustainable Farming",
   text1:
     "Unleash the power of cutting-edge technology to transform your farming practices and maximize crop yield. The TH16L is a medium-category hexacopter drone designed specifically for efficient and precise plant protection chemical spraying.",
   pointArr: th16Pts,
   text2: "",
-  img2: "16L.png",
+  img2: "16L-bottom.png",
   img3: "",
   isService: false,
 };

@@ -223,7 +223,7 @@
 .s4p-img-cnt {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   margin-top: 1rem;
   padding: 1rem;
 }
@@ -233,6 +233,9 @@
   /* border-radius: 0.75rem; */
   box-shadow: 2px 2px 7px #aaa;
   transition: all ease-in-out 0.2s;
+}
+.s4p-img-cnt.single {
+  justify-content: center;
 }
 .s4p-img-cnt.single > img {
   max-width: 100%;

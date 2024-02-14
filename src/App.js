@@ -9,7 +9,7 @@ import ServiceTemplate from "./components/Template/ServiceTemplate";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
 import About from "./components/About";
-import Gallery from "./components/Gallery";
+import RTPO from "./components/RTPO";
 import Footer2 from "./components/Footer2";
 import ArticleEvent from "./components/ArticleEvent";
 import GiftCityT from "./components/GiftCityT";
@@ -94,7 +94,7 @@ function App() {
             path="/surveillance-drone"
             element={<ServiceTemplate props={Surveillance} />}
           ></Route>
-          <Route path="/gallery" element={<Gallery />}></Route>
+          <Route path="/rtpo" element={<RTPO />}></Route>
           <Route path="/vaghai-navsari-agricultural-university,-gujarat" element={<GiftCityT props={vaghaiProps}/>}></Route>
           <Route path="/up-international-trade-show,-noida" element={<GiftCityT props={noidaProps}/>}></Route>
           <Route path="/bharat-drone-shakti,-ghaziabad" element={<GiftCityT props={saktiProps}/>}></Route>
