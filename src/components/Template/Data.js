@@ -1,17 +1,18 @@
 // import agriImg from "../../img/Service-Product/Agriculture-spraying.png";
 export const services = [
   "Agriculture Spraying",
-  "Land Mapping",
-  "Land Surveillance",
+  "Land Survey",
   "Disaster Management",
   "Pilot Training",
+  "Drone Repair And Maintenance",
+  "UAV Consultancy"
 ];
-// const baseUrl = "../../img/Service-Product";
+
 export const products = [
   "Thea Agriculture Drone 16 Litres",
   "Thea Agriculture Drone 10 Litres",
   "Naina Disaster Management Drone",
-  "Surveillance Drone",
+  "Survey Drone",
 ];
 export const events = [
   "VAGHAI NAVSARI AGRICULTURAL UNIVERSITY, GUJARAT",
@@ -48,56 +49,32 @@ export const agricultureSprayingProp = {
   img3: "https://images.unsplash.com/photo-1533487924410-8792b4f3a661?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   isService: true,
 };
-const landMappingBreadProp = {
-  title: "Land Mapping",
-  text: "Welcome to VAMA Skylight Mapping, where innovation meets precision to redefine your land management experience.",
-  arr: ["Home", "Services", "Land Mapping"],
+const landSurveyBreadProp = {
+  title: "Land Survey",
+  text: "Welcome to VAMA Skylight land survey, where innovation meets precision to redefine your land management experience.",
+  arr: ["Home", "Services", "Land Survey"],
 };
-const landMappingPts = [
+const landSurveyPts = [
   "Our state-of-the-art drone fleet, equipped with advanced cameras and sensors, captures stunning high-resolution aerial imagery",
   "Utilize our cutting-edge drone technology for precise land surveying and mapping",
   " Monitor construction progress, track earthmoving activities, and keep your projects on schedule with regular aerial surveys.",
   "Whether you're in agriculture, real estate, construction, or environmental management, our mapping services are customizable to meet your unique needs. ",
 ];
-export const landMappingProp = {
-  breadProp: landMappingBreadProp,
+export const landSurveyProp = {
+  breadProp: landSurveyBreadProp,
   // img: "https://i.ibb.co/zmvR09n/Land-Mapping.png",
   img: `Land-Mapping.png`,
-  title: "Land Mapping Services at Vama Skylight",
+  title: "Land Survey Services at Vama Skylight",
   text1:
-    "VAMA Skylight Mapping is your trusted partner for cutting-edge drone-powered land mapping services. Our skilled team of drone pilots and mapping experts collaborates to deliver accurate, swift, and cost-effective mapping solutions tailored to diverse industries.",
-  pointArr: landMappingPts,
+    "VAMA Skylight Mapping is your trusted partner for cutting-edge drone-powered Land Survey services. Our skilled team of drone pilots and mapping experts collaborates to deliver accurate, swift, and cost-effective mapping solutions tailored to diverse industries.",
+  pointArr: landSurveyPts,
   text2:
-    "VAMA Skylight Mapping is committed to reshaping the way you perceive and manage your land. Join us in unlocking the full potential of drone technology for precise and efficient land mapping",
+    "VAMA Skylight Mapping is committed to reshaping the way you perceive and manage your land. Join us in unlocking the full potential of drone technology for precise and efficient land survey",
   img2: "https://images.unsplash.com/photo-1523678631214-6532a89c96cc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE0fHxkcm9uZXxlbnwwfHwwfHx8MA%3D%3D",
   img3: "https://images.unsplash.com/photo-1533487924410-8792b4f3a661?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   isService: true,
 };
-const landSurveillanceBreadProp = {
-  title: "Land Surveillance",
-  text: "Welcome to VAMA Skylight Solutions, your all-encompassing partner for cutting-edge land surveillance services",
-  arr: ["Home", "Services", "Land Surveillance"],
-};
-const landSurveillancePts = [
-  "VAMA Skylight Solutions seamlessly integrates technology to provide you with a holistic view of your property.",
-  "Our surveillance services are customized to meet the unique security needs of your property.",
-  "Stay connected to your property at all times with our real-time monitoring solutions. ",
-  "VAMA Skylight Solutions doesn't just offer surveillance; we provide detailed reports and analytics",
-];
-export const landSurveillanceProp = {
-  breadProp: landSurveillanceBreadProp,
-  img: `Land-Surveillance.png`,
-  // img: "https://i.ibb.co/VMzJh7c/Land-Surveillance.png",
-  title: "Land Surveillance Services at Vama Skylight",
-  text1:
-    "VAMA Skylight Solutions integrates the latest in drone technology to offer unmatched land mapping and surveillance services. Our dedicated team of experts ensures that your property is not only mapped with precision but also safeguarded through state-of-the-art surveillance solutions.",
-  pointArr: landSurveillancePts,
-  text2:
-    "Experience the synergy of precise land mapping and advanced surveillance in one comprehensive solution.",
-  img2: "https://images.unsplash.com/photo-1523678631214-6532a89c96cc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE0fHxkcm9uZXxlbnwwfHwwfHx8MA%3D%3D",
-  img3: "https://images.unsplash.com/photo-1533487924410-8792b4f3a661?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  isService: true,
-};
+
 const disasterBreadProp = {
   title: "Disaster Management",
   text: "VAMA Skylight Resilience: Empowering Disaster Management through Drone Technology",
@@ -142,6 +119,56 @@ export const pilotTrainingProp = {
   text1:
     "With experienced instructors and state-of-the-art training facilities, we provide a structured and hands-on learning experience to prepare you for a successful career in drone piloting",
   pointArr: pilotsPts,
+  text2:
+    "Explore our comprehensive training programs designed to equip you with the knowledge and expertise needed to navigate the skies with confidence and precision",
+  img2: "https://images.unsplash.com/photo-1523678631214-6532a89c96cc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE0fHxkcm9uZXxlbnwwfHwwfHx8MA%3D%3D",
+  img3: "https://images.unsplash.com/photo-1533487924410-8792b4f3a661?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  isService: true,
+};
+const repairBreadProp = {
+  title: "Drone Repair And Maintenance",
+  text: "Welcome to VAMA Skylight, your gateway to becoming a skilled and certified drone pilot",
+  arr: ["Home", "Services", "Drone Repair And Maintenance"],
+};
+const repairPts = [
+  " Ideal for beginners, covering essential skills, regulations, and safety measures.",
+  "Specialized training for industry-specific applications, including agriculture, mapping, surveillance, and disaster management",
+  "Hone your skills in a controlled environment with our state-of-the-art flight simulation programs.",
+  "Get behind the controls of industry-standard drones during our hands-on training sessions.",
+];
+export const repairProp = {
+  breadProp: repairBreadProp,
+  // img: "https://i.ibb.co/pKZXkQg/Pilot-Training.png",
+  img: `drone-repair.jpg`,
+  title: "Drone Repair And Maintenance at Vama Skylight",
+  text1:
+    "With experienced instructors and state-of-the-art training facilities, we provide a structured and hands-on learning experience to prepare you for a successful career in drone piloting",
+  pointArr: repairPts,
+  text2:
+    "Explore our comprehensive training programs designed to equip you with the knowledge and expertise needed to navigate the skies with confidence and precision",
+  img2: "https://images.unsplash.com/photo-1523678631214-6532a89c96cc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE0fHxkcm9uZXxlbnwwfHwwfHx8MA%3D%3D",
+  img3: "https://images.unsplash.com/photo-1533487924410-8792b4f3a661?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  isService: true,
+};
+const uavBreadProp = {
+  title: "UAV Consultancy",
+  text: "Welcome to VAMA Skylight, your gateway to becoming a skilled and certified drone pilot",
+  arr: ["Home", "Services", "UAV Consultancy"],
+};
+const uavPts = [
+  " Ideal for beginners, covering essential skills, regulations, and safety measures.",
+  "Specialized training for industry-specific applications, including agriculture, mapping, surveillance, and disaster management",
+  "Hone your skills in a controlled environment with our state-of-the-art flight simulation programs.",
+  "Get behind the controls of industry-standard drones during our hands-on training sessions.",
+];
+export const uavProp = {
+  breadProp: uavBreadProp,
+  // img: "https://i.ibb.co/pKZXkQg/Pilot-Training.png",
+  img: `consultancy.jpg`,
+  title: "UAV Consultancy",
+  text1:
+    "With experienced instructors and state-of-the-art training facilities, we provide a structured and hands-on learning experience to prepare you for a successful career in drone piloting",
+  pointArr: uavPts,
   text2:
     "Explore our comprehensive training programs designed to equip you with the knowledge and expertise needed to navigate the skies with confidence and precision",
   img2: "https://images.unsplash.com/photo-1523678631214-6532a89c96cc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE0fHxkcm9uZXxlbnwwfHwwfHx8MA%3D%3D",
@@ -243,27 +270,27 @@ export const Naina = {
   img3: "",
   isService: false,
 };
-const surveillanceBreadProp = {
-  title: "Surveillance Drone",
+const surveyBreadProp = {
+  title: "Survey Drone",
   text: "Welcome to the future of security and surveillance with Guardian Surveillance Drones",
   arr: ["Home", "Products", "Surveillance Drone"],
 };
-const surveillancePts = [
-  "AI-Enhanced Surveillance Capabilities",
+const surveyPts = [
+  "AI-Enhanced Survey Capabilities",
   "High-Resolution Camera Systems",
   "Long-Range Flight Capability",
   "Real-Time Streaming and Recording",
   "Auto-Pilot Navigation",
   "Customizable Surveillance Plans",
 ];
-export const Surveillance = {
-  breadProp: surveillanceBreadProp,
+export const surveyProp = {
+  breadProp: surveyBreadProp,
 
   img: `Land-Surveillance.png`,
-  title: "Surveillance Drones: Securing Tomorrow, Today",
+  title: "Survey Drone",
   text1:
     "Our cutting-edge drones are engineered to redefine the landscape of surveillance, providing advanced technology for comprehensive monitoring and protection.",
-  pointArr: surveillancePts,
+  pointArr: surveyPts,
   text2: "",
   img2: "https://images.unsplash.com/photo-1523678631214-6532a89c96cc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE0fHxkcm9uZXxlbnwwfHwwfHx8MA%3D%3D",
   img3: "https://images.unsplash.com/photo-1533487924410-8792b4f3a661?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",

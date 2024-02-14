@@ -16,11 +16,8 @@ import GiftCityT from "./components/GiftCityT";
 import Carrier from "./components/Carrier";
 import Dealership from "./components/Dealership";
 
-
 import {
   agricultureSprayingProp,
-  landMappingProp,
-  landSurveillanceProp,
   disasterManagementProp,
   pilotTrainingProp,
   th_agri_16,
@@ -31,7 +28,11 @@ import {
   noidaProps,
   saktiProps,
   bagpatProps,
-  giftProps
+  giftProps,
+  landSurveyProp,
+  repairProp,
+  uavProp,
+  surveyProp,
 } from "./components/Template/Data";
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -67,13 +68,10 @@ function App() {
             element={<ServiceTemplate props={agricultureSprayingProp} />}
           ></Route>
           <Route
-            path="/land-mapping"
-            element={<ServiceTemplate props={landMappingProp} />}
+            path="/land-survey"
+            element={<ServiceTemplate props={landSurveyProp} />}
           ></Route>
-          <Route
-            path="/land-surveillance"
-            element={<ServiceTemplate props={landSurveillanceProp} />}
-          ></Route>
+
           <Route
             path="/disaster-management"
             element={<ServiceTemplate props={disasterManagementProp} />}
@@ -81,6 +79,14 @@ function App() {
           <Route
             path="/pilot-training"
             element={<ServiceTemplate props={pilotTrainingProp} />}
+          ></Route>
+          <Route
+            path="/drone-repair-and-maintenance"
+            element={<ServiceTemplate props={repairProp} />}
+          ></Route>
+          <Route
+            path="/uav-consultancy"
+            element={<ServiceTemplate props={uavProp} />}
           ></Route>
           <Route
             path="/thea-agriculture-drone-16-litres"
@@ -95,15 +101,30 @@ function App() {
             element={<ServiceTemplate props={Naina} />}
           ></Route>
           <Route
-            path="/surveillance-drone"
-            element={<ServiceTemplate props={Surveillance} />}
+            path="/survey-drone"
+            element={<ServiceTemplate props={surveyProp} />}
           ></Route>
           <Route path="/rtpo" element={<RTPO />}></Route>
-          <Route path="/vaghai-navsari-agricultural-university,-gujarat" element={<GiftCityT props={vaghaiProps}/>}></Route>
-          <Route path="/up-international-trade-show,-noida" element={<GiftCityT props={noidaProps}/>}></Route>
-          <Route path="/bharat-drone-shakti,-ghaziabad" element={<GiftCityT props={saktiProps}/>}></Route>
-          <Route path="/baghpath-kisan-mela" element={<GiftCityT props={bagpatProps}/>}></Route>
-          <Route path="/vibrant-gujarat,-gift-city" element={<GiftCityT props={giftProps}/>}></Route>
+          <Route
+            path="/vaghai-navsari-agricultural-university,-gujarat"
+            element={<GiftCityT props={vaghaiProps} />}
+          ></Route>
+          <Route
+            path="/up-international-trade-show,-noida"
+            element={<GiftCityT props={noidaProps} />}
+          ></Route>
+          <Route
+            path="/bharat-drone-shakti,-ghaziabad"
+            element={<GiftCityT props={saktiProps} />}
+          ></Route>
+          <Route
+            path="/baghpath-kisan-mela"
+            element={<GiftCityT props={bagpatProps} />}
+          ></Route>
+          <Route
+            path="/vibrant-gujarat,-gift-city"
+            element={<GiftCityT props={giftProps} />}
+          ></Route>
         </Routes>
 
         <Footer1 />

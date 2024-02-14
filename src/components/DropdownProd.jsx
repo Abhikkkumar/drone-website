@@ -46,7 +46,7 @@ export default function DropdownProd({ dropdown, setFour, setThree }) {
         <div
           className="dropdown-list"
           onClick={() => {
-            navigate("/surveillance-drone");
+            navigate("/survey-drone");
             setFour(true);
             setThree(false);
           }}
