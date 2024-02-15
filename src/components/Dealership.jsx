@@ -30,21 +30,26 @@ export default function Dealership() {
           <div className="prod-img">
             <img src={carrier} alt="" className="carrier-image" />
             <form className="carrier-form">
+              <input type="text" name="name" placeholder="Your Name" />
               <input
-                type="text"
-               
-                name="name"
-                placeholder="Your Name"
+                type="Phone Number"
+                id="Phone Number"
+                name="number"
+                placeholder="Your Phone Number"
               />
+              <input type="Email" name="email" placeholder="Your Email" />
+
               <input
-                type="Email"
-                
-                name="email"
-                placeholder="Your Email"
+                type="State"
+                id="State"
+                name="state"
+                placeholder="Your State"
               />
 
               <div className="carrier-file">
-                <label for="myfile">Upload Your Resume:</label>
+                <label for="myfile" className="custom-file-upload">
+                  <i className="fa fa-cloud-upload"></i> Upload Resume
+                </label>
                 <input type="file" id="myfile" name="myfile" />
               </div>
 
