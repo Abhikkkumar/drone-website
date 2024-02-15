@@ -13,6 +13,8 @@ import RTPO from "./components/RTPO";
 import Footer2 from "./components/Footer2";
 import ArticleEvent from "./components/ArticleEvent";
 import GiftCityT from "./components/GiftCityT";
+import Carrier from "./components/Carrier";
+import Dealership from "./components/Dealership";
 
 import {
   agricultureSprayingProp,
@@ -59,6 +61,8 @@ function App() {
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/service" element={<Home />}></Route>
           <Route path="/product" element={<Home />}></Route>
+          <Route path="/career" element={<Carrier />}></Route>
+          <Route path="/dealership" element={<Dealership />}></Route>
           <Route
             path="/agriculture-spraying"
             element={<ServiceTemplate props={agricultureSprayingProp} />}
