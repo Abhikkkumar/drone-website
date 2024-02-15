@@ -5,6 +5,7 @@ import BreadcrumpTemp from "./Template/BreadcrumpTemp";
 import Section1 from "./Section1";
 import Section2_p from "./page2/Section2_p";
 import Section3 from "./Section3";
+import telescope from "../img/telescope.jpg";
 
 import TestimonialCard from "./TestimonialCard";
 // Import Swiper React components
@@ -57,20 +58,89 @@ export default function About() {
       <div className="about-inner">
         <Section1 />
         <Section2_p />
-        <div className="vision-container">
+        {/* <div className="vision-container">
           <div className="vision-1">
             <h3>Our Vision</h3>
-            <p>Our vision is to redefine the sky and make it accessible to businesses and organizations of all sizes. We believe that UAV technology has the potential to transform the way we work and live, and we are committed to developing innovative solutions that help our clients achieve their goals.</p>
+            <p>
+              Our vision is to redefine the sky and make it accessible to
+              businesses and organizations of all sizes. We believe that UAV
+              technology has the potential to transform the way we work and
+              live, and we are committed to developing innovative solutions that
+              help our clients achieve their goals.
+            </p>
           </div>
 
           <div className="vision-1">
             <h3>Our Mission</h3>
-            <p>Our mission is to utilize the opportunity that the limitless sky offers by creating a technology-driven organization that gives reliable solutions to the challenges of the present and future. We aim to do this by delivering high-quality UAVs that are equipped with advanced sensors and cameras, as well as powerful software that enables autonomous flight and data processing.</p>
+            <p>
+              Our mission is to utilize the opportunity that the limitless sky
+              offers by creating a technology-driven organization that gives
+              reliable solutions to the challenges of the present and future. We
+              aim to do this by delivering high-quality UAVs that are equipped
+              with advanced sensors and cameras, as well as powerful software
+              that enables autonomous flight and data processing.
+            </p>
           </div>
 
           <div className="vision-1">
             <h3>Purpose</h3>
-            <p>The purpose of Vama Skylight is to leverage the potential of UAV (Unmanned Aerial Vehicle) technology to provide reliable, innovative, and accessible solutions to businesses and organizations.</p>
+            <p>
+              The purpose of Vama Skylight is to leverage the potential of UAV
+              (Unmanned Aerial Vehicle) technology to provide reliable,
+              innovative, and accessible solutions to businesses and
+              organizations.
+            </p>
+          </div>
+        </div> */}
+        <div className="new-vision">
+          <div className="v-box">
+            <img src={telescope} alt="img" />
+            <i className="v-arrow fa-solid fa-chevron-down"></i>
+            <div className="vision-t">
+              <p className="v-text">1</p>
+              <div className="vision">MISSION</div>
+            </div>
+            <div className="v-hr"></div>
+            <div className="vt-2">
+              To build drone ecosystem and deliver technically advanced and
+              affordable drone solutions.
+            </div>
+          </div>
+          <div className="v-box">
+            <img src={telescope} alt="img" />
+            <i className="v-arrow fa-solid fa-chevron-down"></i>
+            <div className="vision-t">
+              <p className="v-text">2</p>
+              <div className="vision">VISION</div>
+            </div>
+            <div className="v-hr"></div>
+            <div className="vt-2">
+              To become the largest and leading drone manufacturing company in
+              the world.
+            </div>
+          </div>
+          <div className="v-box">
+            <img src={telescope} alt="img" />
+            <i className="v-arrow fa-solid fa-chevron-down"></i>
+            <div className="vision-t">
+              <p className="v-text">3</p>
+              <div className="vision">VALUES</div>
+            </div>
+            <div className="v-hr"></div>
+            <div className="vt-2">
+              <ul style={{ transform: "translateX(15%)" }}>
+                <p>
+                  {" "}
+                  <li>Quality</li>
+                </p>
+                <p>
+                  <li>Innovation</li>
+                </p>
+                <p>
+                  <li>Customer First</li>
+                </p>
+              </ul>
+            </div>
           </div>
         </div>
         <div className="our-team">
@@ -137,26 +207,38 @@ export default function About() {
           </div>
         </div>
 
-
         <div className="history-container">
-        <div className="history">
-          <h2>Our History</h2>
-          <h3>2022</h3><hr></hr>
-          <p>Vama Skylight LLP was founded in 2022 by a team of engineers and drone enthusiasts who saw the potential for UAVs to transform industries. Since then, we have grown into a leading UAV company in India, with a purpose of delivering reliable, high-quality products and services to our clients.</p>
+          <div className="history">
+            <h2>Our History</h2>
+            <h3>2022</h3>
+            <hr></hr>
+            <p>
+              Vama Skylight LLP was founded in 2022 by a team of engineers and
+              drone enthusiasts who saw the potential for UAVs to transform
+              industries. Since then, we have grown into a leading UAV company
+              in India, with a purpose of delivering reliable, high-quality
+              products and services to our clients.
+            </p>
+          </div>
 
+          <div className="history">
+            <h2>Our Values</h2>
+            <hr></hr>
+            <p>
+              At Vama Skylight LLP, we value innovation, reliability, and
+              customer satisfaction. We are committed to delivering high-quality
+              products and services that meet the needs of our clients.
+            </p>
+            <p>
+              At Vama Skylight, we are committed to providing our clients with
+              high-quality UAV solutions and outstanding customer service. we
+              are constantly pushing the boundaries of what is possible with UAV
+              technology. Contact us today to learn more about our products and
+              services!
+            </p>
+          </div>
         </div>
-
-
-        <div className="history">
-          <h2>Our Values</h2>
-          <hr></hr>
-          <p>At Vama Skylight LLP, we value innovation, reliability, and customer satisfaction. We are committed to delivering high-quality products and services that meet the needs of our clients.</p>
-          <p>At Vama Skylight, we are committed to providing our clients with high-quality UAV solutions and outstanding customer service. we are constantly pushing the boundaries of what is possible with UAV technology. Contact us today to learn more about our products and services!</p>
-        </div>
-        </div>
-
-
-
+        
         <Section3 />
       </div>
     </div>
