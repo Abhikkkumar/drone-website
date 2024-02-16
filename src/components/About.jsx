@@ -58,40 +58,7 @@ export default function About() {
       <div className="about-inner">
         <Section1 />
         <Section2_p />
-        {/* <div className="vision-container">
-          <div className="vision-1">
-            <h3>Our Vision</h3>
-            <p>
-              Our vision is to redefine the sky and make it accessible to
-              businesses and organizations of all sizes. We believe that UAV
-              technology has the potential to transform the way we work and
-              live, and we are committed to developing innovative solutions that
-              help our clients achieve their goals.
-            </p>
-          </div>
 
-          <div className="vision-1">
-            <h3>Our Mission</h3>
-            <p>
-              Our mission is to utilize the opportunity that the limitless sky
-              offers by creating a technology-driven organization that gives
-              reliable solutions to the challenges of the present and future. We
-              aim to do this by delivering high-quality UAVs that are equipped
-              with advanced sensors and cameras, as well as powerful software
-              that enables autonomous flight and data processing.
-            </p>
-          </div>
-
-          <div className="vision-1">
-            <h3>Purpose</h3>
-            <p>
-              The purpose of Vama Skylight is to leverage the potential of UAV
-              (Unmanned Aerial Vehicle) technology to provide reliable,
-              innovative, and accessible solutions to businesses and
-              organizations.
-            </p>
-          </div>
-        </div> */}
         <div className="new-vision">
           <div className="v-box">
             <img src={telescope} alt="img" />
@@ -102,8 +69,8 @@ export default function About() {
             </div>
             <div className="v-hr"></div>
             <div className="vt-2">
-              To build drone ecosystem and deliver technically advanced and
-              affordable drone solutions.
+              To utilize the opportunity that the limitless sky offers by
+              creating a technology-driven organization.
             </div>
           </div>
           <div className="v-box">
@@ -115,8 +82,8 @@ export default function About() {
             </div>
             <div className="v-hr"></div>
             <div className="vt-2">
-              To become the largest and leading drone manufacturing company in
-              the world.
+              To redefine the sky and make it accessible to businesses and
+              organizations of all sizes.
             </div>
           </div>
           <div className="v-box">
@@ -128,7 +95,7 @@ export default function About() {
             </div>
             <div className="v-hr"></div>
             <div className="vt-2">
-              <ul style={{ transform: "translateX(15%)" }}>
+              {/* <ul style={{ transform: "translateX(15%)" }}>
                 <p>
                   {" "}
                   <li>Quality</li>
@@ -139,7 +106,10 @@ export default function About() {
                 <p>
                   <li>Customer First</li>
                 </p>
-              </ul>
+              </ul> */}
+              
+              We are committed to delivering high-quality products and services
+              that meet the needs of our clients.
             </div>
           </div>
         </div>
@@ -238,7 +208,7 @@ export default function About() {
             </p>
           </div>
         </div>
-        
+
         <Section3 />
       </div>
     </div>

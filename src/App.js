@@ -24,7 +24,7 @@ import {
   th_agri_16,
   th_agri_10,
   Naina,
-  Surveillance,
+  
   vaghaiProps,
   noidaProps,
   saktiProps,
