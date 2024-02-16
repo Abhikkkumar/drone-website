@@ -137,7 +137,7 @@ export default function Contact() {
             <div className="card1">
               <h5>Email Us</h5>
               <p>
-                <a href="info@vamadronestores.com">info@vamadronestores.com</a>
+                <a href="mailto:info@vamadronestores.com">info@vamadronestores.com</a>
               </p>
               {/* <p>test2@gmail.com</p> */}
             </div>

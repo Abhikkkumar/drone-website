@@ -48,23 +48,19 @@ export default function Footer1() {
           <Link to="/about-us" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> ABOUT US
           </Link>
-          <Link to="/" className="f-hover">
-            <i class="fa-solid fa-angle-right"></i> SUPPORT & SERVICES
-          </Link>
-          <Link to="/" className="f-hover">
-            <i class="fa-solid fa-angle-right"></i> PRODUCTS
-          </Link>
+          
           <Link to="/gallery" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> GALLERY
           </Link>
-          <Link to="/contact" className="f-hover">
-            <i class="fa-solid fa-angle-right"></i> CONTACT US
+          <Link to="/dealership" className="f-hover">
+            <i class="fa-solid fa-angle-right"></i> DEALERSHIP
           </Link>
           <Link to="/career" className="f-hover">
-            <i class="fa-solid fa-angle-right"></i> Career
+            <i class="fa-solid fa-angle-right"></i> CAREER
           </Link>
-          <Link to="/dealership" className="f-hover">
-            <i class="fa-solid fa-angle-right"></i> Dealership
+          
+          <Link to="/contact" className="f-hover">
+            <i class="fa-solid fa-angle-right"></i> CONTACT US
           </Link>
         </div>
       </div>
@@ -82,7 +78,7 @@ export default function Footer1() {
           </div>
           <div className="f-hover">
             <p>
-              <a href="info@vamadronestores.com">info@vamadronestores.com</a>
+              <a href="mailto:info@vamadronestores.com">info@vamadronestores.com</a>
             </p>
           </div>
         </div>

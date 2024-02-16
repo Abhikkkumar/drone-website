@@ -19,6 +19,13 @@
   .asp-right {
     width: 98%;
   }
+  .sec2-prod-left > h1 {
+    font-weight: 500;
+    font-size: 1.8rem;
+  }
+  .sec-list {
+    margin: 0.5rem auto;
+  }
 }
 .all-section-p > * > * {
   margin: 1rem auto;
@@ -72,6 +79,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.sec-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.35rem;
 }
 .sec2-prod-right {
   width: 100%;
