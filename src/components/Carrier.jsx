@@ -43,8 +43,22 @@ export default function Carrier() {
                 placeholder="Your Email"
               />
 
+              <input
+                type="Phone Number"
+                id="Phone Number"
+                name="number"
+                placeholder="Your Phone Number"
+              />
+
+              <input
+                type="Position"
+                id="Position"
+                name="position"
+                placeholder="Your Position"
+              />
+
               <div className="carrier-file">
-                <label for="myfile">Upload Your Resume:</label>
+                <label for="myfile" className="custom-file-upload"><i className="fa fa-cloud-upload"></i> Upload Resume</label>
                 <input type="file" id="myfile" name="myfile" />
               </div>
 
