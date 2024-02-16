@@ -40,7 +40,7 @@ export default function Footer1() {
         </div>
       </div>
       <div className="sub-footer f-3">
-        <h2>OUR SERVICES</h2>
+        <h2>USEFUL LINKS</h2>
         <div className="f3-details">
           <Link to="/" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> HOME
