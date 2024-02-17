@@ -23,28 +23,6 @@ export default function Carousel() {
           
           modules={[Autoplay]}
         >
-          <SwiperSlide className="slides s4">
-            <div className="slides-inner">
-              {/* <h2>Slide 4</h2>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> */}
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="slides s1">
-            <div className="slides-inner">
-              {" "}
-              
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="slides s2">
-            <div className="slides-inner">
-             
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="slides s3">
-            <div className="slides-inner">
-              
-            </div>
-          </SwiperSlide>
           <SwiperSlide className="slides s5">
             <div className="slides-inner">
               
@@ -70,6 +48,29 @@ export default function Carousel() {
              
             </div>
           </SwiperSlide>
+          <SwiperSlide className="slides s4">
+            <div className="slides-inner">
+              {/* <h2>Slide 4</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> */}
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="slides s1">
+            <div className="slides-inner">
+              {" "}
+              
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="slides s2">
+            <div className="slides-inner">
+             
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="slides s3">
+            <div className="slides-inner">
+              
+            </div>
+          </SwiperSlide>
+          
           
         </Swiper>
       </>
