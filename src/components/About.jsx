@@ -163,16 +163,12 @@ export default function About() {
                   <TestimonialCard details={ankurSomani} />
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
-                <div className="image">
-                  <TestimonialCard details={dhruvPanchal} />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
+              
+              {/* <SwiperSlide>
                 <div className="image">
                   <TestimonialCard details={sujitPalande} />
                 </div>
-              </SwiperSlide>
+              </SwiperSlide> */}
             </Swiper>
           </div>
         </div>

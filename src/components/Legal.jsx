@@ -42,7 +42,7 @@ export default function Legal() {
         <BreadcrumpTemp bprops={legalBreadProp} />
       
       <div className="gallery-top">
-        <h1>Our Photo Gallery</h1>
+        <h1>Our Legal Document</h1>
       </div>
 
       
