@@ -13,7 +13,7 @@ export default function RTPO() {
   const breadProp = {
     title: "Remote Pilot Training Organisation",
     text: "Learn the art of flying drones and turn your passion into a profession.",
-    arr: ["Home", "RTPO"],
+    arr: ["Home", "RPTO"],
   };
   const props = {
     img: "s4.jpg",

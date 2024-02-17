@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import BreadcrumpTemp from './Template/BreadcrumpTemp'
 import ServiceTemplate from "./Template/ServiceTemplate";
-import WSPGallery from "./WSPGallery";
+
 import "../style/gallery.css";
 import "../style/wsp-gallery.css";
 import { galleryImages } from './Template/Data';

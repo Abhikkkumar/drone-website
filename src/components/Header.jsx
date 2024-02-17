@@ -120,7 +120,7 @@ export default function Header({ sidebar, showSidebar }) {
           <div className="nav-list">
             <NavLink
               id="rtpo"
-              to="/rtpo"
+              to="/rpto"
               activeClassName="colorBlue"
               onClick={() => {
                 one();
