@@ -11,7 +11,6 @@ import Section5 from "./Section5";
 import CarouselM from "./CarouselM";
 import safety from "../img/product/safety.JPG";
 
-
 export default function Home() {
   return (
     <div className="home">
@@ -19,10 +18,13 @@ export default function Home() {
       <CarouselM />
       <Section1 />
       <Section2 />
-      <Section5/>
+      <Section5 />
       <Section4 />
       <Testimonial />
-      <img className="safety" src={safety} alt="" />
+      <div className="safety">
+        <img  src={safety} alt="" />
+      </div>
+
       <Faqs />
       <Section3 />
     </div>

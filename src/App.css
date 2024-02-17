@@ -16,4 +16,10 @@
 }
 .safety{
   width: 100%;
+  text-align: center;
+}
+.safety> img{
+  width: 90%;
+  height: 80vh;
+  margin: auto;
 }
