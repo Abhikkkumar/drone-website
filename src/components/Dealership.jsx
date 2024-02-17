@@ -46,12 +46,12 @@ export default function Dealership() {
                 placeholder="Your State"
               />
 
-              <div className="carrier-file">
+              {/* <div className="carrier-file">
                 <label for="myfile" className="custom-file-upload">
                   <i className="fa fa-cloud-upload"></i> Upload Resume
                 </label>
                 <input type="file" id="myfile" name="myfile" />
-              </div>
+              </div> */}
 
               <button type="submit">Submit Now</button>
             </form>

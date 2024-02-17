@@ -34,6 +34,7 @@ import {
   uavProp,
   surveyProp,
 } from "./components/Template/Data";
+import Legal from "./components/Legal";
 const ScrollToTop = () => {
   const { pathname } = useLocation();
   console.log(pathname);
@@ -63,6 +64,7 @@ function App() {
           <Route path="/product" element={<Home />}></Route>
           <Route path="/career" element={<Carrier />}></Route>
           <Route path="/dealership" element={<Dealership />}></Route>
+          <Route path="/legal" element={<Legal />}></Route>
           <Route
             path="/agriculture-spraying"
             element={<ServiceTemplate props={agricultureSprayingProp} />}
