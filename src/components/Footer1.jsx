@@ -42,20 +42,20 @@ export default function Footer1() {
       <div className="sub-footer f-3">
         <h2>USEFUL LINKS</h2>
         <div className="f3-details">
-          <Link to="/" className="f-hover">
+          {/* <Link to="/" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> HOME
-          </Link>
-          <Link to="/about-us" className="f-hover">
+          </Link> */}
+          {/* <Link to="/about-us" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> ABOUT US
-          </Link>
-          <Link to="/" className="f-hover">
+          </Link> */}
+          {/* <Link to="/" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> SUPPORT & SERVICES
-          </Link>
-          <Link to="/" className="f-hover">
+          </Link> */}
+          {/* <Link to="/" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> PRODUCTS
-          </Link>
+          </Link> */}
           <Link to="/legal" className="f-hover">
-            <i class="fa-solid fa-angle-right"></i> Legal
+            <i class="fa-solid fa-angle-right"></i> LEGAL
           </Link>
           <Link to="/dealership" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> DEALERSHIP

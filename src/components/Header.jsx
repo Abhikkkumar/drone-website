@@ -126,7 +126,7 @@ export default function Header({ sidebar, showSidebar }) {
                 one();
               }}
             >
-              RTPO
+              RPTO
             </NavLink>
           </div>
 
