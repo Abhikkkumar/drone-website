@@ -5,7 +5,7 @@ export const services = [
   "Disaster Management",
   "Pilot Training",
   "Drone Repair And Maintenance",
-  "UAV Consultancy"
+  "UAV Consultancy",
 ];
 
 export const products = [
@@ -383,8 +383,8 @@ export const noidaProps = {
   title: "UP INTERNATIONAL TRADE SHOW, NOIDA",
   text1:
     "UP International Trade Show held at the India Expo Centre & Mart in Noida was inaugurated by both the President of India and the Chief Minister of Uttar Pradesh. The presence of such esteemed dignitaries underscores the importance of the event not only within the state but also at a national level, highlighting its significance in promoting trade, commerce, and economic development.   VAMA SKYLIGHT participation in this event provided valuable exposure and opportunities for growth within the industry and beyond.",
-  img: "noida-1.jpeg",
-  otherImages: ["noida-2.jpeg"],
+  img: "up-1.jpeg",
+  otherImages: ["up-2.jpeg","up-3.jpeg","up-4.jpeg"],
 };
 const saktiBreadProp = {
   title: "BHARAT DRONE SHAKTI, GHAZIABAD",
@@ -407,8 +407,7 @@ const bagpatBreadProp = {
 export const bagpatProps = {
   breadProp: bagpatBreadProp,
   title: "BAGHPATH KISAN MELA",
-  text1:
-    "Bharat Drone Shakti 2023 at Hindon Air Force Station, Ghaziabad was a significant opportunity for VAMA SKYLIGHT, especially considering the presence of the Defence Minister of India and other Indian Army personnel. Demonstrating the Naina Drone, which was the highlight of the event,  showcased VAMA SKYLIGHT innovation and expertise in drone technology. Being associated with such a high-profile exhibition  have raised VAMA SKYLIGHT's profile within the defence and technology sectors.Bharat Drone Shakti 2023 was a grand success for VAMA SKYLIGHT. These kinds of events not only provide a platform for showcasing products but also offer invaluable opportunities for networking, collaboration, and future business prospects within the defence industry.",
+  text1: "",
 
   img: "bag-2.jpeg",
   otherImages: ["bag-1.jpeg", "bag-3.jpeg", "bag-4.jpeg", "bag-5.jpeg"],

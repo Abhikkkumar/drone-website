@@ -8,12 +8,14 @@ import Section3 from "./Section3";
 import Faqs from "./Faqs";
 import Section4 from "./Section4";
 import Section5 from "./Section5";
+import CarouselM from "./CarouselM";
 
 
 export default function Home() {
   return (
     <div className="home">
       <Carousel />
+      <CarouselM />
       <Section1 />
       <Section2 />
       <Section5/>

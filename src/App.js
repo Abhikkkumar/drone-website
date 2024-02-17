@@ -15,6 +15,7 @@ import ArticleEvent from "./components/ArticleEvent";
 import GiftCityT from "./components/GiftCityT";
 import Carrier from "./components/Carrier";
 import Dealership from "./components/Dealership";
+import Gallery from "./components/Gallery";
 
 import {
   agricultureSprayingProp,
@@ -23,7 +24,7 @@ import {
   th_agri_16,
   th_agri_10,
   Naina,
-  Surveillance,
+  
   vaghaiProps,
   noidaProps,
   saktiProps,

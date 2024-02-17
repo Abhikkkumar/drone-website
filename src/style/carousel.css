@@ -7,9 +7,17 @@
   height: 70vh;
   z-index: 0;
 }
-@media (max-width: 600px) {
+.carouselM {
+  height: 50vh;
+}
+@media (min-width: 679px) {
+  .carouselM {
+    display: none;
+  }
+}
+@media (max-width: 678px) {
   .carousel {
-    height: 50vh !important;
+    display: none;
   }
   .slides {
     height: 50vh !important;
@@ -38,7 +46,7 @@
 }
 .s1 {
   background-image: url("../img/Carousel/s2.jpg");
-  background-position: center ;
+  background-position: center;
   /* background-size: cover; */
 }
 .s2 {
@@ -51,11 +59,57 @@
   background-position: center !important;
 }
 .s4 {
-  background-image: url("../img/Carousel/s4.jpg");
+  background-image: url("../img/Carousel/mob-slider/s1.jpg");
   background-size: cover 100%;
+  background-position: center 38%;
 }
-.s4>.slides-inner{
+/* .slides-inner {
   background-color: rgba(0, 0, 0, 0);
+} */
+.ms1{
+  background-image: url("../img/Carousel/mob-slider/s1.jpg");
+  background-size: 100% cover;
+  background-position: center 18%;
+}
+.ms2{
+  background-image: url("../img/Carousel/mob-slider/s2.jpg");
+  background-size: 100% cover;
+  background-position: center 18%;
+}
+.ms3{
+  background-image: url("../img/Carousel/mob-slider/s3.jpg");
+  background-size: 100% cover;
+  background-position: center 18%;
+}
+.ms4{
+  background-image: url("../img/Carousel/mob-slider/s4.jpg");
+  background-size: 100% cover;
+  background-position: center 18%;
+}
+.ms5{
+  background-image: url("../img/Carousel/mob-slider/ns1.jpg");
+  background-size: 100% cover;
+  background-position: center 28%;
+}
+.ms6{
+  background-image: url("../img/Carousel/mob-slider/ns2.jpg");
+  background-size: 100% cover;
+  background-position: center 28%;
+}
+.ms7{
+  background-image: url("../img/Carousel/mob-slider/ns3.jpg");
+  background-size: 100% cover;
+  background-position: center 28%;
+}
+.ms8{
+  background-image: url("../img/Carousel/mob-slider/ns4.jpg");
+  background-size: 100% cover ;
+  background-position: center 28%;
+}
+.ms9{
+  background-image: url("../img/Carousel/mob-slider/ns5.jpg");
+  background-size:  100% cover;
+  background-position: center 28%;
 }
 .slides-inner {
   background-color: rgba(0, 0, 0, 0.3);

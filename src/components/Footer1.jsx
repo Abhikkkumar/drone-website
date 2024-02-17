@@ -40,7 +40,7 @@ export default function Footer1() {
         </div>
       </div>
       <div className="sub-footer f-3">
-        <h2>OUR SERVICES</h2>
+        <h2>USEFUL LINKS</h2>
         <div className="f3-details">
           <Link to="/" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> HOME
@@ -57,14 +57,15 @@ export default function Footer1() {
           <Link to="/legal" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> Legal
           </Link>
-          <Link to="/contact" className="f-hover">
-            <i class="fa-solid fa-angle-right"></i> CONTACT US
+          <Link to="/dealership" className="f-hover">
+            <i class="fa-solid fa-angle-right"></i> DEALERSHIP
           </Link>
           <Link to="/career" className="f-hover">
-            <i class="fa-solid fa-angle-right"></i> Career
+            <i class="fa-solid fa-angle-right"></i> CAREER
           </Link>
-          <Link to="/dealership" className="f-hover">
-            <i class="fa-solid fa-angle-right"></i> Dealership
+          
+          <Link to="/contact" className="f-hover">
+            <i class="fa-solid fa-angle-right"></i> CONTACT US
           </Link>
         </div>
       </div>
@@ -82,7 +83,7 @@ export default function Footer1() {
           </div>
           <div className="f-hover">
             <p>
-              <a href="info@vamadronestores.com">info@vamadronestores.com</a>
+              <a href="mailto:info@vamadronestores.com">info@vamadronestores.com</a>
             </p>
           </div>
         </div>

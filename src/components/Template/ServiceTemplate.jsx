@@ -38,15 +38,22 @@ export default function ServiceTemplate({ props }) {
             <ul>
               {props.pointArr.map((curr) => {
                 return (
-                  <li>
+                  <li className="sec-list">
                     <i class="fa-solid fa-check"></i>
-                    {curr}
+                    <p
+                      style={{
+                        textAlign: "left",
+                        maxWidth: "350px",
+                      }}
+                    >
+                      {curr}
+                    </p>
                   </li>
                 );
               })}
             </ul>
           </div>
-          <div className="sec3-p-left">
+          <div className="sec3-p-left" style={{ marginTop: "1.5rem" }}>
             <div className="s3pl-one" ref={ref}>
               <i class="fa-brands fa-phoenix-squadron"></i>
               <p className="bold">
