@@ -32,20 +32,42 @@ export default function Carousel() {
           <SwiperSlide className="slides s1">
             <div className="slides-inner">
               {" "}
-              <h2>Agriculture spraying Drone</h2>
-              <p>Agriculture Vama drone specifically designed for use in agriculture</p>
+              
             </div>
           </SwiperSlide>
           <SwiperSlide className="slides s2">
             <div className="slides-inner">
-              <h2>Drone Pilot Training</h2>
-              <p>Drone pilot typically involves a combination of education, training, and certification. </p>
+             
             </div>
           </SwiperSlide>
           <SwiperSlide className="slides s3">
             <div className="slides-inner">
-              <h2>Drone Pilot Training</h2>
-              <p>Drones can provide real-time footage and data from a unique perspective</p>
+              
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="slides s5">
+            <div className="slides-inner">
+              
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="slides s6">
+            <div className="slides-inner">
+              
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="slides s7">
+            <div className="slides-inner">
+              
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="slides s8">
+            <div className="slides-inner">
+              
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="slides s9">
+            <div className="slides-inner">
+             
             </div>
           </SwiperSlide>
           
