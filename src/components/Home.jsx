@@ -9,7 +9,7 @@ import Faqs from "./Faqs";
 import Section4 from "./Section4";
 import Section5 from "./Section5";
 import CarouselM from "./CarouselM";
-
+import safety from "../img/product/safety.JPG";
 
 export default function Home() {
   return (
@@ -18,9 +18,13 @@ export default function Home() {
       <CarouselM />
       <Section1 />
       <Section2 />
-      <Section5/>
+      <Section5 />
       <Section4 />
       <Testimonial />
+      <div className="safety">
+        <img  src={safety} alt="" />
+      </div>
+
       <Faqs />
       <Section3 />
     </div>
