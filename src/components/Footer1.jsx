@@ -48,9 +48,14 @@ export default function Footer1() {
           <Link to="/about-us" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> ABOUT US
           </Link>
-          
-          <Link to="/gallery" className="f-hover">
-            <i class="fa-solid fa-angle-right"></i> GALLERY
+          <Link to="/" className="f-hover">
+            <i class="fa-solid fa-angle-right"></i> SUPPORT & SERVICES
+          </Link>
+          <Link to="/" className="f-hover">
+            <i class="fa-solid fa-angle-right"></i> PRODUCTS
+          </Link>
+          <Link to="/legal" className="f-hover">
+            <i class="fa-solid fa-angle-right"></i> Legal
           </Link>
           <Link to="/dealership" className="f-hover">
             <i class="fa-solid fa-angle-right"></i> DEALERSHIP
