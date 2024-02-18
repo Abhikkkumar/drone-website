@@ -83,7 +83,7 @@ export default function Footer1() {
           </div>
           <div className="f-hover">
             <p>
-              <a href="mailto:info@vamadronestores.com">info@vamadronestores.com</a>
+              <a href="mailto: vamaskylight@gmail.com"> vamaskylight@gmail.com</a>
             </p>
           </div>
         </div>
