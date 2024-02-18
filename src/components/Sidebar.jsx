@@ -222,12 +222,12 @@ export default function Sidebar({ sidebar, showSidebar }) {
 
             <Link
               className="side-list"
-              to="/gallery"
+              to="/rpto"
               onClick={() => {
                 showSidebar(!sidebar);
               }}
             >
-              GALLERY
+              RPTO
             </Link>
             <Link
               className="side-list"

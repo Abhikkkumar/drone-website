@@ -107,7 +107,7 @@ function App() {
             path="/survey-drone"
             element={<ServiceTemplate props={surveyProp} />}
           ></Route>
-          <Route path="/rtpo" element={<RTPO />}></Route>
+          <Route path="/rpto" element={<RTPO />}></Route>
           <Route
             path="/vaghai-navsari-agricultural-university,-gujarat"
             element={<GiftCityT props={vaghaiProps} />}

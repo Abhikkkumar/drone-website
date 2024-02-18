@@ -23,3 +23,11 @@
   height: 80vh;
   margin: auto;
 }
+
+@media (max-width:992px){
+  .safety{
+    display: none;
+    
+  }
+
+}
