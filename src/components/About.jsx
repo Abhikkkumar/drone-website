@@ -40,18 +40,7 @@ export default function About() {
     designation: "Director and Drone pilot Instructor",
     para: "Ankur Somani is a highly skilled professional with a diverse range of qualifications and experience. Holding a bachelor's degree in commerce (Bcom) and a master's degree in business administration (MBA).",
   };
-  const dhruvPanchal = {
-    photo: "https://www.dronekrishi.com/assets/images/profile/dhruv_p.png",
-    name: "Dhruv Panchal",
-    designation: "System Engineer",
-    para: "As a mechanical engineer with a growing passion for the aerospace industry and UAV design, I am excited to bring my skills and expertise to the field of system engineering.",
-  };
-  const sujitPalande = {
-    photo: "https://www.dronekrishi.com/assets/images/profile/sujit_p.png",
-    name: "Sujit Palande",
-    designation: "Legal operations & Drone Pilot",
-    para: "Sujit Palande, a highly experienced legal and compliance professional, brings a wealth of expertise to our company. With a degree in LLB, Sujit has a strong educational foundation in law and business.",
-  };
+  
   return (
     <div className="about">
       <BreadcrumpTemp bprops={breadProp} />
@@ -95,18 +84,7 @@ export default function About() {
             </div>
             <div className="v-hr"></div>
             <div className="vt-2">
-              {/* <ul style={{ transform: "translateX(15%)" }}>
-                <p>
-                  {" "}
-                  <li>Quality</li>
-                </p>
-                <p>
-                  <li>Innovation</li>
-                </p>
-                <p>
-                  <li>Customer First</li>
-                </p>
-              </ul> */}
+              
               
               We are committed to delivering high-quality products and services
               that meet the needs of our clients.
@@ -163,12 +141,18 @@ export default function About() {
                   <TestimonialCard details={ankurSomani} />
                 </div>
               </SwiperSlide>
-              
-              {/* <SwiperSlide>
+              <SwiperSlide>
                 <div className="image">
-                  <TestimonialCard details={sujitPalande} />
+                  <TestimonialCard details={NiteshMundra} />
                 </div>
-              </SwiperSlide> */}
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="image">
+                  <TestimonialCard details={nikunjBajoria} />
+                </div>
+              </SwiperSlide>
+              
+              
             </Swiper>
           </div>
         </div>

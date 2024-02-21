@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/section1.css";
-import secImg1 from "../img/section1/vama-ab.png";
+import secImg1 from "../img/section1/vama-ab.jpeg";
 import secImg2 from "../img/section1/about3.png";
 import { Link, useNavigate } from "react-router-dom";
 
