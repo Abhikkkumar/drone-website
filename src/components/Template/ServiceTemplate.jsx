@@ -5,6 +5,8 @@ import { useInView } from "react-intersection-observer";
 import { services, products } from "./Data";
 import ServiceList from "./ServiceList";
 import BreadcrumpTemp from "../Template/BreadcrumpTemp";
+import brochure1 from "../../img/brochure-1.png";
+import brochure2 from "../../img/brochure-2.png";
 
 export default function ServiceTemplate({ props }) {
   const [ref, inView] = useInView({
@@ -119,16 +121,8 @@ export default function ServiceTemplate({ props }) {
               </div>
             </div>
             <div className="sec3-p-right">
-              <h2>Brochure</h2>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Exercitationem sit ipsa qui commodi numquam.
-              </p>
-              <div className="s3p-btn-cnt">
-                <button>Download</button>
-                <span>Or</span>
-                <button>Discover</button>
-              </div>
+              <img src={brochure1} alt="" />
+              <img src={brochure2} alt="" />
             </div>
           </div>
         </div>

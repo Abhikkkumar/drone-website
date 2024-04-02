@@ -185,12 +185,10 @@
 }
 .sec3-p-right {
   width: 100%;
-  background-color: var(--text-color-3);
-  padding: 1.5rem;
 }
 
-.sec3-p-right > p {
-  margin: 1.2rem 0;
+.sec3-p-right > img {
+  width: 100%;
 }
 .s3p-btn-cnt {
   position: relative;
