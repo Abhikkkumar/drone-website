@@ -45,7 +45,7 @@ export default function Section4() {
             <p>Drones Flying</p>
           </div>
 
-          <div className="Sec4_Card" ref={ref}>
+          {/* <div className="Sec4_Card" ref={ref}>
             <h1>
               <p className="bold">
                 {" "}
@@ -53,7 +53,7 @@ export default function Section4() {
               </p>
             </h1>
             <p>Pilot Training</p>
-          </div>
+          </div> */}
 
           <div className="Sec4_Card">
             <h1>
@@ -72,7 +72,7 @@ export default function Section4() {
                 <NumberAnimation n={700} inView={inView} /> +
               </p>
             </h1>
-            <p>Happy Customers</p>
+            <p>Acres of Spraying</p>
           </div>
         </div>
       </div>

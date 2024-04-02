@@ -367,7 +367,7 @@ export const vaghaiProps = {
   breadProp: vaghaiBreadProp,
   title: "VAGHAI NAVSARI AGRICULTURAL UNIVERSITY, GUJARAT",
   text1:
-    "Vibrant Gujarat is known for being a significant platform for business networking, investment opportunities, and showcasing innovations in various sectors. Having the event inaugurated by the Prime Minister of India adds a considerable level of importance and visibility to the exhibition. VAMA SKYLIGHT found the event to be interactive, knowledgeable, and successful.",
+    "We Demonstrated our AGRICULTURE DRONE TH-16L at Waghai agricultural university, Navsari. We educated more than 150 farmers about agricultural drones , its usage and about advanced farming technology.",
 
   img: "gr-3.jpeg",
   otherImages: ["guj-1.jpeg", "guj-2.jpeg", "gr-4.jpeg"],
