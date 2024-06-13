@@ -8,9 +8,9 @@ export default function Section1() {
   const navigate = useNavigate();
   return (
     <div className="section1">
-      <div className="sectionImg">
+      {/* <div className="sectionImg">
         <img src={secImg1} alt="" />
-      </div>
+      </div> */}
 
       <div className="section-left-side">
         <h6 className="who">
