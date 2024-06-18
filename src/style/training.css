@@ -16,6 +16,11 @@
   border: var(--brand-color);
   border-radius: 5px;
   color: #fff;
+  cursor: pointer;
+}
+.train-enroll:hover {
+  background-color: #da8032;
+  color: #e8e8e8;
 }
 
 .train-data {
@@ -48,7 +53,7 @@
   /* min-width: 500px; */
 }
 .train-iday {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   background-color: var(--brand-color);
   color: #fff;
   margin: 0;
@@ -78,7 +83,12 @@
   font-size: 1rem;
   font-weight: 400;
   display: flex;
+  /* text-transform: lowercase; */
+  letter-spacing: 1px;
 }
+/* .train-act-others::first-letter {
+  text-transform: capitalize !important;
+} */
 .train-day-data-cnt {
   background-color: #f6f4f4;
 }

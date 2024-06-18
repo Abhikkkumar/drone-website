@@ -101,6 +101,8 @@ export default function () {
       default:
     }
   }
+
+  
   return (
     <div className="train-details">
       <div className="train-days">
