@@ -16,6 +16,7 @@ import GiftCityT from "./components/GiftCityT";
 import Carrier from "./components/Carrier";
 import Dealership from "./components/Dealership";
 import Gallery from "./components/Gallery";
+import Training from "./components/Training";
 
 import {
   agricultureSprayingProp,
@@ -24,7 +25,6 @@ import {
   th_agri_16,
   th_agri_10,
   Naina,
-  
   vaghaiProps,
   noidaProps,
   saktiProps,
@@ -57,6 +57,7 @@ function App() {
         <Sidebar sidebar={sidebar} showSidebar={showSidebar} />
         <ScrollToTop />
         <Routes>
+          <Route path="/training" element={<Training />}></Route>
           <Route path="/" element={<Home />}></Route>
           <Route path="/articles-and-events" element={<ArticleEvent />}></Route>
           <Route path="/about-us" element={<About />}></Route>

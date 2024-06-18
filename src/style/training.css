@@ -1,0 +1,83 @@
+.train-bread {
+  padding: 4rem 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.train-bread-text {
+  font-size: 2.5rem;
+  max-width: 760px;
+  margin-bottom: 0.4rem;
+}
+.train-enroll {
+  padding: 1rem 2rem;
+  background-color: var(--brand-color);
+  border: var(--brand-color);
+  border-radius: 5px;
+  color: #fff;
+}
+
+.train-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #e8e8e8;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+.train-idata {
+  max-width: 369px;
+  min-width: 250px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.train-details {
+  padding: 1rem 0;
+  max-width: 97%;
+  margin: 0 auto;
+}
+
+.train-days {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+  /* min-width: 500px; */
+}
+.train-iday {
+  padding: 0.5rem 1rem;
+  background-color: var(--brand-color);
+  color: #fff;
+  margin: 0;
+  border-color: #dd7c28;
+  cursor: pointer;
+}
+.train-iday:hover {
+  background-color: #da8032;
+  cursor: pointer;
+}
+.train-iday-data {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.train-act-title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 1.8rem;
+}
+.train-act-others {
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+}
+.train-day-data-cnt {
+  background-color: #f6f4f4;
+}
+
+/* @media (max-width:986px){
+
+} */
