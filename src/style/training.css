@@ -77,7 +77,8 @@
 .train-act-title {
   font-size: 1.8rem;
   font-weight: 500;
-  margin-bottom: 1.4rem;
+  margin-bottom: 1.1rem;
+  letter-spacing: 1px;
 }
 .train-act-others {
   font-size: 1rem;
