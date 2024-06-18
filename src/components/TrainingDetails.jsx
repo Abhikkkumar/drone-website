@@ -8,6 +8,59 @@ export default function () {
   const [sDay4, setDay4] = useState(false);
   const [sDay5, setDay5] = useState(false);
 
+  const [lastActive, setLastActive] = useState("train-id-day1");
+
+  function activateNow(dayNumber) {
+    switch (dayNumber) {
+      case 1:
+        document
+          .getElementById("train-id-day1")
+          .classList.add("train-day-active");
+        document
+          .getElementById(lastActive)
+          .classList.remove("train-day-active");
+        setLastActive("train-id-day1");
+        break;
+      case 2:
+        document
+          .getElementById("train-id-day2")
+          .classList.add("train-day-active");
+        document
+          .getElementById(lastActive)
+          .classList.remove("train-day-active");
+        setLastActive("train-id-day2");
+        break;
+      case 3:
+        document
+          .getElementById("train-id-day3")
+          .classList.add("train-day-active");
+        document
+          .getElementById(lastActive)
+          .classList.remove("train-day-active");
+        setLastActive("train-id-day3");
+        break;
+      case 4:
+        document
+          .getElementById("train-id-day4")
+          .classList.add("train-day-active");
+        document
+          .getElementById(lastActive)
+          .classList.remove("train-day-active");
+        setLastActive("train-id-day4");
+        break;
+      case 5:
+        document
+          .getElementById("train-id-day5")
+          .classList.add("train-day-active");
+        document
+          .getElementById(lastActive)
+          .classList.remove("train-day-active");
+        setLastActive("train-id-day5");
+        break;
+      default:
+    }
+  }
+
   function selectDay(dayNumber) {
     switch (dayNumber) {
       case 1:
@@ -54,8 +107,10 @@ export default function () {
         <p
           onClick={() => {
             selectDay(1);
+            activateNow(1);
           }}
-          className="train-iday"
+          className="train-iday train-day-active"
+          id="train-id-day1"
           style={{
             borderRadius: "5px 0 0 0",
           }}
@@ -65,32 +120,40 @@ export default function () {
         <p
           onClick={() => {
             selectDay(2);
+            activateNow(2);
           }}
           className="train-iday"
+          id="train-id-day2"
         >
           Day-2
         </p>
         <p
           onClick={() => {
             selectDay(3);
+            activateNow(3);
           }}
           className="train-iday"
+          id="train-id-day3"
         >
           Day-3
         </p>
         <p
           onClick={() => {
             selectDay(4);
+            activateNow(4);
           }}
           className="train-iday"
+          id="train-id-day4"
         >
           Day-4
         </p>
         <p
           onClick={() => {
             selectDay(5);
+            activateNow(5);
           }}
           className="train-iday"
+          id="train-id-day5"
           style={{
             borderRadius: "0 5px  0 0",
           }}
@@ -103,7 +166,11 @@ export default function () {
           <div className="train-iday-data">
             <div
               className="train-topic-one"
-              style={{ width: "31%", marginRight: ".4rem" }}
+              style={{
+                minWidth: "280px",
+                maxWidth: "310px",
+                marginRight: ".4rem",
+              }}
             >
               <p className="train-act-title">
                 STAKEHOLDERS & THEIR LAWS DRONE RULES 2021
@@ -147,7 +214,11 @@ export default function () {
             </div>
             <div
               className="train-topic-one"
-              style={{ width: "31%", marginRight: ".4rem" }}
+              style={{
+                minWidth: "280px",
+                maxWidth: "310px",
+                marginRight: ".4rem",
+              }}
             >
               <p className="train-act-title">BASIC PRINCIPLES OF FLIGHT</p>
               <p className="train-act-others">
@@ -177,7 +248,11 @@ export default function () {
             </div>
             <div
               className="train-topic-one"
-              style={{ width: "31%", marginRight: ".4rem" }}
+              style={{
+                minWidth: "280px",
+                maxWidth: "310px",
+                marginRight: ".4rem",
+              }}
             >
               <p className="train-act-title">
                 ATC PROCEDURES & RADIO TELEPHONY
@@ -217,7 +292,11 @@ export default function () {
             </div>
             <div
               className="train-topic-one"
-              style={{ width: "31%", marginRight: ".4rem" }}
+              style={{
+                minWidth: "280px",
+                maxWidth: "310px",
+                marginRight: ".4rem",
+              }}
             >
               <p className="train-act-title">
                 FIXED WING OPERATIONS AND AERODYNAMICS
@@ -257,7 +336,11 @@ export default function () {
             </div>
             <div
               className="train-topic-one"
-              style={{ width: "31%", marginRight: ".4rem" }}
+              style={{
+                minWidth: "280px",
+                maxWidth: "310px",
+                marginRight: ".4rem",
+              }}
             >
               <p className="train-act-title">
                 MULTI- ROTOR OPERATIONS AND AERODYNAMICS
@@ -297,7 +380,11 @@ export default function () {
             </div>
             <div
               className="train-topic-one"
-              style={{ width: "31%", marginRight: ".4rem" }}
+              style={{
+                minWidth: "280px",
+                maxWidth: "310px",
+                marginRight: ".4rem",
+              }}
             >
               <p className="train-act-title">
                 HYBRID OPERATIONS AND AERODYNAMICS
@@ -333,7 +420,11 @@ export default function () {
           <div className="train-iday-data">
             <div
               className="train-topic-one"
-              style={{ width: "31%", marginRight: ".4rem" }}
+              style={{
+                minWidth: "280px",
+                maxWidth: "310px",
+                marginRight: ".4rem",
+              }}
             >
               <p className="train-act-title">WEATHER AND METEOROLOGY</p>
               <p className="train-act-others">
@@ -379,7 +470,11 @@ export default function () {
             </div>
             <div
               className="train-topic-one"
-              style={{ width: "31%", marginRight: ".4rem" }}
+              style={{
+                minWidth: "280px",
+                maxWidth: "310px",
+                marginRight: ".4rem",
+              }}
             >
               <p className="train-act-title">DRONE EQUIPMENT AND MAINTENANCE</p>
               <p className="train-act-others">
@@ -425,7 +520,11 @@ export default function () {
             </div>
             <div
               className="train-topic-one"
-              style={{ width: "31%", marginRight: ".4rem" }}
+              style={{
+                minWidth: "280px",
+                maxWidth: "310px",
+                marginRight: ".4rem",
+              }}
             >
               <p className="train-act-title">RISK ASSESSMENT AND ANALYSIS</p>
               <p className="train-act-others">
@@ -471,7 +570,11 @@ export default function () {
             </div>
             <div
               className="train-topic-one"
-              style={{ width: "31%", marginRight: ".4rem" }}
+              style={{
+                minWidth: "280px",
+                maxWidth: "310px",
+                marginRight: ".4rem",
+              }}
             >
               <p className="train-act-title">
                 PAYLOAD INSTALLATION AND UTILISATION
@@ -519,7 +622,11 @@ export default function () {
             </div>
             <div
               className="train-topic-one"
-              style={{ width: "31%", marginRight: ".4rem" }}
+              style={{
+                minWidth: "280px",
+                maxWidth: "310px",
+                marginRight: ".4rem",
+              }}
             >
               <p className="train-act-title">INTRO TO DRONE DATA & ANALYSIS</p>
               <p className="train-act-others">
@@ -561,7 +668,11 @@ export default function () {
           <div className="train-iday-data">
             <div
               className="train-topic-one"
-              style={{ width: "31%", marginRight: ".4rem" }}
+              style={{
+                minWidth: "280px",
+                maxWidth: "310px",
+                marginRight: ".4rem",
+              }}
             >
               <p className="train-act-title">FINAL TEST- THEORY</p>
               <p className="train-act-others">
@@ -575,7 +686,11 @@ export default function () {
             </div>
             <div
               className="train-topic-one"
-              style={{ width: "31%", marginRight: ".4rem" }}
+              style={{
+                minWidth: "280px",
+                maxWidth: "310px",
+                marginRight: ".4rem",
+              }}
             >
               <p className="train-act-title">PRACTICAL LESSONS IN LAB</p>
               <p className="train-act-others">
@@ -629,7 +744,11 @@ export default function () {
             </div>
             <div
               className="train-topic-one"
-              style={{ width: "31%", marginRight: ".4rem" }}
+              style={{
+                minWidth: "280px",
+                maxWidth: "310px",
+                marginRight: ".4rem",
+              }}
             >
               <p className="train-act-title">
                 INTRODUCTION TO FLIGHT SIMULATOR AND SIMULATOR FLIGHT TRAINING
@@ -705,7 +824,11 @@ export default function () {
           <div className="train-iday-data">
             <div
               className="train-topic-one"
-              style={{ width: "31%", marginRight: ".4rem" }}
+              style={{
+                minWidth: "280px",
+                maxWidth: "310px",
+                marginRight: ".4rem",
+              }}
             >
               <p className="train-act-title">
                 PRACTICAL FLYING WITH INSTRUCTOR, TRAINER
@@ -725,7 +848,11 @@ export default function () {
           <div className="train-iday-data">
             <div
               className="train-topic-one"
-              style={{ width: "31%", marginRight: ".4rem" }}
+              style={{
+                minWidth: "280px",
+                maxWidth: "310px",
+                marginRight: ".4rem",
+              }}
             >
               <p className="train-act-title">PRACTICAL FLYING</p>
               <p className="train-act-others">
@@ -739,7 +866,11 @@ export default function () {
             </div>
             <div
               className="train-topic-one"
-              style={{ width: "31%", marginRight: ".4rem" }}
+              style={{
+                minWidth: "280px",
+                maxWidth: "310px",
+                marginRight: ".4rem",
+              }}
             >
               <p className="train-act-title">PRACTICAL FLYING TEST</p>
               <p className="train-act-others">
@@ -753,7 +884,11 @@ export default function () {
             </div>
             <div
               className="train-topic-one"
-              style={{ width: "31%", marginRight: ".4rem" }}
+              style={{
+                minWidth: "280px",
+                maxWidth: "310px",
+                marginRight: ".4rem",
+              }}
             >
               <p className="train-act-title">
                 DISTRIBUTION OF CERTIFICATE & CONCLUSION OF TRAINING
