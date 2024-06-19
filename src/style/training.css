@@ -94,6 +94,36 @@
 .train-day-data-cnt {
   background-color: #f6f4f4;
 }
+.download-icon {
+  width: 15px;
+  margin-right: 0.35rem;
+}
+.train-download {
+  width: 95%;
+  padding: 1.5rem 0.5rem;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  background-color: var(--brand-color);
+}
+
+.train-download > button {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.8rem;
+  border-radius: 5px;
+  border: 1px solid var(--brand-color);
+  margin: 0.5rem auto;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.train-download > button:hover {
+  background-color: var(--brand-color);
+  color: #eae3e3;
+  border-color: #eae3e3;
+  transition: all 0.3s ease-in-out;
+}
 
 /* @media (max-width:986px){
 

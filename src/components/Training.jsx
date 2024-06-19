@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/training.css";
 import TrainingDetails from "./TrainingDetails";
+import downloadIcon from "../img/download-icon.png";
 
 export default function Training() {
   return (
@@ -105,6 +106,14 @@ export default function Training() {
         </div>
       </div>
       <TrainingDetails />
+      <div className="train-download">
+        <h3>Download the Course Details</h3>
+        <button>
+          {" "}
+          <img src={downloadIcon} alt="downlod-icon" className="download-icon" />
+          Download Brochure
+        </button>
+      </div>
     </>
   );
 }
