@@ -124,7 +124,57 @@
   border-color: #eae3e3;
   transition: all 0.3s ease-in-out;
 }
-
+.whyChoose {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  background-color: #f6f4f4;
+}
+.wcu-t1 {
+  color: #ababab;
+  letter-spacing: 2px;
+  margin-bottom: 0.85rem;
+}
+.wcu-t2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+.wcu-card {
+  display: flex;
+  padding: 1rem 0.7rem;
+  width: 320px;
+  height: 200px;
+  background-color: #f6f4f4;
+  border-radius: 5px;
+}
+.wcu-card > img {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
+.wcu-card > div {
+  text-align: left;
+  margin-left: 30px;
+}
+.wcu-card > div > h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 0.4rem;
+}
+.wcu-card:hover {
+  transform: translateY(-10px);
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 4px 4px 5px 1px #eae3e3;
+}
+.wcu-cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 /* @media (max-width:986px){
 
 } */
