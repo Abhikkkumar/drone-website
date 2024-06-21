@@ -3,13 +3,14 @@ import "../style/training.css";
 import TrainingDetails from "./TrainingDetails";
 import downloadIcon from "../img/download-icon.png";
 import WhyChooseUs from "./WhyChooseUs";
+import caution from "../img/caution.png";
 
 export default function Training() {
   return (
     <>
       <div className="train-bread">
         <h3 className="train-bread-text">
-          Small Category (7 days) – Training Curriculum as per{" "}
+          Small Category (5 days) – Training Curriculum as per{" "}
           <span style={{ color: "#e97f23" }}>DGCA</span>{" "}
         </h3>
         <button className="train-enroll">Enroll Now</button>
@@ -120,6 +121,43 @@ export default function Training() {
         </button>
       </div>
       <WhyChooseUs />
+      <div className="train-requirement">
+        <div className="tr-1">
+          <img src={caution} alt="caution-icon" />
+          <p>
+            <span style={{ fontWeight: "500" }}>Eligibility to Apply: </span>
+            <span>
+              Minimum 18 years of age & shall have English knowledge and passed
+              in 10th class or its equivalent examination.
+            </span>
+          </p>
+        </div>
+        <div className="tr-1">
+          <img src={caution} alt="caution-icon" />
+          <div>
+            <p style={{ fontWeight: "500" }}>
+              Keep the following items ready before filling out the online
+              application form:{" "}
+            </p>
+            <ul style={{ marginLeft: "2rem", fontSize: "1.1rem" }}>
+              <li>Must have a Passport (Required)</li>
+              <li>Scanned copy of the Passport size photograph</li>
+              <li>Scanned copy of the Aadhar ID</li>
+              <li>
+                Scanned copy of ID proof (PAN Card / Voter ID / Driving License)
+              </li>
+              <li>Scanned copy of 10th Pass certificate/mark sheet</li>
+              <li>Scanned copy of the Higher Qualification certificate</li>
+              <li>
+                Scanned copy of College ID card (only for student category)
+              </li>
+              <li>
+                Scanned copy of Bonafide certificate (only for student category)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

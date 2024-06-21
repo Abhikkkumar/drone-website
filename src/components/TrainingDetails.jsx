@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../style/training.css";
 
 export default function () {
@@ -102,7 +102,15 @@ export default function () {
     }
   }
 
+  useEffect(() => {
+    const trainPtsSpans = document.querySelectorAll(".train-pts");
+    trainPtsSpans.forEach((span) => {
+      let text = span.textContent.toLowerCase();
+      span.textContent = text.charAt(0).toUpperCase() + text.slice(1);
+    });
+  }, []);
   
+
   return (
     <div className="train-details">
       <div className="train-days">
@@ -183,7 +191,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>
+                <span className="train-pts">
                   INTERNATIONAL RULES, REGULATION, STANDARDS & PRACTICE
                 </span>
               </p>
@@ -193,7 +201,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>
+                <span className="train-pts">
                   CLASSIFICATION AND CATERGORIZATION OF DRONES, TYPE CERTIFICATE
                 </span>
               </p>
@@ -203,7 +211,9 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>REGISTRATION, SALE, DE-REGISTRATION OF DRONES</span>
+                <span className="train-pts">
+                  REGISTRATION, SALE, DE-REGISTRATION OF DRONES
+                </span>
               </p>
               <p className="train-act-others">
                 <span
@@ -211,7 +221,9 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>OPERATIONS OF DRONES, DOS AND DONTS</span>
+                <span className="train-pts">
+                  OPERATIONS OF DRONES, DOS AND DONTS
+                </span>
               </p>
             </div>
             <div
@@ -229,7 +241,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>FUNDAMENTALS OF FLIGHT</span>
+                <span className="train-pts">FUNDAMENTALS OF FLIGHT</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -237,7 +249,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>AERODYNAMICS</span>
+                <span className="train-pts">AERODYNAMICS</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -245,7 +257,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>TAKE-OFF, FLIGHT AND LANDING</span>
+                <span className="train-pts">TAKE-OFF, FLIGHT AND LANDING</span>
               </p>
             </div>
             <div
@@ -265,7 +277,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>UNDERSTANDING ATC OPERATIONS</span>
+                <span className="train-pts">UNDERSTANDING ATC OPERATIONS</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -273,7 +285,9 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>AIRSPACE STRUCTURE AND AIRSPACE RESTRICTIONS</span>
+                <span className="train-pts">
+                  AIRSPACE STRUCTURE AND AIRSPACE RESTRICTIONS
+                </span>
               </p>
               <p className="train-act-others">
                 <span
@@ -281,7 +295,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>FLIGHT PLANNING PROCEDURES</span>
+                <span className="train-pts">FLIGHT PLANNING PROCEDURES</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -289,7 +303,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>COLLISION AVOIDANCE</span>
+                <span className="train-pts">COLLISION AVOIDANCE</span>
               </p>
             </div>
             <div
@@ -309,7 +323,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>TYPES OF FIXED WING DRONES</span>
+                <span className="train-pts">TYPES OF FIXED WING DRONES</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -317,7 +331,9 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>OPERATION AND MANEUVERS OF FIXED WING DRONES</span>
+                <span className="train-pts">
+                  OPERATION AND MANEUVERS OF FIXED WING DRONES
+                </span>
               </p>
               <p className="train-act-others">
                 <span
@@ -325,7 +341,9 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>INTRO TO MISSION PLANNING, GCS, INSTRUMENT FLYING.</span>
+                <span className="train-pts">
+                  INTRO TO MISSION PLANNING, GCS, INSTRUMENT FLYING.
+                </span>
               </p>
               <p className="train-act-others">
                 <span
@@ -333,7 +351,9 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>APPLICATIONS OF FIXED WING UAVs</span>
+                <span className="train-pts">
+                  APPLICATIONS OF FIXED WING UAVs
+                </span>
               </p>
             </div>
             <div
@@ -353,7 +373,9 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>BASIC DRONE TERMINNOLOGY & PARTS</span>
+                <span className="train-pts">
+                  BASIC DRONE TERMINNOLOGY & PARTS
+                </span>
               </p>
               <p className="train-act-others">
                 <span
@@ -361,7 +383,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>TYPES OF DRONES</span>
+                <span className="train-pts">TYPES OF DRONES</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -369,7 +391,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>DRONE ANATOMY</span>
+                <span className="train-pts">DRONE ANATOMY</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -377,7 +399,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>AVIONICS & C2 LINK</span>
+                <span className="train-pts">AVIONICS & C2 LINK</span>
               </p>
             </div>
             <div
@@ -397,7 +419,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>PRINCIPLES OF AERODYNAMICS</span>
+                <span className="train-pts">PRINCIPLES OF AERODYNAMICS</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -405,7 +427,9 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>TYPES OF HYBRID DRONES & PARTS</span>
+                <span className="train-pts">
+                  TYPES OF HYBRID DRONES & PARTS
+                </span>
               </p>
               <p className="train-act-others">
                 <span
@@ -413,7 +437,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>APLLICATIONS OF HYBRID UAVs</span>
+                <span className="train-pts">APLLICATIONS OF HYBRID UAVs</span>
               </p>
             </div>
           </div>
@@ -435,7 +459,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>THE STANDARD ATMOSPHERE</span>
+                <span className="train-pts">THE STANDARD ATMOSPHERE</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -443,7 +467,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>MEASURING AIR PRESSURE</span>
+                <span className="train-pts">MEASURING AIR PRESSURE</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -451,7 +475,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>HEAT AND TEMPERATURE</span>
+                <span className="train-pts">HEAT AND TEMPERATURE</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -459,7 +483,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>WIND</span>
+                <span className="train-pts">WIND</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -467,7 +491,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>MOISTURE, CLOUD FORMATION</span>
+                <span className="train-pts">MOISTURE, CLOUD FORMATION</span>
               </p>
             </div>
             <div
@@ -485,7 +509,9 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>MAINTENANCE OF DRONE FLIGHT CONTROL BOX</span>
+                <span className="train-pts">
+                  MAINTENANCE OF DRONE FLIGHT CONTROL BOX
+                </span>
               </p>
               <p className="train-act-others">
                 <span
@@ -493,7 +519,9 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>MAINTENANCE OF GROUND EQUIPMENT, BATTERIES</span>
+                <span className="train-pts">
+                  MAINTENANCE OF GROUND EQUIPMENT, BATTERIES
+                </span>
               </p>
               <p className="train-act-others">
                 <span
@@ -501,7 +529,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>SCHEDULED SERVICING</span>
+                <span className="train-pts">SCHEDULED SERVICING</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -509,7 +537,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>REPAIR OF EQUIPMENT</span>
+                <span className="train-pts">REPAIR OF EQUIPMENT</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -517,7 +545,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>FAULT FINDING</span>
+                <span className="train-pts">FAULT FINDING</span>
               </p>
             </div>
             <div
@@ -535,7 +563,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>DRONE EMERGENCY & HANDLING</span>
+                <span className="train-pts">DRONE EMERGENCY & HANDLING</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -543,7 +571,9 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>LOSS OF C2 LINK, LOSS OF POWER</span>
+                <span className="train-pts">
+                  LOSS OF C2 LINK, LOSS OF POWER
+                </span>
               </p>
               <p className="train-act-others">
                 <span
@@ -551,7 +581,9 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>OTHER EMERGENCIES, CONTROL SUFACE FAILURES</span>
+                <span className="train-pts">
+                  OTHER EMERGENCIES, CONTROL SUFACE FAILURES
+                </span>
               </p>
               <p className="train-act-others">
                 <span
@@ -559,7 +591,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>HUMAN PERFORMANCE </span>
+                <span className="train-pts">HUMAN PERFORMANCE </span>
               </p>
               <p className="train-act-others">
                 <span
@@ -567,7 +599,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>FAIL-SAFE FEATURES</span>
+                <span className="train-pts">FAIL-SAFE FEATURES</span>
               </p>
             </div>
             <div
@@ -587,7 +619,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>TYPES OF PAYLOADS</span>
+                <span className="train-pts">TYPES OF PAYLOADS</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -595,7 +627,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>PARTS OF PAYLOADS</span>
+                <span className="train-pts">PARTS OF PAYLOADS</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -603,7 +635,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>INSTALLATION</span>
+                <span className="train-pts">INSTALLATION</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -611,7 +643,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>FEATURES OF PAYLOADS</span>
+                <span className="train-pts">FEATURES OF PAYLOADS</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -619,7 +651,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>UTILIZATION</span>
+                <span className="train-pts">UTILIZATION</span>
               </p>
             </div>
             <div
@@ -637,7 +669,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>PRINCIPLES OF OBSERVATION</span>
+                <span className="train-pts">PRINCIPLES OF OBSERVATION</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -645,7 +677,9 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>ELEMENTS OF IMAGE & VIDEO INTERPRETATION</span>
+                <span className="train-pts">
+                  ELEMENTS OF IMAGE & VIDEO INTERPRETATION
+                </span>
               </p>
               <p className="train-act-others">
                 <span
@@ -653,7 +687,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>TYPES OF IMAGE & VIDEO DATA</span>
+                <span className="train-pts">TYPES OF IMAGE & VIDEO DATA</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -661,7 +695,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>ANALYSIS</span>
+                <span className="train-pts">ANALYSIS</span>
               </p>
             </div>
           </div>
@@ -683,7 +717,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>WRITTEN TEST</span>
+                <span className="train-pts">WRITTEN TEST</span>
               </p>
             </div>
             <div
@@ -701,7 +735,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>ASSEMBLING OF DRONE</span>
+                <span className="train-pts">ASSEMBLING OF DRONE</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -709,7 +743,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>DE-ASSEMBLING</span>
+                <span className="train-pts">DE-ASSEMBLING</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -717,7 +751,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>INTEGRATION OF SUB-SECTIONS</span>
+                <span className="train-pts">INTEGRATION OF SUB-SECTIONS</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -725,7 +759,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>INTEGRATION OF ENGINE</span>
+                <span className="train-pts">INTEGRATION OF ENGINE</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -733,7 +767,9 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>FAULT FINDING AND RECTIFICATION</span>
+                <span className="train-pts">
+                  FAULT FINDING AND RECTIFICATION
+                </span>
               </p>
               <p className="train-act-others">
                 <span
@@ -741,7 +777,9 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>REPAIR, MAINTENANCE AND DOCUMENTATION.</span>
+                <span className="train-pts">
+                  REPAIR, MAINTENANCE AND DOCUMENTATION.
+                </span>
               </p>
             </div>
             <div
@@ -761,7 +799,9 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>BASIC OPERATING FEATURES OF SIMULATOR</span>
+                <span className="train-pts">
+                  BASIC OPERATING FEATURES OF SIMULATOR
+                </span>
               </p>
               <p className="train-act-others">
                 <span
@@ -769,7 +809,9 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>HOW TO SELECT DIFFERENT AIRCRAFT AND AERODROMES</span>
+                <span className="train-pts">
+                  HOW TO SELECT DIFFERENT AIRCRAFT AND AERODROMES
+                </span>
               </p>
               <p className="train-act-others">
                 <span
@@ -777,7 +819,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>DEMO FLIGHTS</span>
+                <span className="train-pts">DEMO FLIGHTS</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -785,7 +827,9 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>PRE-FLIGHT CHECKS AND START UP </span>
+                <span className="train-pts">
+                  PRE-FLIGHT CHECKS AND START UP{" "}
+                </span>
               </p>
               <p className="train-act-others">
                 <span
@@ -793,7 +837,9 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>PREPARATION CUM COORDINATION FOR FLIGHT</span>
+                <span className="train-pts">
+                  PREPARATION CUM COORDINATION FOR FLIGHT
+                </span>
               </p>
               <p className="train-act-others">
                 <span
@@ -801,7 +847,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>TAKE-OFF AND FLIGHT STAGE</span>
+                <span className="train-pts">TAKE-OFF AND FLIGHT STAGE</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -809,7 +855,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>APPROACH AND LANDING</span>
+                <span className="train-pts">APPROACH AND LANDING</span>
               </p>
               <p className="train-act-others">
                 <span
@@ -817,7 +863,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>AFTER FLIGHT CHECKS</span>
+                <span className="train-pts">AFTER FLIGHT CHECKS</span>
               </p>
             </div>
           </div>
@@ -841,7 +887,9 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>PRACTICAL FLYING WITH TRAINER (FULL DAY)</span>
+                <span className="train-pts">
+                  PRACTICAL FLYING WITH TRAINER (FULL DAY)
+                </span>
               </p>
             </div>
           </div>
@@ -863,7 +911,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>PRACTICAL FLYING SOLO</span>
+                <span className="train-pts">PRACTICAL FLYING SOLO</span>
               </p>
             </div>
             <div
@@ -881,7 +929,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>PRACTICAL FLYING TEST</span>
+                <span className="train-pts">PRACTICAL FLYING TEST</span>
               </p>
             </div>
             <div
@@ -901,7 +949,7 @@ export default function () {
                 >
                   ✓
                 </span>
-                <span>
+                <span className="train-pts">
                   DISTRIBUTION OF CERTIFICATE & CONCLUSION OF TRAINING
                 </span>
               </p>
