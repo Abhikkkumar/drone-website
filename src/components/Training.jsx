@@ -125,8 +125,10 @@ export default function Training() {
         <div className="tr-1">
           <img src={caution} alt="caution-icon" />
           <p>
-            <span style={{ fontWeight: "500" }}>Eligibility to Apply: </span>
-            <span>
+            <span style={{ fontWeight: "500", marginBottom: "1rem" }}>
+              Eligibility to Apply:{" "}
+            </span>
+            <span style={{ fontSize: "1.1rem" }}>
               Minimum 18 years of age & shall have English knowledge and passed
               in 10th class or its equivalent examination.
             </span>

@@ -11,8 +11,8 @@ export default function WhyChooseUs() {
     ],
     [
       "notes.png",
-      "Small & Medium Category",
-      "Only RPTO Offering both Small & Medium Category Certified Training Program in India.",
+      "Small Category",
+      "Only RPTO Offering both Small Category Certified Training Program in India.",
     ],
     [
       "augmented-reality.png",
