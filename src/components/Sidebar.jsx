@@ -222,6 +222,16 @@ export default function Sidebar({ sidebar, showSidebar }) {
 
             <Link
               className="side-list"
+              to="/training"
+              onClick={() => {
+                showSidebar(!sidebar);
+              }}
+            >
+              TRAINING
+            </Link>
+
+            <Link
+              className="side-list"
               to="/rpto"
               onClick={() => {
                 showSidebar(!sidebar);

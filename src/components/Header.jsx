@@ -119,6 +119,19 @@ export default function Header({ sidebar, showSidebar }) {
 
           <div className="nav-list">
             <NavLink
+              id="training"
+              to="/training"
+              activeClassName="colorBlue"
+              onClick={() => {
+                one();
+              }}
+            >
+              TRAINING
+            </NavLink>
+          </div>
+
+          <div className="nav-list">
+            <NavLink
               id="rtpo"
               to="/rpto"
               activeClassName="colorBlue"
